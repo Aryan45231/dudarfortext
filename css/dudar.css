@@ -1,0 +1,300 @@
+*{ overflow-x: hidden;
+    max-width: 99vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ;
+}
+.listOfmenus{
+    display: none;
+}
+.homeBannerContainer{
+   height: fit-content;
+}
+
+.boxpattern1{
+    position: absolute;
+    background: #1481D0;
+    height: 204px;
+    width: 301px;
+    left: -206px;
+    top:262px;
+    border-radius: 40px;
+    transform: rotate(40deg);
+}
+.boxpattern2{
+    position: absolute;
+    height: 208.9303876013307px;
+    width: 286.14340076062484px;
+    left: -159.27197265625px;
+    top:601.8349609375px;
+    border-radius: 40px;
+    background: #1481D0;
+    transform: rotate(-50deg);
+}
+.boxpattern3{
+    position: absolute;
+    transform: rotate(-35deg);
+    height: 176.54446880138445px;
+    width: 198.91451704325593px;
+    left: 94vw;
+    top: 120.48486328125px;
+    border-radius: 23px;
+    background: #1481D0;
+
+    
+}
+.boxpattern4{
+    background: #1481D0;
+    position: absolute;
+    height: 110.50563786687567px;
+    width: 124.95088189902796px;
+    left: 96vw;;
+    top: 355.3837890625px;
+    border-radius: 23px;
+    transform: rotate(-45deg);
+
+}
+
+
+.posterContainer{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.MessageAmdDownload{
+   width: fit-content;
+    margin-top: 25px;
+    border-radius: nullpx;
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.MessageAmdDownload p{
+    width: 615.03px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 73px;
+    line-height: 87px;
+    color: #000000;
+}
+.MessageAmdDownload span{
+/* dudar green */
+    color: #00C85C;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 114px;
+}
+.MessageAmdDownload button{
+    margin-left: -200px;
+    align-self: center;
+    font-family: 'Inter';
+    margin-top: 20px;
+    border: none;   
+    padding: 20px 30px;
+    font-family: Inter;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    gap: 10px;
+    text-align: center;
+    width: 294px;
+    height: 75px;
+    background: rgba(237, 108, 48, 0.51);
+    border-radius: 96px;
+}
+
+
+.posterImage img{
+    min-width: none;
+    max-height: 660.2894897460938px;
+    max-width: 865.9999389648438px;
+}
+
+/*-----------------Why need dudar------------------*/
+.circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: #00C85C;
+    margin: 10px ;
+}
+.whyNeddDudar{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.whyNeddDudar h2{
+    width: 100vw;
+    font-family: Inter;
+font-size: 56px;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0em;
+text-align: center;
+}
+.thecircleIcon{
+    height: 24px;
+    width: 27px;
+    color: #00C85C;
+    border-radius: 0px;
+}
+.greencolor{
+    color:#00C85C
+}
+.needPointContainer{
+    
+    margin-top: 40px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.whyneedgif{
+    width: 30%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.WhyneddGif1{
+    height: 380px;
+    width: 429px;
+    left: 47px;
+    top: 1193px;
+    border-radius: 0px;
+
+}
+.needPoints{
+    display: flex;
+    width: 80%;
+    
+}
+.needPoints p{
+    font-family: Inter;
+    font-size: 34px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.needPointContainer a{
+    text-decoration: none;
+    color: #1481D0;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+@media(max-width:900px){
+    .boxpattern3 , .boxpattern4{
+        display: none;
+    }
+    .posterContainer{
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width:1000px){
+    *{
+        overflow-x: hidden;
+    }
+
+    .homeBannerContainer{
+        margin: 0;
+        margin-top: -80px;
+    }
+    .hambcontainer{
+        display: flex;
+    }
+    .boxpattern1{
+    height: 182px;
+    width: 180px;
+    left: -30vw;
+    top: 116px;
+    border-radius: 40px;
+}
+    .boxpattern2{
+    height: 92.13901498456684px;
+    width: 114.91826685472545px;
+    left: -88px;
+    top: 385.9658203125px;
+    border-radius: 15px;
+    }
+    .posterContainer{
+        margin-left: 0;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .MessageAmdDownload p{ 
+    font-family: 'Rubik';
+    font-style: normal;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 327px;
+    border-radius: nullpx;
+    }
+ .MessageAmdDownload span{
+    width: 327px;
+    border-radius: nullpx;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+.MessageAmdDownload button{
+    padding: 20px 40px;
+    margin-left: 0;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 26px;
+    color: #000000;
+}
+    .posterImage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 99vw;
+    }
+    .posterImage img{
+        max-width: 99vw;
+        width: 419.58px;
+       height: 384.69px;
+
+    }
+    .boxpattern3 , .boxpattern4{
+        display: none;
+    }
+}
+
+

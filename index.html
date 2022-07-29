@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/dudar.css">
+    <link rel="stylesheet" href="./css/Nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="navContainer">
+    <div class="dudar_navBar"> 
+        <div class="logo">
+            <a href="#"> <img src="./res/images/banner/logo.png" alt="some thing went wrong"></a>
+        </div>
+        <div class="menus">
+            <a href="#">
+                <button class="NavMenuButton">
+                    About us
+                </button>
+            </a>
+            <a href="#">
+                <button class="NavMenuButton">
+                    Become a Tutar
+                </button>
+            </a>
+            <a href="#">
+                <button class="NavMenuButton">
+                    Contact Us
+                </button>
+            </a>   
+        </div>
+        <div onclick="dis()" class="hambcontainer">
+            <div class="line"></div>   
+            <div class="line"></div> 
+            <div class="line"></div>     
+        </div>
+
+        <div class="listOfmenus" id="listOfMenus">
+           <a href="#"> <span> About Us</span> <br></a>
+           <a href="#"> <span>Become A Tutior</span> <br></a>
+           <a href="#"> <span>Contact Us</span> <br></a>
+           <a href="#"> <span>Contact Us</span> <br></a>
+        </div> 
+    </div>
+     
+    </div>
+    <div class="homeBannerContainer">
+        <div class="boxes">
+            <div class="boxpattern1"></div>
+        <div class="boxpattern2"></div>
+        <div class="boxpattern3"></div>
+        <div class="boxpattern4"></div>
+        </div> 
+        <div class="posterContainer">
+            <div class="MessageAmdDownload">
+                <p> Having Duobts ?<br> No Worries!! Get a Tutor with in
+                  <br> </p><span> 60 Seconds</span>
+                  <button>
+                    Donload App
+                  </button>
+            </div>
+            <div class="posterImage">
+                <img src="./res/images/banner/poster.png" alt="">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="whyNeddDudar">
+        <h2>Why do you need "Dudar"?</h2>
+        <div class="whyneedgif">
+        <lottie-player class="WhyneddGif1"  src="https://assets7.lottiefiles.com/packages/lf20_4tz0wb4f.json"  background="transparent"  speed="1"     loop autoplay></lottie-player>
+        </div>
+        <div class="needPointContainer">
+            <div class="needPoints">
+                <p>  
+                    <i class="fa-solid fa-circle greencolor"></i>
+                     Do you get frustated or feel low when you are stuck with a doubt while studying?
+                </p>
+            </div>
+            <br>
+        
+            <div class="needPoints">
+               
+                 <p>
+                    <i class="fa-solid fa-circle  greencolor"></i>
+                  Did you ever wonder that why every student is treated the same while being taught in classrooms,even though, every student has a different learning Pace?
+                </p>
+            </div>
+            <br>
+            <a href="#">If your answer is yes to any of the questions above,
+               <br>  then dudar is for you</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+<script>
+    dis=()=>{
+        document.getElementById("listOfMenus").classList.toggle("viewofham")
+    }
+</script>
