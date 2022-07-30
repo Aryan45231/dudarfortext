@@ -57,7 +57,7 @@
  display:flex;
 } 
 
-@media(max-width:1180px){
+@media(max-width:1090px){
 
     .hambcontainer{
         border-top: 2px solid black;
@@ -104,6 +104,11 @@
     .viewofham{
         display: flex;
     }
+    .menus{
+        display: none;
+    }
+}
+@media(max-width:700px){
     .logo a img{
         height: 28.874662399291992px;
 width: 109.99984741210938px;
@@ -111,8 +116,5 @@ left: 21px;
 top: 31px;
 border-radius: 0px;
 
-    }
-    .menus{
-        display: none;
     }
 }

@@ -121,19 +121,20 @@
     max-height: 660.2894897460938px;
     max-width: 865.9999389648438px;
 }
+/*-------------------------bar1-------------------*/
+.bar1{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: #1481D0;
+}
 
 /*-----------------Why need dudar------------------*/
-.circle{
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    background: #00C85C;
-    margin: 10px ;
-}
 .whyNeddDudar{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 .whyNeddDudar h2{
     width: 100vw;
@@ -154,21 +155,16 @@ text-align: center;
     color:#00C85C
 }
 .needPointContainer{
-    
     margin-top: 40px;
+    width: 100vw;
     flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.whyneedgif{
-    width: 30%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
 .WhyneddGif1{
+    align-self: center;
     height: 380px;
     width: 429px;
     left: 47px;
@@ -202,9 +198,114 @@ text-align: center;
     text-align: center;
 
 }
-@media(max-width:900px){
+/*-----------------bar2--------------------*/
+.pattern{
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar2{
+    overflow: hidden;
+    margin-top: 30px;
+    background-color: #1481D0;
+    height: 10px;
+    width: 60%;
+}
+.boxpattern5{
+   display: none;
+}
+/*-----------------keypoints------------------*/
+.barpatterns >  div{
+    margin-top: 20px;
+    background-color: #1481D0;
+    height: 8px;
+    width: 273.76086061654723px;
+}
+.barpattern1{
+    transform: rotate(15deg);
+    position: absolute;
+    left: -4px;
+    top: 1538px;
+    border-radius: nullpx;
+}
+.barpattern2{
+    transform: rotate(15deg);
+    position: absolute;
+    left: -40px;
+    border-radius: nullpx;
+    top:1703px
+}
+.barpattern3{
+    position:absolute;
+    transform: rotate(30deg);
+    left:55px;
+    top: 1689px;
+    border-radius: nullpx;  
+}
+.barpattern4{
+    width: 283.76086061654723px;
+    position: absolute;
+    transform: rotate(-35deg);
+    left: -50px;
+    top: 1701px;
+    border-radius: nullpx;
+}
+.circleptterns > div{
+    position: absolute;
+    margin-top: 20px;
+    height: 38px;
+    width: 36px;
+    border-radius: 50px;
+}
+.circlepattern1{
+    background: #00C85C;
+    left: 52px;
+    top: 1508px;
+}
+.circlepattern2{
+    background: #1481D0;
+    left: 230px;
+    top: 1550px;
+
+}
+.circlepattern3{
+    background: #1481D0;
+    left: 60px;
+    top: 1610px;
+
+}
+.circlepattern4{
+    background-color: #00C85C;
+    left: 166px;
+    top: 1620px;
+    border-radius: 0px;
+    
+}
+.circlepattern5{
+    background-color: #00C85C;
+    left: 230px;
+    top:1700px
+
+}
+.circlepattern6{
+    background-color:#1481D0;
+    left: 35px;
+    top:1710px
+
+}
+.temp{
+    height: 100vh;
+}
+/*---------------mid screen----------------*/
+@media(max-width:1090px){
     .boxpattern3 , .boxpattern4{
         display: none;
+    }
+    .MessageAmdDownload p{
+        z-index: 2;
+        font-size: 65px;
     }
     .posterContainer{
         margin-left: 0;
@@ -212,12 +313,22 @@ text-align: center;
         align-items: center;
         justify-content: center;
     }
+    .circleptterns{
+        display: none;
+    }
+    .barpatterns{
+        display: none;
+    }
 }
-@media(max-width:1000px){
+/*---------------------small screen ------------------*/
+@media(max-width:700px){
     *{
         overflow-x: hidden;
+        
     }
-
+    .bar1{
+        display: none;
+    }
     .homeBannerContainer{
         margin: 0;
         margin-top: -80px;
@@ -246,7 +357,7 @@ text-align: center;
         flex-direction: column-reverse;
     }
     .MessageAmdDownload p{ 
-    font-family: 'Rubik';
+    font-family: Rubik;
     font-style: normal;
     letter-spacing: 0em;
     text-align: left;
@@ -260,8 +371,9 @@ text-align: center;
     }
  .MessageAmdDownload span{
     width: 327px;
+    font-family: Rubik;
     border-radius: nullpx;
-    font-size: 38px;
+    font-size: 58px;
     font-weight: 600;
     line-height: 45px;
     letter-spacing: 0em;
@@ -287,6 +399,7 @@ text-align: center;
         width: 99vw;
     }
     .posterImage img{
+       
         max-width: 99vw;
         width: 419.58px;
        height: 384.69px;
@@ -294,6 +407,79 @@ text-align: center;
     }
     .boxpattern3 , .boxpattern4{
         display: none;
+    }
+    .whyNeddDudar{
+        overflow-x: visible;
+        margin-top: 30px;
+        padding: 5px;
+        overflow:auto;
+        width: 99vw;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+    }
+    .WhyneddGif1{
+        height: 123px;
+        width: 138px;
+        left: 247px;
+        top: 863px;
+        border-radius: 0px;
+
+    }
+    .whyNeddDudar h2{
+        align-self: center;
+        display: block;
+        height: 77px;
+        width: 206px;
+        border-radius: nullpx;
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .needPointContainer{
+        overflow-x: visible;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .greencolor{
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+     .needPoints{
+        width: 100vw;
+        padding: 20px;
+     }
+    .needPoints p{
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .needPoints a{
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+    .boxpattern5{
+        position: absolute;
+        transform: rotate(-45deg);
+        height: 137.2952134082673px;
+        width: 103.00572325850872px;
+        left: 335px;
+        top: 1305.9453125px;
+        border-radius: 15px;
+        background-color: #1481D0;  
     }
 }
 
