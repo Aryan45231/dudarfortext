@@ -512,15 +512,19 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         text-align: left;
     }
      .needPoints{
-        overflow: hidden;
+        width: 99vw;
+      padding: 0;
         display: flex;
         align-items: center;
-        padding:10px 20px;
      }
      .needPoints p i{
         font-size: 16px;
      }
     .needPoints p{
+        min-height: 20px;
+        max-height: 100px;
+        height:fit-content;
+        padding:10px 20px;
         font-size: 17px;
         font-weight: 400;
         line-height: 18px;
