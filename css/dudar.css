@@ -534,7 +534,9 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         line-height: 21px;
     }
     .boxpattern5{
-        position: absolute;
+        display: flex;
+        margin-top: 50px;
+        margin-right: -;
         transform: rotate(-45deg);
         height: 137.2952134082673px;
         width: 103.00572325850872px;
