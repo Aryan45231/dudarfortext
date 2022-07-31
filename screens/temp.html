@@ -1,4 +1,12 @@
-*{ overflow-x: hidden;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{ overflow-x: hidden;
     max-width: 99vw;
     margin: 0;
     padding: 0;
@@ -95,7 +103,6 @@
     line-height: 114px;
 }
 .MessageAmdDownload button{
-    cursor: pointer;
     margin-left: -200px;
     align-self: center;
     font-family: 'Inter';
@@ -114,7 +121,6 @@
     height: 75px;
     background: rgba(237, 108, 48, 0.51);
     border-radius: 96px;
-    color: #000000;
 }
 
 
@@ -127,7 +133,7 @@
 .bar1{
     margin-top: 30px;
     width: 100%;
-    height: 40px;
+    height: 50px;
     background-color: #1481D0;
 }
 
@@ -158,6 +164,7 @@ text-align: center;
 }
 .needPointContainer{
     margin-top: 40px;
+    width: 100vw;
     flex: 2;
     display: flex;
     flex-direction: column;
@@ -174,18 +181,11 @@ text-align: center;
 
 }
 .needPoints{
-    
     display: flex;
-    width: 80%;  
+    width: 80%;
+    
 }
-
-.needPoints p i{
-    margin-right: 1px;
-    font-size: 30px;
-    z-index: 3;
-}
-.needPoints p{  
-    background-color: transparent;
+.needPoints p{
     font-family: Inter;
     font-size: 34px;
     font-style: italic;
@@ -202,7 +202,6 @@ text-align: center;
     font-style: italic;
     font-weight: 300;
     line-height: 38px;
-    width: 100%;
     letter-spacing: 0em;
     text-align: center;
 
@@ -304,59 +303,11 @@ text-align: center;
     top:1710px
 
 }
-.heypoints{
-    padding: 10px 0 60px 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    
-}
-.pointContainer{
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.points{
-    margin: 0 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.points img{
-     height: 196.79913330078125px;
-    width: 232.00631713867188px;
-    left: 1252.708251953125px;
-    top: 1704px;
-    border-radius: 0px;
-
-}
-.points p{
-    font-family: Inter;
-font-size: 24px;
-font-weight: 700;
-line-height: 29px;
-letter-spacing: 0em;
-text-align: left;
-background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
-    color: transparent;
-    -webkit-background-clip: text;
-}
-.bar3{
-    position: absolute;
-    right: 0;
-    margin-top: 30px;
-    background-color: #1481D0;
-    width: 60vw;
-    height: 10px;
-    
-}
 .temp{
     height: 100vh;
 }
 /*---------------mid screen----------------*/
-@media(max-width:1390px){
+@media(max-width:1090px){
     .boxpattern3 , .boxpattern4{
         display: none;
     }
@@ -376,11 +327,7 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
     .barpatterns{
         display: none;
     }
-    .pointContainer{
-        width: 100%;
-    }
 }
-
 /*---------------------small screen ------------------*/
 @media(max-width:700px){
     *{
@@ -397,17 +344,17 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         display: flex;
     }
     .boxpattern1{
-        height: 143.46707492119296px;
-    width: 141.63946867686198px;
-    left: -108.0888671875px;
-    top: 149.75439453125px;
-    border-radius: 34px;
+    height: 182px;
+    width: 180px;
+    left: -130px;
+    top: 116px;
+    border-radius: 40px;
 }
     .boxpattern2{
     height: 92.13901498456684px;
     width: 114.91826685472545px;
     left: -88px;
-    top: 305.9658203125px;
+    top: 385.9658203125px;
     border-radius: 15px;
     }
     .posterContainer{
@@ -436,17 +383,18 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
     font-size: 58px;
     font-weight: 600;
     line-height: 45px;
-    height: 60px;
     letter-spacing: 0em;
     text-align: left;
   }
 .MessageAmdDownload button{
-    padding: 0;
-    margin-left:0;
-    display: flex; 
+    padding: 20px 40px;
+    margin-left: 0;
+    align-self: flex-start;
+    display: flex;
     align-items: center;
     justify-content: center;
-    align-self: flex-start; 
+    font-family: 'Inter';
+    color: #000000;
     height: 40px;
     width: 156.7855224609375px;
     left: 53px;
@@ -458,6 +406,8 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
     line-height: 17px;
     letter-spacing: 0em;
     text-align: left;
+
+
 }
     .posterImage{
         display: flex;
@@ -466,7 +416,11 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         width: 99vw;
     }
     .posterImage img{
-        height: 433.69px;
+       
+        max-width: 99vw;
+        width: 419.58px;
+       height: 384.69px;
+
     }
     .boxpattern3 , .boxpattern4{
         display: none;
@@ -479,6 +433,7 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         width: 99vw;
         justify-content: space-around;
         flex-wrap: wrap;
+    
     }
     .WhyneddGif1{
         height: 123px;
@@ -486,6 +441,7 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         left: 247px;
         top: 863px;
         border-radius: 0px;
+
     }
     .whyNeddDudar h2{
         align-self: center;
@@ -513,11 +469,8 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         text-align: left;
     }
      .needPoints{
-        width: 90vw;
+        width: 100vw;
         padding: 20px;
-     }
-     .needPoints p i{
-        font-size: 16px;
      }
     .needPoints p{
         font-size: 17px;
@@ -527,11 +480,13 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         text-align: left;
     }
     .needPoints a{
-        width: fit-content;
         font-size: 17px;
         font-style: italic;
         font-weight: 300;
         line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+
     }
     .boxpattern5{
         position: absolute;
@@ -543,49 +498,243 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         border-radius: 15px;
         background-color: #1481D0;  
     }
-    .heypoints{
-        padding: 0;
-    }
-    .pointContainer{
-        width: 100%;
-        flex-direction: column;
-    }
-    .points{
-        padding: 0;
-       margin-top: 10px;
-        margin-right: 100px;
-        width: 100%;
-        flex-direction: row;
-        justify-content: center ;
-    }
-    .pos1{
-        margin-left: 150px;
-    }
-    .points img{
-        height: 110px;
-        width: 128px;
-        left: 17px;
-        top: 1440.000244140625px;
-        border-radius: 0px;
 
-    }
-    .points p{
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 17px;
-        letter-spacing: 0em;
-        text-align: left;
+/* NavBar css*/
 
-    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.hambcontainer{
+    display: none;
+}
+.navContainer{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:99vw;
+    margin-bottom: 50px;
+}
+.dudar_navBar{
+    width: 89vw;
+    margin: 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between
+}
+.menus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+.NavMenuButton{
+    gap: 10px;
+    border-radius: 50px;        
+    padding: 10px 15px 10px 15px;
+    margin-left: 10px;
+    background-color: white;
+     color: #1481D0;
+    border: 1px solid #1481D0;
+    transition: all .2s linear;
+}
+.NavMenuButton:hover{
+    color: white;
+    background-color:#1481D0 ;
+    border:1px solid #00C85C
+    ;
 }
 
-@media(max-width:290px){
-    .boxpattern1{
-        display: none;
+
+
+.viewofham{
+ transition: all .2s linear;
+ display:flex;
+} 
+
+@media(max-width:1090px){
+
+    .hambcontainer{
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        padding: 10px 0;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .line{
+        border-top: 2px solid black;
+        width: 15px;
+    }
+ 
+    .listOfmenus{
+        line-height: 0px;
+     position: absolute;
+     transition: all .2s linear;
+     display: none;
+     flex-direction: column;
+     justify-content: center;  
+     height: 257px;
+     right: 10vw;
+    width: 122px;
+     z-index: 3;
+    top: 57px;             
+     border-radius: 10px 0px 10px 10px;
+     background: #9A9A9A;
+      width: fit-content;
+     font-family: Rubik;
     }
     
-    .boxpattern2{
+    .listOfmenus a{
+     padding: 10px;
+     color: white;
+    text-align: left;
+     text-decoration: none;
+     font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    .viewofham{
+        display: flex;
+    }
+    .menus{
         display: none;
     }
 }
+@media(max-width:700px){
+    .logo a img{
+        height: 28.874662399291992px;
+width: 109.99984741210938px;
+left: 21px;
+top: 31px;
+border-radius: 0px;
+
+    }
+}
+}
+
+
+
+    </style>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+   
+</head>
+
+<body>
+    <div class="navContainer">
+        <div class="dudar_navBar"> 
+            <div class="logo">
+                <a href="#"> <img src="./res/images/banner/logo.png" alt="some thing went wrong"></a>
+            </div>
+            <div class="menus">
+                <a href="#">
+                    <button class="NavMenuButton">
+                        About us
+                    </button>
+                </a>
+                <a href="#">
+                    <button class="NavMenuButton">
+                        Become a Tutar
+                    </button>
+                </a>
+                <a href="#">
+                    <button class="NavMenuButton">
+                        Contact Us
+                    </button>
+                </a>   
+            </div>
+            <div onclick="dis()" class="hambcontainer">
+                <div class="line"></div>   
+                <div class="line"></div> 
+                <div class="line"></div>     
+            </div>
+    
+            <div class="listOfmenus" id="listOfMenus">
+               <a href="#"> <span> About Us</span> <br></a>
+               <a href="#"> <span>Become A Tutior</span> <br></a>
+               <a href="#"> <span>Contact Us</span> <br></a>
+               <a href="#"> <span>Contact Us</span> <br></a>
+            </div> 
+        </div>
+         
+        </div>
+        <div class="homeBannerContainer">
+            <div class="boxes">
+                <div class="boxpattern1"></div>
+            <div class="boxpattern2"></div>
+            <div class="boxpattern3"></div>
+            <div class="boxpattern4"></div>
+            </div> 
+            <div class="posterContainer">
+                <div class="MessageAmdDownload">
+                    <p> Having Duobts ?<br> No Worries!! Get a Tutor with in
+                      <br> </p><span> 60 Seconds</span>
+                      <button>
+                        Donload App
+                      </button>
+                </div>
+                <div class="posterImage">
+                    <img src="./res/images/banner/poster.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="bar1"></div>
+        <br>
+    
+        <div class="whyNeddDudar">
+            <h2>Why do you need "Dudar"?</h2>  
+            <lottie-player class="WhyneddGif1"  src="https://assets7.lottiefiles.com/packages/lf20_4tz0wb4f.json"  background="transparent"  speed="1"     loop autoplay></lottie-player>
+            <div class="needPointContainer">
+                <div class="needPoints">
+                    <p>  
+                        <i class="fa-solid fa-circle greencolor"></i>
+                         Do you get frustated or feel low when you are stuck with a doubt while studying?
+                    </p>
+                </div>
+                <br>
+            
+                <div class="needPoints">
+                     <p>
+                        <i class="fa-solid fa-circle  greencolor"></i>
+                      Did you ever wonder that why every student is treated the same while being taught in classrooms,even though, every student has a different learning Pace?
+                    </p>
+                </div>
+                <br>
+                <a href="#">If your answer is yes to any of the questions above,
+                   <br>  then dudar is for you</a>
+            </div>
+        </div>
+       <div class="pattern">
+        <div class="bar2"></div>   
+        <div class="boxpattern5"></div> 
+       </div>
+       <div class="heypoints">
+           <div class="keypattern">
+            <div class="barpatterns">
+                <div class="barpattern1"></div>
+                <div class="barpattern2"></div>
+                <div class="barpattern3"></div>
+                <div class="barpattern4"></div>
+           </div>
+           <div class="circleptterns">
+                    <div class="circlepattern1"></div>
+                    <div class="circlepattern2"></div>
+                    <div class="circlepattern3"></div>
+                    <div class="circlepattern4"></div>
+                    <div class="circlepattern5"></div>
+                    <div class="circlepattern6"></div>
+           </div>
+           </div>
+       </div>
+    
+    
+</body>
+</html>

@@ -50,8 +50,6 @@
     ;
 }
 
-
-
 .viewofham{
  transition: all .2s linear;
  display:flex;
@@ -82,27 +80,33 @@
      height: 257px;
      right: 10vw;
     width: 122px;
-     z-index: 3;
-    top: 57px;             
+    z-index: 3;
+    top: 55px;             
      border-radius: 10px 0px 10px 10px;
      background: #9A9A9A;
       width: fit-content;
      font-family: Rubik;
     }
     
-    .listOfmenus a{
-     padding: 10px;
-     color: white;
-    text-align: left;
-     text-decoration: none;
-     font-size: 13px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0em;
-    text-align: left;
+    .listitems{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        color: white;
     }
+    .listOfmenus a:hover{
+        background-color: #1481D0;
+    }
+    .listOfmenus a{
+        padding:10px;
+        text-decoration: none;
+    }
+    
     .viewofham{
+        padding: 10px 10px;
         display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .menus{
         display: none;

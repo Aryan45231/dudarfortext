@@ -25,7 +25,7 @@
             <a href="#">
                 <button class="NavMenuButton">
                     Become a Tutar
-                </button>
+                </button>   
             </a>
             <a href="#">
                 <button class="NavMenuButton">
@@ -40,10 +40,10 @@
         </div>
 
         <div class="listOfmenus" id="listOfMenus">
-           <a href="#"> <span> About Us</span> <br></a>
-           <a href="#"> <span>Become A Tutior</span> <br></a>
-           <a href="#"> <span>Contact Us</span> <br></a>
-           <a href="#"> <span>Contact Us</span> <br></a>
+           <a href="#"><div class="listitems"> <span> About Us</span> <br></div></a>
+           <a href="#"><div class="listitems"> <span>Become A Tutior</span> <br></div></a>
+           <a href="#"><div class="listitems"> <span>Contact Us</span> <br></div></a>
+           <a href="#"><div class="listitems"> <span>Contact Us</span> <br></div></a>
         </div> 
     </div>
      
@@ -59,7 +59,7 @@
             <div class="MessageAmdDownload">
                 <p> Having Duobts ?<br> No Worries!! Get a Tutor with in
                   <br> </p><span> 60 Seconds</span>
-                  <button>
+                  <button onclick="download()">
                     Donload App
                   </button>
             </div>
@@ -67,7 +67,7 @@
                 <img src="./res/images/banner/poster.png" alt="">
             </div>
         </div>
-    </div>
+    </div> 
     <div class="bar1"></div>
     <br>
 
@@ -78,16 +78,17 @@
             <div class="needPoints">
                 <p>  
                     <i class="fa-solid fa-circle greencolor"></i>
-                     Do you get frustated or feel low when you are stuck with a doubt while studying?
+                  Do you get frustated or feel low when you are stuck with a doubt while studying?
+        
                 </p>
             </div>
             <br>
         
             <div class="needPoints">
-                 <p>
-                    <i class="fa-solid fa-circle  greencolor"></i>
-                  Did you ever wonder that why every student is treated the same while being taught in classrooms,even though, every student has a different learning Pace?
-                </p>
+                <p>
+                <i class="fa-solid fa-circle  greencolor"></i>
+             Did you ever wonder that why every student is treated the same while being taught in classrooms,even though, every student has a different learning Pace  
+               </p>
             </div>
             <br>
             <a href="#">If your answer is yes to any of the questions above,
@@ -115,8 +116,22 @@
                 <div class="circlepattern6"></div>
        </div>
        </div>
+       <div class="pointContainer">
+             <div class="points">
+                    <img src="./res/images/widgets//images 1 (1).png" alt="">    
+                    <p> Get started for free </p>
+             </div>
+             <div class="points pos1">
+                <img src="./res/images/widgets/image 1.png" alt="">    
+                <p> Get started for free </p>
+              </div>
+         <div class="points">
+            <img src="./res/images/widgets/image 1.png" alt="">    
+            <p> Best technology </p>
+          </div>      
+       </div>
    </div>
-
+   <div class="bar3"></div>  
 
 
 
@@ -144,6 +159,9 @@
 </body>
 </html>
 <script>
+    download=()=>{
+        location.href="https://play.google.com/store/apps/details?id=com.dudar_student"
+    }
     dis=()=>{
         document.getElementById("listOfMenus").classList.toggle("viewofham")
     }
