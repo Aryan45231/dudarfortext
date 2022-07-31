@@ -513,7 +513,7 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
     }
      .needPoints{
        width: auto;
-        padding: 20px;
+        padding:10px 20px;
      }
      .needPoints p i{
         font-size: 16px;
