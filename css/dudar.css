@@ -512,7 +512,9 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         text-align: left;
     }
      .needPoints{
-       width: auto;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
         padding:10px 20px;
      }
      .needPoints p i{
