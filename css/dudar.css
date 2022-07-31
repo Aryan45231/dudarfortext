@@ -174,7 +174,6 @@ text-align: center;
 
 }
 .needPoints{
-    
     display: flex;
     width: 80%;  
 }
@@ -513,7 +512,7 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         text-align: left;
     }
      .needPoints{
-        width: 90vw;
+       width: auto;
         padding: 20px;
      }
      .needPoints p i{
@@ -534,9 +533,8 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         line-height: 21px;
     }
     .boxpattern5{
-        display: flex;
+        display: none;
         margin-top: 50px;
-        margin-right: -;
         transform: rotate(-45deg);
         height: 137.2952134082673px;
         width: 103.00572325850872px;
