@@ -10,6 +10,11 @@
     letter-spacing: 0em;
     text-align: left;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ;
 }
+.wrapper{
+    background: transparent;
+    position: relative;
+    overflow-x: hidden;
+}
 .listOfmenus{
     display: none;
 }
@@ -304,7 +309,7 @@ text-align: center;
 
 }
 .heypoints{
-    padding: 10px 0 60px 0;
+    padding: 60px 0 60px 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -534,6 +539,7 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         text-align: left;
     }
     .needPointContainer a{
+        padding: 0;
         width: fit-content;
         font-size: 17px;
         font-style: italic;
@@ -541,13 +547,15 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         line-height: 21px;
     }
     .boxpattern5{
-        display: none;
+        overflow-x: hidden;
+        display: block;
+        position: relative;
         margin-top: 50px;
+        left: 90vw;
         transform: rotate(-45deg);
         height: 137.2952134082673px;
         width: 103.00572325850872px;
-        left: 335px;
-        top: 1305.9453125px;
+         top: -100px;
         border-radius: 15px;
         background-color: #1481D0;  
     }
@@ -557,6 +565,11 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
     .pointContainer{
         width: 100%;
         flex-direction: column;
+    }
+    .heypoints{
+        margin-top: -170px;
+    }
+    .bar3{
     }
     .points{
         padding: 0;
