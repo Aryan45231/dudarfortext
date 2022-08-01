@@ -70,8 +70,8 @@
         
     }
     .ham img{
-        height: 40px;
-        width: 47px;
+        height: 27px;
+        width: 27px;
         left: 360px;
         top: 34px;
         border-radius: 0px;
@@ -88,7 +88,8 @@
         height: 100vh;
         left: 0;
         right: 0;
-        background-color: rgba(10, 9, 9, 0.6);
+        overflow-y: hidden;
+        background-color: rgba(10, 9, 9, 0.3);
         width: 1000vw;
         
     }
@@ -96,11 +97,13 @@
         line-height: 0px;
      position: absolute;
      transition: all .2s linear;
+     display: flex;
      display: none;
+     align-items: center;
      flex-direction: column;
      justify-content: center ;  
      height: 200px;
-     right: 15vw;
+     right: 11vw;
     width: 122px;
     z-index: 3;
     top: 30px;             
