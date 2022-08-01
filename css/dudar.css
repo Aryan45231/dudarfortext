@@ -337,13 +337,15 @@ text-align: center;
 
 }
 .points p{
+    display: flex;
+    align-items: center;
     font-family: Inter;
-font-size: 24px;
-font-weight: 700;
-line-height: 29px;
-letter-spacing: 0em;
-text-align: left;
-background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
     color: transparent;
     -webkit-background-clip: text;
 }
@@ -353,12 +355,56 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
     margin-top: 30px;
     background-color: #1481D0;
     width: 60vw;
-    height: 10px;
-    
+    height: 10px; 
 }
+.points p img{
+    margin: 0 4px;
+    height: 19px;
+width: 15.320594787597656px;
+left: 187px;
+top: 1499.000244140625px;
+border-radius: 0px;
+
+}
+/*--------------------------workingwworking-----------------*/
+.dudarwworkingcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    margin-top: 70px;
+    height: 1100px;
+    width: 1728px;
+    left: 1px;
+    top: 2121px;
+    border-radius: 120px;
+    background: rgba(14,81,130,.1);    
+    border-radius: 120px;
+
+}
+.dudarwworkingcontainer h1{
+    font-family: Yantramanav;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.dudarwworkingcontainer span{
+    font-family: Inter;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
 .temp{
     height: 100vh;
 }
+
 /*---------------mid screen----------------*/
 @media(max-width:1390px){
     .boxpattern3 , .boxpattern4{
@@ -569,8 +615,6 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
     .heypoints{
         margin-top: -170px;
     }
-    .bar3{
-    }
     .points{
         padding: 0;
        margin-top: 10px;
@@ -580,6 +624,7 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         justify-content: center ;
     }
     .pos1{
+        margin-right: 30px;
         margin-left: 150px;
     }
     .points img{
@@ -597,6 +642,25 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         line-height: 17px;
         letter-spacing: 0em;
         text-align: left;
+
+    }
+    .dudarwworkingcontainer{
+        background-color: transparent;
+    }
+    .dudarwworkingcontainer h1{
+        font-family: Yantramanav;
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: left;
+    }
+    .dudarwworkingcontainer span{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
 
     }
 }
