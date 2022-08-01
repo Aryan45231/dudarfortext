@@ -624,7 +624,8 @@ border-radius: 0px;
         justify-content: center ;
     }
     .pos1{
-        margin-left: 150px;
+        margin-right: 0;
+        margin-left: 80px;
     }
     .points img{
         height: 110px;
