@@ -473,9 +473,8 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
     .whyNeddDudar{
         overflow-x: visible;
         margin-top: 30px;
-        padding: 5px;
         overflow:auto;
-        width: 99vw;
+        width: 98vw;
         justify-content: space-around;
         flex-wrap: wrap;
     }
