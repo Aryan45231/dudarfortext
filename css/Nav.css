@@ -55,53 +55,78 @@
  display:flex;
 } 
 
-@media(max-width:1090px){
+@media(max-width:700px){
 
     .hambcontainer{
-        border-top: 2px solid black;
-        border-bottom: 2px solid black;
-        padding: 10px 0;
+        z-index: 3;
        display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .backgroundofham{
+        height: 100vh;
+        width: 100vw;
+        background-color: red;
+        
+    }
+    .ham img{
+        height: 40px;
+        width: 47px;
+        left: 360px;
+        top: 34px;
+        border-radius: 0px;
+
     }
     .line{
         border-top: 2px solid black;
         width: 15px;
     }
- 
+    .hambackground{
+        display: none;
+        z-index: 2;
+        position: fixed;
+        height: 100vh;
+        left: 0;
+        right: 0;
+        background-color: rgba(10, 9, 9, 0.6);
+        width: 1000vw;
+        
+    }
     .listOfmenus{
         line-height: 0px;
      position: absolute;
      transition: all .2s linear;
      display: none;
      flex-direction: column;
-     justify-content: center;  
-     height: 257px;
-     right: 10vw;
+     justify-content: center ;  
+     height: 200px;
+     right: 15vw;
     width: 122px;
     z-index: 3;
-    top: 55px;             
+    top: 30px;             
      border-radius: 10px 0px 10px 10px;
      background: #9A9A9A;
       width: fit-content;
      font-family: Rubik;
     }
-    
+    .closehamback{
+        display: flex;
+    }
     .listitems{
+        overflow-y: hidden;
+        height: 20px;
        display: flex;
        justify-content: center;
        align-items: center;
         color: white;
     }
-    .listOfmenus a:hover{
-        background-color: #1481D0;
-    }
     .listOfmenus a{
         padding:10px;
         text-decoration: none;
     }
-    
+    .listitems span{
+        font-size: 17px;
+    }
     .viewofham{
         padding: 10px 10px;
         display: flex;
@@ -112,7 +137,17 @@
         display: none;
     }
 }
-@media(max-width:700px){
+@media(max-width:800px){
+    .logo a img{    
+        height: 48.874662399291992px;
+width: 149.99984741210938px;
+left: 21px;
+top: 31px;
+border-radius: 0px;
+
+    }
+}
+@media(max-width:760px){
     .logo a img{
         height: 28.874662399291992px;
 width: 109.99984741210938px;

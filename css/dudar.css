@@ -414,6 +414,22 @@ border-radius: 0px;
         z-index: 2;
         font-size: 65px;
     }
+    .WhyneddGif1{
+        width: 30%;
+    }
+    .needPointContainer{
+            width: 500px;
+    }
+    .needPoints p{
+        font-size: 27px;
+    }
+    .needPoints a{
+        font-size: 28px;
+    }
+    .posterImage img{
+       position: relative;
+        right: 100px;
+    }
     .posterContainer{
         margin-left: 0;
         flex-direction: column;
@@ -454,6 +470,7 @@ border-radius: 0px;
     border-radius: 34px;
 }
     .boxpattern2{
+        z-index: 1;
     height: 92.13901498456684px;
     width: 114.91826685472545px;
     left: -88px;
@@ -483,7 +500,7 @@ border-radius: 0px;
     width: 327px;
     font-family: Rubik;
     border-radius: nullpx;
-    font-size: 58px;
+    font-size: 45px;
     font-weight: 600;
     line-height: 45px;
     height: 60px;
@@ -492,6 +509,7 @@ border-radius: 0px;
   }
 .MessageAmdDownload button{
     padding: 0;
+    margin-top: -5px;
     margin-left:0;
     display: flex; 
     align-items: center;
@@ -499,13 +517,11 @@ border-radius: 0px;
     align-self: flex-start; 
     height: 40px;
     width: 156.7855224609375px;
-    left: 53px;
-    top: 766px;
     border-radius: 96px;
     font-family: Inter;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
+    font-weight: 400;   
+    line-height: 17px;  
     letter-spacing: 0em;
     text-align: left;
 }
@@ -516,7 +532,8 @@ border-radius: 0px;
         width: 99vw;
     }
     .posterImage img{
-        height: 433.69px;
+        right: 0;
+        height: 40vh;
     }
     .boxpattern3 , .boxpattern4{
         display: none;
