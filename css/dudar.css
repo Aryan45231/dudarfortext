@@ -624,7 +624,6 @@ border-radius: 0px;
         justify-content: center ;
     }
     .pos1{
-       margin-right: 60px;
         margin-left: 150px;
     }
     .points img{
@@ -645,6 +644,7 @@ border-radius: 0px;
 
     }
     .dudarwworkingcontainer{
+        border-radius: 0;
         background-color: transparent;
     }
     .dudarwworkingcontainer h1{
