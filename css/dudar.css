@@ -473,9 +473,10 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
     .whyNeddDudar{
         overflow-x: hidden;
         margin: 0;
+        padding: 0 2px;
         margin-top: 30px;
         width: 98vw;
-        justify-content: space-around;
+        justify-content: center;
         flex-wrap: wrap;
     }
     .WhyneddGif1{
@@ -498,6 +499,7 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         text-align: left;
     }
     .needPointContainer{
+        padding: 30px;
         overflow-x: visible;
         margin-top: 0;
         display: flex;
@@ -511,8 +513,9 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         text-align: left;
     }
      .needPoints{
+        
         width: 99vw;
-      padding: 0;
+      padding:0 20px;
         display: flex;
         align-items: center;
      }
@@ -530,7 +533,7 @@ background: linear-gradient(90deg, #00C85C 0%, #1481D0 100%);
         letter-spacing: 0em;
         text-align: left;
     }
-    .needPoints a{
+    .needPointContainer a{
         width: fit-content;
         font-size: 17px;
         font-style: italic;
