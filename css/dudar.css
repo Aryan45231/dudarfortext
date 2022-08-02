@@ -55,7 +55,7 @@
     
 }
 .boxpattern4{
-    background: #1481D0;
+    background: #385162;
     position: absolute;
     height: 110.50563786687567px;
     width: 124.95088189902796px;
@@ -65,14 +65,11 @@
     transform: rotate(-45deg);
 
 }
-
-
 .posterContainer{
-    margin-top: 20px;
+   
     display: flex;
     margin-left: 100px;
     justify-content: center;
-    flex-wrap: wrap;
 }
 .MessageAmdDownload{
    width: fit-content;
@@ -80,14 +77,13 @@
     border-radius: nullpx;
     display:flex;
     flex-direction: column;
-   
 }
 
 .MessageAmdDownload p{
     width: 615.03px;
     font-style: normal;
     font-weight: 400;
-    font-size: 73px;
+    font-size: 63px;
     line-height: 87px;
     color: #000000;
 }
@@ -96,7 +92,7 @@
     color: #00C85C;
     font-style: normal;
     font-weight: 600;
-    font-size: 96px;
+    font-size: 76px;
     line-height: 114px;
 }
 .MessageAmdDownload button{
@@ -125,6 +121,7 @@
 
 .posterImage img{
     min-width: none;
+    width: 50vw;
     max-height: 660.2894897460938px;
     max-width: 865.9999389648438px;
 }
@@ -240,7 +237,7 @@ text-align: center;
     transform: rotate(15deg);
     position: absolute;
     left: -4px;
-    top: 1538px;
+    top: 1438px;
     border-radius: nullpx;
 }
 .barpattern2{
@@ -248,13 +245,13 @@ text-align: center;
     position: absolute;
     left: -40px;
     border-radius: nullpx;
-    top:1703px
+    top:1603px
 }
 .barpattern3{
     position:absolute;
     transform: rotate(30deg);
     left:55px;
-    top: 1689px;
+    top: 1589px;
     border-radius: nullpx;  
 }
 .barpattern4{
@@ -262,7 +259,7 @@ text-align: center;
     position: absolute;
     transform: rotate(-35deg);
     left: -50px;
-    top: 1701px;
+    top: 1601px;
     border-radius: nullpx;
 }
 .circleptterns > div{
@@ -275,37 +272,37 @@ text-align: center;
 .circlepattern1{
     background: #00C85C;
     left: 52px;
-    top: 1508px;
+    top: 1408px;
 }
 .circlepattern2{
     background: #1481D0;
     left: 230px;
-    top: 1550px;
+    top: 1450px;
 
 }
 .circlepattern3{
     background: #1481D0;
     left: 60px;
-    top: 1610px;
+    top: 1510px;
 
 }
 .circlepattern4{
     background-color: #00C85C;
     left: 166px;
-    top: 1620px;
+    top: 1520px;
     border-radius: 0px;
     
 }
 .circlepattern5{
     background-color: #00C85C;
     left: 230px;
-    top:1700px
+    top:1600px
 
 }
 .circlepattern6{
     background-color:#1481D0;
     left: 35px;
-    top:1710px
+    top:1610px
 
 }
 .heypoints{
@@ -412,13 +409,19 @@ border-radius: 0px;
     }
     .MessageAmdDownload p{
         z-index: 2;
-        font-size: 65px;
+        font-size: 55px;
     }
     .WhyneddGif1{
         width: 30%;
     }
     .needPointContainer{
             width: 500px;
+    }
+    .posterImage img{
+        width: 600px;
+    }
+    .needPoints p i{
+        font-size: 17px;
     }
     .needPoints p{
         font-size: 27px;
@@ -429,6 +432,9 @@ border-radius: 0px;
     .posterImage img{
        position: relative;
         right: 100px;
+    }
+    .MessageAmdDownload button{
+        width: 250px;
     }
     .posterContainer{
         margin-left: 0;
@@ -444,6 +450,9 @@ border-radius: 0px;
     }
     .pointContainer{
         width: 100%;
+    }
+    .points p{
+        font-size: 20px;
     }
 }
 
@@ -532,6 +541,7 @@ border-radius: 0px;
         width: 99vw;
     }
     .posterImage img{
+        width: 98vw;
         right: 0;
         height: 40vh;
     }
@@ -560,7 +570,7 @@ border-radius: 0px;
         height: 77px;
         width: 206px;
         border-radius: nullpx;
-        font-size: 29px;
+        font-size: 26px;
         font-weight: 700;
         line-height: 35px;
         letter-spacing: 0em;
@@ -588,7 +598,7 @@ border-radius: 0px;
         align-items: center;
      }
      .needPoints p i{
-        font-size: 16px;
+        font-size: 10px;
      }
     .needPoints p{
         min-height: 20px;

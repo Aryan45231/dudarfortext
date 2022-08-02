@@ -103,7 +103,7 @@
      flex-direction: column;
      justify-content: center ;  
      height: 200px;
-     right: 11vw;
+     right: 13vw;
     width: 122px;
     z-index: 3;
     top: 30px;             
@@ -128,7 +128,7 @@
         text-decoration: none;
     }
     .listitems span{
-        font-size: 17px;
+        font-size: 15px;
     }
     .viewofham{
         padding: 10px 10px;
@@ -140,7 +140,7 @@
         display: none;
     }
 }
-@media(max-width:800px){
+@media(max-width:820px){
     .logo a img{    
         height: 48.874662399291992px;
 width: 149.99984741210938px;
