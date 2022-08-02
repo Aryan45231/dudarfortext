@@ -11,11 +11,11 @@
 }
 .steps img{
     z-index: 2  ;
-    height: 345px;
+    height: 305px;
 width: 195px;
 }
 .steps p{
-    padding: 20px 0;
+    padding: 10px 0;
     padding-right: 10px;
     padding-left:  80px;
     margin-left: -90px;
@@ -38,4 +38,307 @@ width: 195px;
 .step2 p{
     padding-right: 80px;
     margin-right: -80px;
+}
+
+.crisscrosspattern2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    top: 2400px;
+    right: -30px;
+    height: 400px;
+    width: 400px;
+}
+.crisscrosspattern2 > div{
+    background-color: #1481D0;
+    height: 10px;
+    margin-top: 40px;
+    width: 236.3130567864171px;
+    border-radius: nullpx;
+}
+.crisscorbar5{
+    position: relative;
+    top:50px;
+    margin-right: 100px;
+    transform: rotate(30deg);
+}
+.crisscorbar6{
+    position: relative;
+  transform:  rotate(-30deg);
+  
+}
+.crisscorbar7{
+    position: relative;
+    top: -40px;
+
+    margin-right: -110px;
+    transform: rotate(30deg);
+}
+#stepsForPhone{
+    display: none;
+}
+
+.statContainer{
+    width: 99vw;
+    
+}
+.statsGif{
+    display: block;
+    max-width: 100%;
+    min-width: 100px;
+}
+
+.stats {
+       margin-bottom: 20px;
+       display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 99vw;
+}
+.testimonial h1{
+    font-family: Inter;
+    margin-bottom: 100px;
+font-size: 56px;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 140px;
+ 
+}
+.cardContainer{
+
+    display: flex;
+    align-items: content;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    padding: 10px;
+    margin-bottom: 100px;
+    height: 448px;
+width: 460px;
+background: #F8F8F8;
+border-radius: 16px;
+}
+.cardDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.asp{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+    color: #28A917;
+
+}
+.feedbackStar{
+    
+    color:gold;
+     height: 29.79999949932062px;
+width: 39.10235129566718px;
+left: 340.646484375px;
+top: 4324px;
+border-radius: 0px;
+
+}
+.card img{
+    margin-top: -100px;
+    height: 223px;
+width: 207px;
+border-radius: 50%;
+}
+.card span{
+    margin-top: 30px;
+    font-family: Inter;
+font-size: 21px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.card h2{
+    margin-top: 10px;
+    font-family: Inter;
+font-size: 28px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+}
+
+
+/* screenShorts */
+.screenshorts{
+    
+    border-bottom: 100px solid #1481D0;
+}
+.screenshorts h1{
+    height: 82.41165161132812px;
+border-radius: nullpx;
+margin-bottom: 200px;
+font-family: Inter;
+font-size: 62px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.screenShortsContainers{
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.desktopScreenshorts{
+    z-index: 2;
+    margin-top :-200px;
+}
+.designImaage img{
+    overflow:hidden;
+}
+.PhoneScreenshorts{
+    margin-bottom: -40px;
+    display: flex;
+    z-index: 2;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.screenshortsPlatform{
+    z-index: 1;
+    width: 99vw;
+    margin-top: -30px;
+}
+/* use dudat for */
+.useDudarfor{
+    display: flex;
+    flex-direction: column;
+}
+.useDudarfor span{
+    font-family: Inter;
+font-size: 76px;
+font-weight: 700;
+line-height: 116px;
+letter-spacing: 0em;
+text-align: center;
+border-radius: nullpx;
+
+}
+.NotePoints{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-arrow-right{
+    color: #1481D0;
+}
+.dudarForPoints{
+    margin-top: 30px;
+    font-family: Inter;
+font-size: 53px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.useDudarForImage img{
+    height: 648px;
+width: 742px;
+left: 845px;
+top: 5643px;
+border-radius: 0px;
+
+}
+@media(max-width:1390px){
+    
+    .crisscrosspattern2{
+        display: none;
+    }
+    .dudarwworkingcontainer{
+        background-color: transparent;
+    }
+    .stepContainer{
+        display: none;
+    }
+}
+@media(max-width:760px){
+    .useDudarForImage img{
+        height: 143px;
+    width: 132px;
+
+    }
+    .testimonial h1{
+        font-family: Inter;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0em;
+
+    }
+        .card{
+        
+    width: 322px;
+    padding-bottom: 20px;
+    margin-bottom: 230px;
+    border-radius: 16px;
+        }
+    .card h2{
+        font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+    }
+.feedbackStar{
+    height: 19.611062573067557px;
+width: 25.732842238802277px;
+margin-left: 5px;
+}
+.card span{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+}
+.screenshorts{
+    margin-top: -200px;
+}
+.screenshorts h1{
+    margin: 30px;
+    font-family: Inter;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0em;
+
+}
+.screenShortsContainers{
+    align-items: center;
+    justify-content: center;
+}
+.PhoneScreenshorts img{
+    height: 203.66415405273438px;
+    width: 97.42529296875px;
+    left: 203.313720703125px;
+    top: 4436px;
+    border-radius: 0px;
+    margin: 0;
+}
 }

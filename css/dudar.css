@@ -1,5 +1,5 @@
 *{ 
-    max-width: 99vw;
+   
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,8 @@
 .wrapper{
     background: transparent;
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
+  
 }
 .listOfmenus{
     display: none;
@@ -457,9 +458,6 @@ border-radius: 0px;
 
 /*---------------------small screen ------------------*/
 @media(max-width:700px){
-    *{
-        overflow-x: hidden;  
-    }
     .bar1{
         display: none;
     }
