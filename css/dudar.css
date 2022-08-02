@@ -1,4 +1,4 @@
-*{ overflow-x: hidden;
+*{ 
     max-width: 99vw;
     margin: 0;
     padding: 0;
@@ -55,7 +55,7 @@
     
 }
 .boxpattern4{
-    background: #385162;
+    background:  #1481D0;
     position: absolute;
     height: 110.50563786687567px;
     width: 124.95088189902796px;
@@ -83,7 +83,7 @@
     width: 615.03px;
     font-style: normal;
     font-weight: 400;
-    font-size: 63px;
+    font-size: 69px;
     line-height: 87px;
     color: #000000;
 }
@@ -92,7 +92,7 @@
     color: #00C85C;
     font-style: normal;
     font-weight: 600;
-    font-size: 76px;
+    font-size: 89px;
     line-height: 114px;
 }
 .MessageAmdDownload button{
@@ -237,7 +237,7 @@ text-align: center;
     transform: rotate(15deg);
     position: absolute;
     left: -4px;
-    top: 1438px;
+    top: 1478px;
     border-radius: nullpx;
 }
 .barpattern2{
@@ -272,12 +272,12 @@ text-align: center;
 .circlepattern1{
     background: #00C85C;
     left: 52px;
-    top: 1408px;
+    top: 1448px;
 }
 .circlepattern2{
     background: #1481D0;
     left: 230px;
-    top: 1450px;
+    top: 1490px;
 
 }
 .circlepattern3{
@@ -370,8 +370,7 @@ border-radius: 0px;
     align-items: center;
     z-index: 1;
     margin-top: 70px;
-    height: 1100px;
-    width: 1728px;
+    width: 99vw;
     left: 1px;
     top: 2121px;
     border-radius: 120px;
@@ -591,8 +590,8 @@ border-radius: 0px;
         text-align: left;
     }
      .needPoints{
-        
-        width: 99vw;
+     height: auto;
+      width: 99vw;
       padding:0 20px;
         display: flex;
         align-items: center;
@@ -601,7 +600,6 @@ border-radius: 0px;
         font-size: 10px;
      }
     .needPoints p{
-        min-height: 20px;
         height:fit-content;
         padding:10px 20px;
         font-size: 17px;
@@ -619,7 +617,6 @@ border-radius: 0px;
         line-height: 21px;
     }
     .boxpattern5{
-        overflow-x: hidden;
         display: block;
         position: relative;
         margin-top: 50px;
