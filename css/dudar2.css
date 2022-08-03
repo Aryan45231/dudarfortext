@@ -97,6 +97,9 @@ width: 195px;
         align-items: center;
         width: 99vw;
 }
+.testimonial{
+    margin-top: -100px;
+}
 .testimonial h1{
     font-family: Inter;
     margin-bottom: 100px;
@@ -109,7 +112,6 @@ margin-bottom: 140px;
  
 }
 .cardContainer{
-
     display: flex;
     align-items: content;
     justify-content: space-evenly;
@@ -275,16 +277,16 @@ border-radius: 0px;
     .stepContainer{
         display: none;
     }
+    .desktopScreenshorts img{
+        position: relative;
+        height: 218px;
+        width: 255px;
+        top: -100px;
+        align-self: flex-end;
+    }
 }
 @media(max-width:760px){
-    .statsGif{
-        height: 133.00978088378906px;
-width: 114px;
-left: 148px;
-top: 2576.6669921875px;
-border-radius: 0px;
-
-    }
+ 
     .testimonial h1{
         font-family: Inter;
 font-size: 26px;
@@ -307,6 +309,9 @@ letter-spacing: 0em;
         .cardDetails p{
             font-size: 14px;
         }
+        .cardContainer{
+            margin-top: 229px;
+        }
         .feedback{
             margin-top: -35px;
         }
@@ -324,6 +329,7 @@ letter-spacing: 0em;
         letter-spacing: 0em;
         text-align: center;
     }
+    
 .feedbackStar{
 
     height: 19.611062573067557px;
@@ -349,11 +355,10 @@ text-align: center;
 }
 .screenshorts h1{
     margin: 30px;
-    font-family: Inter;
 font-size: 26px;
-font-weight: 700;
 line-height: 31px;
-letter-spacing: 0em;
+text-align: center;
+margin-left: 120px;
 
 }
 .screenShortsContainers{
@@ -368,4 +373,16 @@ letter-spacing: 0em;
     border-radius: 0px;
     margin: 0;
 }
+.desktopScreenshorts{
+    width: 100vw;
+}
+.desktopScreenshorts img{
+    top: 0;
+    position: relative;
+    height: 118px;
+    width: 155px;
+    margin-left: 10px;
+    align-self: flex-end;
+}
+
 }
