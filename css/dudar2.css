@@ -294,12 +294,15 @@ letter-spacing: 0em;
     }
         .card{
        width: 322px;
-       align-items:center;
+       align-items:space-between;
        justify-content:center;
-       height: fit-content;
+       height: 280px;
          margin-bottom: 230px;
            border-radius: 16px;
            margin-top: -100px;
+        }
+        .cardDetails{
+            align-items: space-between;
         }
         .cardDetails p{
             font-size: 14px;
@@ -336,9 +339,8 @@ border-radius: 0px;
 
 }
 .card span{
-
+align-self: center;
 font-size: 16px;
-margin-top: -0px;
 line-height: 19px;
 text-align: center;
 }
