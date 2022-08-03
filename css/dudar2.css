@@ -157,6 +157,7 @@ width: 207px;
 border-radius: 50%;
 }
 .card span{
+    padding-bottom: auto;
     margin-top: 30px;
     font-family: Inter;
 font-size: 21px;
@@ -276,11 +277,6 @@ border-radius: 0px;
     }
 }
 @media(max-width:760px){
-    .useDudarForImage img{
-        height: 143px;
-    width: 132px;
-
-    }
     .statsGif{
         height: 133.00978088378906px;
 width: 114px;
@@ -295,33 +291,55 @@ font-size: 26px;
 font-weight: 700;
 line-height: 31px;
 letter-spacing: 0em;
-
     }
         .card{
-    width: 322px;
-    margin-bottom: 230px;
-    border-radius: 16px;
-    margin-top: -100px;
+       width: 322px;
+       align-items:center;
+       justify-content:center;
+       height: fit-content;
+         margin-bottom: 230px;
+           border-radius: 16px;
+           margin-top: -100px;
+        }
+        .cardDetails p{
+            font-size: 14px;
+        }
+        .feedback{
+            margin-top: -35px;
+        }
+        .feedbackStar {
+            font-size: 17px;
+            margin: 0;
+            padding: 0;
         }
     .card h2{
+        margin:0;
         font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
     }
 .feedbackStar{
+
     height: 19.611062573067557px;
 width: 25.732842238802277px;
 margin-left: 5px;
 }
+.cardDetails img{
+    height: 143px;
+width: 132px;
+left: 138px;
+top: 2945px;
+border-radius: 0px;
+
+}
 .card span{
-    font-family: Inter;
+
 font-size: 16px;
-font-weight: 400;
+margin-top: -0px;
 line-height: 19px;
-letter-spacing: 0em;
 text-align: center;
 }
 .screenshorts{
@@ -343,7 +361,7 @@ letter-spacing: 0em;
 .PhoneScreenshorts img{
     height: 203.66415405273438px;
     width: 97.42529296875px;
-    left: 203.313720703125px;
+    left: 203.padding;
     top: 4436px;
     border-radius: 0px;
     margin: 0;

@@ -174,19 +174,30 @@ text-align: center;
 @media(max-width:780px){
     .message h3{
         line-height: 40px;
-        font-size: 25px;
+        font-family: Inter;
+        font-size: 20px;
+
+
     }
     .message h4{
         line-height:20px;
         padding:0 10px;
         font-size: 16px;
         text-align: center;
+        font-family: Inter;
+font-size: 10px;
+line-height: 12px;
+
+
     }
      .imputEmail{
         align-items: center;
         justify-content: center;
      }
     .imputEmail input{
+        font-family: Inter;
+font-size: 15px;
+    line-height: 18px;
         margin: 0;
         margin-right: -20px;
         height: 39.89679718017578px;
@@ -196,26 +207,29 @@ text-align: center;
         height: 52.29715347290039px;
 width: 52.426719665527344px;
     }
+
     .appInfo h1{
-font-size: 26px;
-line-height: 30px;
-    }
+        margin-top: 20px;
+    font-family: Inter;
+    line-height: 32px;
+    font-size: 24px;    
+    }   
     .appInfo h3{
-        font-size: 20px;
+        font-size: 16px;
     }
     .downloadButtons{
         margin: 0;
     }
     .downloadButtons button{
-        height: 49px;
-width: 123px;
+        height: 29px;
+        width: 83px;
     }
     .downloadButtons button img{
         height: 21.500200271606445px;
 width: 18.848918914794922px;
     }
     .downloadButtons button p{
-        font-size: 14px;
+        font-size:8px
     }
     .socialMedia a img{
         height: 24.362448692321777px;
