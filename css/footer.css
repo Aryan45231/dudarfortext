@@ -125,13 +125,13 @@ width: 37.2645263671875px;
     cursor: pointer;
 }
 .downloadButtons button p{
+    color: black;
     font-family: Inter;
 font-size: 16px;
 font-weight: 500;
 line-height: 19px;
 letter-spacing: 0em;
 text-align: center;
-
 }
 .appInfo h3{
     font-family: Inter;
@@ -162,8 +162,7 @@ text-align: center;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0em;
-    text-align: center;
-    
+    text-align: center;   
 }
 .socialMedia{
     margin: 20px 0;
@@ -174,17 +173,21 @@ text-align: center;
 }
 @media(max-width:780px){
     .message h3{
-font-size: 25px;
+        line-height: 40px;
+        font-size: 25px;
     }
     .message h4{
+        line-height:20px;
         padding:0 10px;
         font-size: 16px;
         text-align: center;
     }
      .imputEmail{
-        margin: 20px 0;
+        align-items: center;
+        justify-content: center;
      }
     .imputEmail input{
+        margin: 0;
         margin-right: -20px;
         height: 39.89679718017578px;
         width: 303px;
@@ -199,6 +202,9 @@ line-height: 30px;
     }
     .appInfo h3{
         font-size: 20px;
+    }
+    .downloadButtons{
+        margin: 0;
     }
     .downloadButtons button{
         height: 49px;
