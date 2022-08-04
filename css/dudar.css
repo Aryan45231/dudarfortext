@@ -472,7 +472,7 @@ border-radius: 0px;
     .boxpattern1{
         height: 143.46707492119296px;
     width: 141.63946867686198px;
-    left: -108.0888671875px;
+    left: -115.0888671875px;
     top: 149.75439453125px;
     border-radius: 34px;
 }
@@ -480,7 +480,7 @@ border-radius: 0px;
         z-index: 1;
     height: 92.13901498456684px;
     width: 114.91826685472545px;
-    left: -88px;
+    left: -98px;
     top: 305.9658203125px;
     border-radius: 15px;
     }
@@ -491,6 +491,7 @@ border-radius: 0px;
         flex-direction: column-reverse;
     }
     .MessageAmdDownload{
+        margin-top: 50px;
         margin-left: 0;
     }
     .MessageAmdDownload p{ 
@@ -542,6 +543,7 @@ border-radius: 0px;
         width: 99vw;
     }
     .posterImage img{
+        margin-top: 30px;
         position:static;
         width: 98vw;
         margin-right:20px;
