@@ -97,9 +97,6 @@ width: 195px;
         align-items: center;
         width: 99vw;
 }
-.testimonial{
-    margin-top: -100px;
-}
 .testimonial h1{
     font-family: Inter;
     margin-bottom: 100px;
@@ -121,7 +118,7 @@ margin-bottom: 140px;
     padding: 10px;
     margin-bottom: 100px;
     height: 448px;
-width: 460px;
+  width:370px;
 background: #F8F8F8;
 border-radius: 16px;
 }
@@ -129,6 +126,7 @@ border-radius: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
 }
 .asp{
@@ -172,7 +170,7 @@ text-align: center;
 .card h2{
     margin-top: 10px;
     font-family: Inter;
-font-size: 28px;
+font-size: 24px;
 font-weight: 400;
 line-height: 34px;
 letter-spacing: 0em;
@@ -181,7 +179,6 @@ letter-spacing: 0em;
 
 /* screenShorts */
 .screenshorts{
-    
     border-bottom: 100px solid #1481D0;
 }
 .screenshorts h1{
@@ -231,6 +228,8 @@ text-align: center;
 }
 .useDudarfor span{
     font-family: Inter;
+   position: relative;
+   top:140px;
 font-size: 76px;
 font-weight: 700;
 line-height: 116px;
@@ -244,7 +243,10 @@ border-radius: nullpx;
     align-items: center;
     justify-content: center;
 }
+.allPoints{
+    margin-top: 200px;
 
+}
 .fa-arrow-right{
     color: #1481D0;
 }
@@ -254,19 +256,18 @@ border-radius: nullpx;
 font-size: 53px;
 font-weight: 500;
 line-height: 34px;
-letter-spacing: 0em;
 text-align: left;
 
 }
 .useDudarForImage img{
-    height: 648px;
-width: 742px;
+    height: 742px;
+width: 648px;
 left: 845px;
 top: 5643px;
 border-radius: 0px;
 
 }
-@media(max-width:1390px){
+@media(max-width:1190px){
     
     .crisscrosspattern2{
         display: none;
@@ -383,6 +384,34 @@ margin-left: 120px;
     width: 155px;
     margin-left: 10px;
     align-self: flex-end;
+}
+.useDudarfor span{
+    position: static;
+font-size: 40px;
+line-height: 48px;
+
+}
+.allPoints{
+    margin-top: 0;
+}
+.NotePoints{
+    flex-direction: column;
+}
+.dudarForPoints{
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+}
+.useDudarForImage img{
+    margin-top: 0;
+    height: 235px;
+width: 269px;
+left: 71px;
+top: 5180px;
+border-radius: 0px;
+
 }
 
 }

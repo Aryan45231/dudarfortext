@@ -34,7 +34,7 @@ letter-spacing: 0em;
     top: -240px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .statsGif{
     height: 294px;
@@ -52,7 +52,7 @@ top: 3283px;
 border-radius: 0px;
 }
 
-@media(max-width:1300px){
+@media(max-width:1190px){
     .statContainer{
         margin-top: 30px;
     }

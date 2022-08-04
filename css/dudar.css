@@ -14,12 +14,12 @@
     background: transparent;
     position: relative;
     overflow: hidden;
-  
 }
 .listOfmenus{
     display: none;
 }
 .homeBannerContainer{
+
    height: fit-content;
 }
 
@@ -28,8 +28,8 @@
     background: #1481D0;
     height: 204px;
     width: 301px;
-    left: -206px;
-    top:262px;
+    left: -256px;
+    top:162px;
     border-radius: 40px;
     transform: rotate(40deg);
 }
@@ -37,8 +37,8 @@
     position: absolute;
     height: 208.9303876013307px;
     width: 286.14340076062484px;
-    left: -159.27197265625px;
-    top:601.8349609375px;
+    left: -239.27197265625px;
+    top:401.8349609375px;
     border-radius: 40px;
     background: #1481D0;
     transform: rotate(-50deg);
@@ -49,7 +49,7 @@
     height: 176.54446880138445px;
     width: 198.91451704325593px;
     left: 94vw;
-    top: 120.48486328125px;
+    top: 80.48486328125px;
     border-radius: 23px;
     background: #1481D0;
 
@@ -61,20 +61,19 @@
     height: 110.50563786687567px;
     width: 124.95088189902796px;
     left: 96vw;;
-    top: 355.3837890625px;
+    top: 305.3837890625px;
     border-radius: 23px;
     transform: rotate(-45deg);
 
 }
 .posterContainer{
-   
     display: flex;
     margin-left: 100px;
     justify-content: center;
 }
 .MessageAmdDownload{
+    margin-left: 90px;
    width: fit-content;
-    margin-top: 25px;
     border-radius: nullpx;
     display:flex;
     flex-direction: column;
@@ -121,6 +120,9 @@
 
 
 .posterImage img{
+    position: relative;
+    top:-20px;
+    margin-right: 100px;
     min-width: none;
     width: 50vw;
     max-height: 660.2894897460938px;
@@ -238,7 +240,7 @@ text-align: center;
     transform: rotate(15deg);
     position: absolute;
     left: -4px;
-    top: 1478px;
+    top: 1378px;
     border-radius: nullpx;
 }
 .barpattern2{
@@ -246,13 +248,13 @@ text-align: center;
     position: absolute;
     left: -40px;
     border-radius: nullpx;
-    top:1603px
+    top:1503px
 }
 .barpattern3{
     position:absolute;
     transform: rotate(30deg);
     left:55px;
-    top: 1589px;
+    top: 1489px;
     border-radius: nullpx;  
 }
 .barpattern4{
@@ -260,7 +262,7 @@ text-align: center;
     position: absolute;
     transform: rotate(-35deg);
     left: -50px;
-    top: 1601px;
+    top: 1501px;
     border-radius: nullpx;
 }
 .circleptterns > div{
@@ -273,41 +275,41 @@ text-align: center;
 .circlepattern1{
     background: #00C85C;
     left: 52px;
-    top: 1448px;
+    top: 1348px;
 }
 .circlepattern2{
     background: #1481D0;
     left: 230px;
-    top: 1490px;
+    top: 1390px;
 
 }
 .circlepattern3{
     background: #1481D0;
     left: 60px;
-    top: 1510px;
+    top: 1410px;
 
 }
 .circlepattern4{
     background-color: #00C85C;
     left: 166px;
-    top: 1520px;
+    top: 1420px;
     border-radius: 0px;
     
 }
 .circlepattern5{
     background-color: #00C85C;
     left: 230px;
-    top:1600px
+    top:1500px
 
 }
 .circlepattern6{
     background-color:#1481D0;
     left: 35px;
-    top:1610px
+    top:1510px
 
 }
 .heypoints{
-    padding: 60px 0 60px 0;
+    padding: 40px 0 40px 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -332,7 +334,6 @@ text-align: center;
     left: 1252.708251953125px;
     top: 1704px;
     border-radius: 0px;
-
 }
 .points p{
     display: flex;
@@ -403,7 +404,7 @@ border-radius: 0px;
 }
 
 /*---------------mid screen----------------*/
-@media(max-width:1390px){
+@media(max-width:1090px){
     .boxpattern3 , .boxpattern4{
         display: none;
     }
@@ -446,7 +447,7 @@ border-radius: 0px;
         display: none;
     }
     .barpatterns{
-        display: none;
+        display: none; 
     }
     .pointContainer{
         width: 100%;
@@ -488,6 +489,9 @@ border-radius: 0px;
         align-items: center;
         justify-content: center;
         flex-direction: column-reverse;
+    }
+    .MessageAmdDownload{
+        margin-left: 0;
     }
     .MessageAmdDownload p{ 
     font-family: Rubik;
@@ -538,7 +542,9 @@ border-radius: 0px;
         width: 99vw;
     }
     .posterImage img{
+        position:static;
         width: 98vw;
+        margin-right:20px;
         right: 0;
         height: 40vh;
     }
