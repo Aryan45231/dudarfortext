@@ -1,5 +1,5 @@
 /* foooter */
-footer{
+footer {
     position: relative;
     bottom: 0;
     color: white;
@@ -8,20 +8,22 @@ footer{
     justify-content: center;
     flex-direction: column;
     padding-bottom: 40px;
-    background: #1481D0; 
+    background: #1481D0;
 }
-.subscribe{
+
+.subscribe {
     margin-top: 0;
     flex-wrap: wrap;
     text-align: center;
     background: #00C85C;
     height: fit-content;
     width: 99vw;
-     display: flex;
-     align-items: center;
-     justify-content: space-around;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.message{
+
+.message {
     font-weight: bolder;
     color: white;
     display: flex;
@@ -29,39 +31,44 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.message h3{
+
+.message h3 {
     font-family: Inter;
-font-size: 41px;
-font-weight: 500;
-line-height: 50px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
-.message h4{
+
+.message h4 {
     font-family: Inter;
-font-size: 21px;
-font-weight: 500;
-line-height: 25px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
-.imputEmail{
+
+.imputEmail {
     padding: 0;
     display: flex;
     align-items: center;
 }
-.imputEmail button{
+
+.imputEmail button {
     background-color: transparent;
     border: none;
     margin: 0;
 }
-.imputEmail input{
+
+.imputEmail input {
     margin-right: -60px;
     background: #FFFFFF4A;
-    color:  white;
-  border-radius: 30px;
+    color: white;
+    border-radius: 30px;
     border: none;
     font-family: Inter;
     font-size: 21px;
@@ -73,87 +80,98 @@ text-align: left;
     top: 6432px;
     border-radius: 37px;
     padding-left: 20px;
-        text-align: left;
+    text-align: left;
 
 }
-.appInfo{
+
+.appInfo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.appInfo h1{
+.appInfo h1 {
     font-weight: bold;
     color: white;
     font-weight: bolder;
     font-family: Inter;
-font-size: 52px;
-font-weight: 500;
-line-height: 63px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
-.appInfo a{
+
+.appInfo a {
     text-decoration: none;
 }
-.downloadButtons{
+
+.downloadButtons {
     display: flex;
     align-items: center;
 }
-.download{
+
+.download {
     height: 60px;
-width: 172px;
-border-radius: 35px;
+    width: 172px;
+    border-radius: 35px;
     margin-left: 20px;
     text-align: center;
     background: #FFFFFF;
-border-radius: 35px;
-align-items: center;
-justify-content: center;
+    border-radius: 35px;
+    align-items: center;
+    justify-content: center;
     display: flex;
     border: none;
 }
-.downloadButtons img{
+
+.downloadButtons img {
     height: 43.00040054321289px;
-width: 37.2645263671875px;
+    width: 37.2645263671875px;
 
 }
-.downloadButtons button{
+
+.downloadButtons button {
     cursor: pointer;
 }
-.downloadButtons button p{
+
+.downloadButtons button p {
     color: black;
     font-family: Inter;
-font-size: 16px;
-font-weight: 500;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
 }
-.appInfo h3{
+
+.appInfo h3 {
     font-family: Inter;
-font-size: 27px;
-font-weight: 500;
-line-height: 33px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
 }
-.contactInfo{
-    width:68vw;
+
+.contactInfo {
+    width: 68vw;
     flex-wrap: wrap;
     color: white;
-    display: flex   ;
+    display: flex;
     text-decoration: none;
-    align-items: center ;
+    align-items: center;
     justify-content: space-around;
 }
-.contactInfo p{
+
+.contactInfo p {
     font-size: 50px;
     margin: 0 s10px;
 }
-.contactInfo a{
+
+.contactInfo a {
     color: white;
     font-family: Inter;
     font-family: Inter;
@@ -161,83 +179,97 @@ text-align: center;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0em;
-    text-align: center;   
+    text-align: center;
 }
-.socialMedia{
+
+.socialMedia {
     margin: 20px 0;
     width: 48vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-@media(max-width:780px){
-    .message h3{
+
+@media(max-width:780px) {
+    .message h3 {
         line-height: 40px;
         font-family: Inter;
         font-size: 20px;
 
 
     }
-    .message h4{
-        line-height:20px;
-        padding:0 10px;
+
+    .message h4 {
+        line-height: 20px;
+        padding: 0 10px;
         font-size: 16px;
         text-align: center;
         font-family: Inter;
-font-size: 10px;
-line-height: 12px;
+        font-size: 10px;
+        line-height: 12px;
 
 
     }
-     .imputEmail{
+
+    .imputEmail {
         align-items: center;
         justify-content: center;
-     }
-    .imputEmail input{
+    }
+
+    .imputEmail input {
         font-family: Inter;
-font-size: 15px;
-    line-height: 18px;
+        font-size: 15px;
+        line-height: 18px;
         margin: 0;
         margin-right: -20px;
         height: 39.89679718017578px;
         width: 303px;
     }
-    .imputEmail button img{
+
+    .imputEmail button img {
         height: 52.29715347290039px;
-width: 52.426719665527344px;
+        width: 52.426719665527344px;
     }
 
-    .appInfo h1{
+    .appInfo h1 {
         margin-top: 20px;
-    font-family: Inter;
-    line-height: 32px;
-    font-size: 24px;    
-    }   
-    .appInfo h3{
+        font-family: Inter;
+        line-height: 32px;
+        font-size: 24px;
+    }
+
+    .appInfo h3 {
         font-size: 16px;
     }
-    .downloadButtons{
+
+    .downloadButtons {
         margin: 0;
     }
-    .downloadButtons button{
+
+    .downloadButtons button {
         height: 29px;
         width: 83px;
     }
-    .downloadButtons button img{
+
+    .downloadButtons button img {
         height: 21.500200271606445px;
-width: 18.848918914794922px;
+        width: 18.848918914794922px;
     }
-    .downloadButtons button p{
-        font-size:8px
+
+    .downloadButtons button p {
+        font-size: 8px
     }
-    .socialMedia a img{
+
+    .socialMedia a img {
         height: 24.362448692321777px;
-    width: 31.788692474365234px;
+        width: 31.788692474365234px;
     }
-    .firstpipe{
+
+    .firstpipe {
         display: none;
     }
-    .contactInfo  a{
-font-size: 12px;
+
+    .contactInfo a {
+        font-size: 12px;
     }
 }

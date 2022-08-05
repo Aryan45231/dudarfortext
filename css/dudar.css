@@ -1,5 +1,5 @@
-*{ 
-   
+* {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,42 +8,48 @@
     font-weight: 400;
     line-height: 31px;
     letter-spacing: 0em;
-    text-align: left;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ;
+    text-align: left;
+    ;
 }
-.wrapper{
+
+.wrapper {
     background: transparent;
     position: relative;
     overflow: hidden;
 }
-.listOfmenus{
+
+.listOfmenus {
     display: none;
 }
-.homeBannerContainer{
 
-   height: fit-content;
+.homeBannerContainer {
+
+    height: fit-content;
 }
 
-.boxpattern1{
+.boxpattern1 {
     position: absolute;
     background: #1481D0;
     height: 204px;
     width: 301px;
     left: -256px;
-    top:162px;
+    top: 162px;
     border-radius: 40px;
     transform: rotate(40deg);
 }
-.boxpattern2{
+
+.boxpattern2 {
     position: absolute;
     height: 208.9303876013307px;
     width: 286.14340076062484px;
     left: -239.27197265625px;
-    top:401.8349609375px;
+    top: 401.8349609375px;
     border-radius: 40px;
     background: #1481D0;
     transform: rotate(-50deg);
 }
-.boxpattern3{
+
+.boxpattern3 {
     position: absolute;
     transform: rotate(-35deg);
     height: 176.54446880138445px;
@@ -53,33 +59,37 @@
     border-radius: 23px;
     background: #1481D0;
 
-    
+
 }
-.boxpattern4{
-    background:  #1481D0;
+
+.boxpattern4 {
+    background: #1481D0;
     position: absolute;
     height: 110.50563786687567px;
     width: 124.95088189902796px;
-    left: 96vw;;
+    left: 96vw;
+    ;
     top: 305.3837890625px;
     border-radius: 23px;
     transform: rotate(-45deg);
 
 }
-.posterContainer{
+
+.posterContainer {
     display: flex;
     margin-left: 100px;
     justify-content: center;
 }
-.MessageAmdDownload{
+
+.MessageAmdDownload {
     margin-left: 90px;
-   width: fit-content;
+    width: fit-content;
     border-radius: nullpx;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
-.MessageAmdDownload p{
+.MessageAmdDownload p {
     width: 615.03px;
     font-style: normal;
     font-weight: 400;
@@ -87,21 +97,23 @@
     line-height: 87px;
     color: #000000;
 }
-.MessageAmdDownload span{
-/* dudar green */
+
+.MessageAmdDownload span {
+    /* dudar green */
     color: #00C85C;
     font-style: normal;
     font-weight: 600;
     font-size: 89px;
     line-height: 114px;
 }
-.MessageAmdDownload button{
+
+.MessageAmdDownload button {
     cursor: pointer;
     margin-left: -200px;
     align-self: center;
     font-family: 'Inter';
     margin-top: 20px;
-    border: none;   
+    border: none;
     padding: 20px 30px;
     font-family: Inter;
     font-size: 29px;
@@ -119,17 +131,18 @@
 }
 
 
-.posterImage img{
+.posterImage img {
     position: relative;
-    top:-20px;
+    top: -20px;
     margin-right: 100px;
     min-width: none;
     width: 50vw;
     max-height: 660.2894897460938px;
     max-width: 865.9999389648438px;
 }
+
 /*-------------------------bar1-------------------*/
-.bar1{
+.bar1 {
     margin-top: 30px;
     width: 100%;
     height: 40px;
@@ -137,31 +150,35 @@
 }
 
 /*-----------------Why need dudar------------------*/
-.whyNeddDudar{
-    display:flex;
+.whyNeddDudar {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-.whyNeddDudar h2{
+
+.whyNeddDudar h2 {
     width: 100vw;
     font-family: Inter;
-font-size: 56px;
-font-weight: 700;
-line-height: 68px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: center;
 }
-.thecircleIcon{
+
+.thecircleIcon {
     height: 24px;
     width: 27px;
     color: #00C85C;
     border-radius: 0px;
 }
-.greencolor{
-    color:#00C85C
+
+.greencolor {
+    color: #00C85C
 }
-.needPointContainer{
+
+.needPointContainer {
     margin-top: 40px;
     flex: 2;
     display: flex;
@@ -169,7 +186,8 @@ text-align: center;
     justify-content: center;
     align-items: center;
 }
-.WhyneddGif1{
+
+.WhyneddGif1 {
     align-self: center;
     height: 380px;
     width: 429px;
@@ -178,17 +196,19 @@ text-align: center;
     border-radius: 0px;
 
 }
-.needPoints{
+
+.needPoints {
     display: flex;
-    width: 80%;  
+    width: 80%;
 }
 
-.needPoints p i{
+.needPoints p i {
     margin-right: 1px;
     font-size: 30px;
     z-index: 3;
 }
-.needPoints p{  
+
+.needPoints p {
     background-color: transparent;
     font-family: Inter;
     font-size: 34px;
@@ -198,7 +218,8 @@ text-align: center;
     letter-spacing: 0em;
     text-align: left;
 }
-.needPointContainer a{
+
+.needPointContainer a {
     text-decoration: none;
     color: #1481D0;
     font-family: Inter;
@@ -211,53 +232,61 @@ text-align: center;
     text-align: center;
 
 }
+
 /*-----------------bar2--------------------*/
-.pattern{
+.pattern {
     height: 100px;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.bar2{
+
+.bar2 {
     overflow: hidden;
     margin-top: 30px;
     background-color: #1481D0;
     height: 10px;
     width: 60%;
 }
-.boxpattern5{
-   display: none;
+
+.boxpattern5 {
+    display: none;
 }
+
 /*-----------------keypoints------------------*/
-.barpatterns >  div{
+.barpatterns>div {
     margin-top: 20px;
     background-color: #1481D0;
     height: 8px;
     width: 273.76086061654723px;
 }
-.barpattern1{
+
+.barpattern1 {
     transform: rotate(15deg);
     position: absolute;
     left: -4px;
     top: 1378px;
     border-radius: nullpx;
 }
-.barpattern2{
+
+.barpattern2 {
     transform: rotate(15deg);
     position: absolute;
     left: -40px;
     border-radius: nullpx;
-    top:1503px
+    top: 1503px
 }
-.barpattern3{
-    position:absolute;
+
+.barpattern3 {
+    position: absolute;
     transform: rotate(30deg);
-    left:55px;
+    left: 55px;
     top: 1489px;
-    border-radius: nullpx;  
+    border-radius: nullpx;
 }
-.barpattern4{
+
+.barpattern4 {
     width: 283.76086061654723px;
     position: absolute;
     transform: rotate(-35deg);
@@ -265,77 +294,87 @@ text-align: center;
     top: 1501px;
     border-radius: nullpx;
 }
-.circleptterns > div{
+
+.circleptterns>div {
     position: absolute;
     margin-top: 20px;
     height: 38px;
     width: 36px;
     border-radius: 50px;
 }
-.circlepattern1{
+
+.circlepattern1 {
     background: #00C85C;
     left: 52px;
     top: 1348px;
 }
-.circlepattern2{
+
+.circlepattern2 {
     background: #1481D0;
     left: 230px;
     top: 1390px;
 
 }
-.circlepattern3{
+
+.circlepattern3 {
     background: #1481D0;
     left: 60px;
     top: 1410px;
 
 }
-.circlepattern4{
+
+.circlepattern4 {
     background-color: #00C85C;
     left: 166px;
     top: 1420px;
     border-radius: 0px;
-    
+
 }
-.circlepattern5{
+
+.circlepattern5 {
     background-color: #00C85C;
     left: 230px;
-    top:1500px
-
+    top: 1500px
 }
-.circlepattern6{
-    background-color:#1481D0;
+
+.circlepattern6 {
+    background-color: #1481D0;
     left: 35px;
-    top:1510px
-
+    top: 1510px
 }
-.heypoints{
+
+.heypoints {
     padding: 40px 0 40px 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
+
 }
-.pointContainer{
+
+.pointContainer {
     width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.points{
+
+.points {
     margin: 0 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.points img{
-     height: 196.79913330078125px;
+
+.points img {
+    height: 196.79913330078125px;
     width: 232.00631713867188px;
     left: 1252.708251953125px;
     top: 1704px;
     border-radius: 0px;
 }
-.points p{
+
+.points p {
     display: flex;
     align-items: center;
     font-family: Inter;
@@ -348,25 +387,28 @@ text-align: center;
     color: transparent;
     -webkit-background-clip: text;
 }
-.bar3{
+
+.bar3 {
     position: absolute;
     right: 0;
     margin-top: 30px;
     background-color: #1481D0;
     width: 60vw;
-    height: 10px; 
+    height: 10px;
 }
-.points p img{
+
+.points p img {
     margin: 0 4px;
     height: 19px;
-width: 15.320594787597656px;
-left: 187px;
-top: 1499.000244140625px;
-border-radius: 0px;
+    width: 15.320594787597656px;
+    left: 187px;
+    top: 1499.000244140625px;
+    border-radius: 0px;
 
 }
+
 /*--------------------------workingwworking-----------------*/
-.dudarwworkingcontainer{
+.dudarwworkingcontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -376,11 +418,12 @@ border-radius: 0px;
     left: 1px;
     top: 2121px;
     border-radius: 120px;
-    background: rgba(14,81,130,.1);    
+    background: rgba(14, 81, 130, .1);
     border-radius: 120px;
 
 }
-.dudarwworkingcontainer h1{
+
+.dudarwworkingcontainer h1 {
     font-family: Yantramanav;
     font-size: 64px;
     font-weight: 700;
@@ -389,7 +432,8 @@ border-radius: 0px;
     text-align: left;
 
 }
-.dudarwworkingcontainer span{
+
+.dudarwworkingcontainer span {
     font-family: Inter;
     font-size: 39px;
     font-weight: 400;
@@ -399,161 +443,191 @@ border-radius: 0px;
 }
 
 
-.temp{
+.temp {
     height: 100vh;
 }
 
 /*---------------mid screen----------------*/
-@media(max-width:1090px){
-    .boxpattern3 , .boxpattern4{
+@media(max-width:1090px) {
+
+    .boxpattern3,
+    .boxpattern4 {
         display: none;
     }
-    .MessageAmdDownload p{
+
+    .MessageAmdDownload p {
         z-index: 2;
         font-size: 55px;
     }
-    .WhyneddGif1{
+
+    .WhyneddGif1 {
         width: 30%;
     }
-    .needPointContainer{
-            width: 500px;
+
+    .needPointContainer {
+        width: 500px;
     }
-    .posterImage img{
+
+    .posterImage img {
         width: 600px;
     }
-    .needPoints p i{
+
+    .needPoints p i {
         font-size: 17px;
     }
-    .needPoints p{
+
+    .needPoints p {
         font-size: 27px;
     }
-    .needPoints a{
+
+    .needPoints a {
         font-size: 28px;
     }
-    .posterImage img{
-       position: relative;
+
+    .posterImage img {
+        position: relative;
         right: 100px;
     }
-    .MessageAmdDownload button{
+
+    .MessageAmdDownload button {
         width: 250px;
     }
-    .posterContainer{
+
+    .posterContainer {
         margin-left: 0;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .circleptterns{
+
+    .circleptterns {
         display: none;
     }
-    .barpatterns{
-        display: none; 
+
+    .barpatterns {
+        display: none;
     }
-    .pointContainer{
+
+    .pointContainer {
         width: 100%;
     }
-    .points p{
+
+    .points p {
         font-size: 20px;
     }
 }
 
 /*---------------------small screen ------------------*/
-@media(max-width:700px){
-    .bar1{
+@media(max-width:700px) {
+    .bar1 {
         display: none;
     }
-    .homeBannerContainer{
+
+    .homeBannerContainer {
         margin: 0;
         margin-top: -80px;
     }
-    .hambcontainer{
+
+    .hambcontainer {
         display: flex;
     }
-    .boxpattern1{
+
+    .boxpattern1 {
         height: 143.46707492119296px;
-    width: 141.63946867686198px;
-    left: -115.0888671875px;
-    top: 149.75439453125px;
-    border-radius: 34px;
-}
-    .boxpattern2{
-        z-index: 1;
-    height: 92.13901498456684px;
-    width: 114.91826685472545px;
-    left: -98px;
-    top: 305.9658203125px;
-    border-radius: 15px;
+        width: 141.63946867686198px;
+        left: -115.0888671875px;
+        top: 149.75439453125px;
+        border-radius: 34px;
     }
-    .posterContainer{
+
+    .boxpattern2 {
+        z-index: 1;
+        height: 92.13901498456684px;
+        width: 114.91826685472545px;
+        left: -98px;
+        top: 305.9658203125px;
+        border-radius: 15px;
+    }
+
+    .posterContainer {
         margin-left: 0;
         align-items: center;
         justify-content: center;
         flex-direction: column-reverse;
     }
-    .MessageAmdDownload{
+
+    .MessageAmdDownload {
         margin-top: 50px;
         margin-left: 0;
     }
-    .MessageAmdDownload p{ 
-    font-family: Rubik;
-    font-style: normal;
-    letter-spacing: 0em;
-    text-align: left;
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 45px;
-    letter-spacing: 0em;
-    text-align: left;
-    width: 327px;
-    border-radius: nullpx;
+
+    .MessageAmdDownload p {
+        font-family: Rubik;
+        font-style: normal;
+        letter-spacing: 0em;
+        text-align: left;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 327px;
+        border-radius: nullpx;
     }
- .MessageAmdDownload span{
-    width: 327px;
-    font-family: Rubik;
-    border-radius: nullpx;
-    font-size: 45px;
-    font-weight: 600;
-    line-height: 45px;
-    height: 60px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-.MessageAmdDownload button{
-    padding: 0;
-    margin-top: -5px;
-    margin-left:0;
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    align-self: flex-start; 
-    height: 40px;
-    width: 156.7855224609375px;
-    border-radius: 96px;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;   
-    line-height: 17px;  
-    letter-spacing: 0em;
-    text-align: left;
-}
-    .posterImage{
+
+    .MessageAmdDownload span {
+        width: 327px;
+        font-family: Rubik;
+        border-radius: nullpx;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 45px;
+        height: 60px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .MessageAmdDownload button {
+        padding: 0;
+        margin-top: -5px;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: flex-start;
+        height: 40px;
+        width: 156.7855224609375px;
+        border-radius: 96px;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .posterImage {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 99vw;
     }
-    .posterImage img{
+
+    .posterImage img {
         margin-top: 30px;
-        position:static;
+        position: static;
         width: 98vw;
-        margin-right:20px;
+        margin-right: 20px;
         right: 0;
         height: 40vh;
     }
-    .boxpattern3 , .boxpattern4{
+
+    .boxpattern3,
+    .boxpattern4 {
         display: none;
     }
-    .whyNeddDudar{
+
+    .whyNeddDudar {
         overflow-x: hidden;
         margin: 0;
         padding: 0 2px;
@@ -562,14 +636,16 @@ border-radius: 0px;
         justify-content: center;
         flex-wrap: wrap;
     }
-    .WhyneddGif1{
+
+    .WhyneddGif1 {
         height: 123px;
         width: 138px;
         left: 247px;
         top: 863px;
         border-radius: 0px;
     }
-    .whyNeddDudar h2{
+
+    .whyNeddDudar h2 {
         align-self: center;
         display: block;
         height: 77px;
@@ -581,40 +657,46 @@ border-radius: 0px;
         letter-spacing: 0em;
         text-align: left;
     }
-    .needPointContainer{
+
+    .needPointContainer {
         padding: 30px;
         overflow-x: visible;
         margin-top: 0;
         display: flex;
         flex-direction: column;
     }
-    .greencolor{
+
+    .greencolor {
         font-size: 17px;
         font-weight: 400;
         line-height: 18px;
         letter-spacing: 0em;
         text-align: left;
     }
-     .needPoints{
-     height: auto;
-      width: 99vw;
-      padding:0 20px;
+
+    .needPoints {
+        height: auto;
+        width: 99vw;
+        padding: 0 20px;
         display: flex;
         align-items: center;
-     }
-     .needPoints p i{
+    }
+
+    .needPoints p i {
         font-size: 10px;
-     }
-    .needPoints p{
-        height:fit-content;
-        padding:10px 20px;
+    }
+
+    .needPoints p {
+        height: fit-content;
+        padding: 10px 20px;
         font-size: 17px;
         font-weight: 400;
         line-height: 18px;
         letter-spacing: 0em;
         text-align: left;
     }
-    .needPointContainer a{
+
+    .needPointContainer a {
         padding: 0;
         width: fit-content;
         font-size: 17px;
@@ -622,7 +704,8 @@ border-radius: 0px;
         font-weight: 300;
         line-height: 21px;
     }
-    .boxpattern5{
+
+    .boxpattern5 {
         display: block;
         position: relative;
         margin-top: 50px;
@@ -630,33 +713,39 @@ border-radius: 0px;
         transform: rotate(-45deg);
         height: 137.2952134082673px;
         width: 103.00572325850872px;
-         top: -100px;
+        top: -100px;
         border-radius: 15px;
-        background-color: #1481D0;  
+        background-color: #1481D0;
     }
-    .heypoints{
+
+    .heypoints {
         padding: 0;
     }
-    .pointContainer{
+
+    .pointContainer {
         width: 100%;
         flex-direction: column;
     }
-    .heypoints{
+
+    .heypoints {
         margin-top: -170px;
     }
-    .points{
+
+    .points {
         padding: 0;
-       margin-top: 10px;
+        margin-top: 10px;
         margin-right: 100px;
         width: 100%;
         flex-direction: row;
-        justify-content: center ;
+        justify-content: center;
     }
-    .pos1{
+
+    .pos1 {
         margin-right: 0;
         margin-left: 80px;
     }
-    .points img{
+
+    .points img {
         height: 110px;
         width: 128px;
         left: 17px;
@@ -664,7 +753,8 @@ border-radius: 0px;
         border-radius: 0px;
 
     }
-    .points p{
+
+    .points p {
         font-family: Inter;
         font-size: 14px;
         font-weight: 700;
@@ -673,18 +763,21 @@ border-radius: 0px;
         text-align: left;
 
     }
-    .dudarwworkingcontainer{
+
+    .dudarwworkingcontainer {
         border-radius: 0;
         background-color: transparent;
     }
-    .dudarwworkingcontainer h1{
+
+    .dudarwworkingcontainer h1 {
         font-family: Yantramanav;
         font-size: 31px;
         font-weight: 700;
         line-height: 40px;
         text-align: left;
     }
-    .dudarwworkingcontainer span{
+
+    .dudarwworkingcontainer span {
         font-family: Inter;
         font-size: 16px;
         font-weight: 400;
@@ -695,12 +788,12 @@ border-radius: 0px;
     }
 }
 
-@media(max-width:290px){
-    .boxpattern1{
+@media(max-width:290px) {
+    .boxpattern1 {
         display: none;
     }
-    
-    .boxpattern2{
+
+    .boxpattern2 {
         display: none;
     }
 }

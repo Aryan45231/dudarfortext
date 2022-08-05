@@ -1,68 +1,75 @@
-.stats1{
-    
-}
-.statContainer{
+.stats1 {}
+
+.statContainer {
     position: relative;
 }
-.stats1{
+
+.stats1 {
     position: relative;
     top: -300px;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
 }
-.topStats{
+
+.topStats {
     position: relative;
     display: flex;
 }
-.topStats p{
+
+.topStats p {
     color: white;
     text-align: center;
     font-family: Inter;
-font-size: 39px;
-font-weight: 700;
-line-height: 47px;
-letter-spacing: 0em;
- width: 100%;
- text-align: center;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    width: 100%;
+    text-align: center;
     top: 20%;
     left: 0px;
-    position:absolute;
-} 
-.stats2{
+    position: absolute;
+}
+
+.stats2 {
     position: relative;
     top: -240px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.statsGif{
+
+.statsGif {
     height: 294px;
-width: 294px;
-left: 717px;
-top: 3232px;
-border-radius: 0px;
+    width: 294px;
+    left: 717px;
+    top: 3232px;
+    border-radius: 0px;
 
 }
-.topStats img{
+
+.topStats img {
     height: 135px;
-width: 542.6590576171875px;
-left: 1px;
-top: 3283px;
-border-radius: 0px;
+    width: 542.6590576171875px;
+    left: 1px;
+    top: 3283px;
+    border-radius: 0px;
 }
 
-@media(max-width:1190px){
-    .statContainer{
+@media(max-width:1190px) {
+    .statContainer {
         margin-top: 30px;
     }
-    .statsGif{
+
+    .statsGif {
         height: 133.00978088378906px;
         width: 114px;
-      
+
 
     }
-    .topStats img{
+
+    .topStats img {
         height: 77.82594299316406px;
         width: 229.34884643554688px;
         left: 0px;
@@ -70,7 +77,7 @@ border-radius: 0px;
         border-radius: 0px;
     }
 
-    .topStats p{
+    .topStats p {
         font-family: Inter;
         font-size: 20px;
         font-weight: 700;
@@ -78,34 +85,43 @@ border-radius: 0px;
         letter-spacing: 0em;
         text-align: left;
     }
-    .stats1{
+
+    .stats1 {
         top: -150px;
         left: -40px;
     }
-    .stats2{
+
+    .stats2 {
         top: -130px;
         right: -30px;
     }
-    .stats1 .left{
+
+    .stats1 .left {
         left: -30px;
     }
-    .stats2 .left{
+
+    .stats2 .left {
         left: -120px;
     }
-    .stats1 .right{
-        right: -70px    ;
+
+    .stats1 .right {
+        right: -70px;
     }
-    .stats2 .right{
+
+    .stats2 .right {
         right: 20px;
     }
-    .left p{
-          left: -30px;
+
+    .left p {
+        left: -30px;
         text-align: right;
     }
-    .stats1 .right p{
+
+    .stats1 .right p {
         left: 40px;
     }
-    .stats2 .right p{
+
+    .stats2 .right p {
         top: 0px;
         margin-left: 30px;
         align-items: center;
@@ -113,4 +129,3 @@ border-radius: 0px;
         right: -20px;
     }
 }
- 

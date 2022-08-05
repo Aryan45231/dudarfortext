@@ -1,0 +1,75 @@
+.aboutus{
+    background-color: #1481D0;
+    height: 640px;
+    width: 100vw;
+left: 0px;
+top: 226px;
+border-radius: 0px;
+}
+.aboutbo1{
+    top:310.95px;
+    transform:rotate(55deg);
+    left: -150px;
+    background-color: #00C85C;
+    position: absolute;
+    height: 205.2762633460206px;
+width: 231.2869377837965px;
+border-radius: 23px;
+}
+.aboutbox2{
+    background-color: #00C85C;
+    height: 205.2762633460206px;
+width: 231.2869377837965px;
+position: absolute;
+top:470.95px;
+transform: rotate(-45deg);
+right:-200px;
+border-radius: 23px;
+
+}
+.aboudHeading{
+    padding-top: 40px;
+    color:white;
+    font-family: Rubik;
+font-size: 72px;
+font-weight: 400;
+line-height: 85px;
+letter-spacing: 0em;
+text-align: center;
+}
+.abobsubpointsContainer{
+    margin-top: 50px;
+}
+.abobsubpointsContainer p{
+    position: relative;
+    bottom: 00px;
+    padding-top: 40px;
+    color: white;
+    font-family: Rubik;
+font-size: 1.8em;
+font-weight: 400;
+line-height: 57px;
+letter-spacing: 0em;
+text-align: center;
+}
+.helpimage1{ 
+    height: 368px;
+width: 285px;
+top: 645px;
+border-radius: 0px;
+ 
+    position: absolute;
+    top:605px;
+    right: 70px
+}
+.helpimage2{
+    height: 488px;
+width: 346px;
+left: 38px;
+top: 504px;
+border-radius: 0px;
+
+    position: absolute;
+    top:441px;
+
+}
