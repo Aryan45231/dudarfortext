@@ -1,75 +1,264 @@
-.aboutus{
+.aboutus {
     background-color: #1481D0;
     height: 640px;
     width: 100vw;
-left: 0px;
-top: 226px;
-border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.aboutbo1{
-    top:310.95px;
-    transform:rotate(55deg);
+
+.aboutbo1 {
+    top: 310.95px;
+    transform: rotate(55deg);
     left: -150px;
     background-color: #00C85C;
     position: absolute;
     height: 205.2762633460206px;
-width: 231.2869377837965px;
-border-radius: 23px;
+    width: 231.2869377837965px;
+    border-radius: 23px;
 }
-.aboutbox2{
+
+.aboutbox2 {
     background-color: #00C85C;
     height: 205.2762633460206px;
-width: 231.2869377837965px;
-position: absolute;
-top:470.95px;
-transform: rotate(-45deg);
-right:-200px;
-border-radius: 23px;
+    width: 231.2869377837965px;
+    position: absolute;
+    top: 470.95px;
+    transform: rotate(-45deg);
+    right: -200px;
+    border-radius: 23px;
 
 }
-.aboudHeading{
-    padding-top: 40px;
-    color:white;
-    font-family: Rubik;
-font-size: 72px;
-font-weight: 400;
-line-height: 85px;
-letter-spacing: 0em;
-text-align: center;
-}
-.abobsubpointsContainer{
-    margin-top: 50px;
-}
-.abobsubpointsContainer p{
-    position: relative;
-    bottom: 00px;
-    padding-top: 40px;
+
+.aboudHeading {
+    margin-bottom: -70px;
     color: white;
     font-family: Rubik;
-font-size: 1.3em;
-font-weight: 400;
-line-height: 57px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 72px;
+    font-weight: 400;
+
+    letter-spacing: 0em;
+    text-align: center;
 }
-.helpimage1{ 
-    height: 368px;
-width: 285px;
-top: 645px;
-border-radius: 0px;
- 
+
+.abobsubpointsContainer p {
+    bottom: 00px;
+    color: white;
+    font-family: Rubik;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.helpimage1 {
+    display: none;
     position: absolute;
-    top:605px;
-    right: 70px
-}
-.helpimage2{
     height: 488px;
-width: 346px;
-left: 38px;
-top: 504px;
+    width: 346px;
+    top: 504px;
+    border-radius: 0px;
+    right: 38px
+}
+
+.helpimage2 {
+    display: none;
+    position: absolute;
+    width: 346px;
+    left: 38px;
+    top: 504px;
+    border-radius: 0px;
+
+}
+
+@media(max-width:900px) {
+    .aboudHeading {
+        font-size: 40px;
+    }
+
+    .abobsubpointsContainer p {
+        font-size: 24px;
+    }
+
+}
+
+/* teamMembers */
+.teamMembers h1 {
+    font-family: Rubik;
+    font-size: 93px;
+    font-weight: 700;
+    line-height: 110px;
+    text-align: center;
+}
+
+.teamContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamCard {
+    margin: 10px;
+    height: 318.47625732421875px;
+    width: 395.1781005859375px;
+    left: 72px;
+    top: 1197.826171875px;
+    border-radius: 16px;
+    background: #111540;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    color: white
+}
+
+.teamCard img {
+    height: 229.62933349609375px;
+    width: 219.2148742675781px;
+    border-radius: 0px;
+}
+
+.teamCard h4 {
+    font-family: Rubik;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.teamCard p{
+    color: #FFFFFF;
+    font-family: Rubik;
+font-size: 19px;
+font-weight: 400;
+line-height: 23px;
+
+
+}
+/* motoOfDudar */
+.motoOfDudar{
+    margin:30px;
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.motoOfDudar2{
+    margin-top: -60px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.motoCard{
+    height: 286.9342956542969px;
+width:445px;
+left: 58px;
+margin: 20px;
+border: 3px solid #1481D0;
+top: 2804.05712890625px;
 border-radius: 0px;
 
-    position: absolute;
-    top:441px;
+}
 
+@media(max-width:760px) {
+    .aboutus {
+        height: 247px;
+        width: 414px;
+
+        top: 72px;
+    }
+
+    .aboutbo1 {
+        height: 80.57720464894841px;
+        width: 90.7871841991054px;
+        left: -75px;
+        top: 200.7958984375px;
+        border-radius: 12px;
+
+    }
+
+    .aboutbox2 {
+        height: 98.07394585005125px;
+        width: 110.5009518853116px;
+        left: 377px;
+        top: 230.04296875px;
+        border-radius: 12px;
+
+    }
+
+    .aboudHeading {
+        margin-bottom: -35px;
+        font-size: 35px;
+    }
+
+    .abobsubpointsContainer p {
+        font-size: 14px;
+        font-family: Rubik;
+        line-height: 40px;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0em;
+
+    }
+
+    .helpimage2 {
+        height: 488px;
+        width: 346px;
+        left: 38px;
+        top: 504px;
+        border-radius: 0px;
+
+    }
+
+    .helpimage1 {
+        height: 368px;
+        width: 285px;
+        left: 1377px;
+        top: 645px;
+        border-radius: 0px;
+
+    }
+
+    .teamMembers h1 {
+        font-size: 35px;
+    }
+
+    .teamCard {
+        height: 260px;
+        width: 280px;
+        border-radius: 16px;
+
+    }
+
+    .teamCard img {
+        height: 158.32882690429688px;
+        width: 170.0911102294922px;
+
+
+    }
+
+    .teamCard h4 {
+        margin-top: 20px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .teamCard p{
+        font-size: 19px;
+    }
+    .motoOfDudar{
+        flex-direction: column;
+    }
+    .motoCard{
+       
+        margin:10px;
+         width:256px;
+         height:180px
+    }
+    .motoOfDudar2 .motoCard{
+            margin-top:40px ;
+    }
 }

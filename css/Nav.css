@@ -59,7 +59,7 @@
     display: flex;
 }
 
-@media(max-width:700px) {
+@media(max-width:703px) {
 
     .hambcontainer {
         z-index: 3;
