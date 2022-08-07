@@ -224,7 +224,7 @@ line-height: 44px;
     justify-content: space-around;
 }
 .valueCard{
-   background-color:  rgba(00, 128, 512, 0.2);
+   background-color: rgba(00, 512, 128, 0.2);
     margin: 20px;
 width: 375px;
 display: flex;
@@ -376,6 +376,7 @@ border-radius: 30px;
         flex-direction: column;
     }
     .motoCard{
+        margin-left: 0;
         margin-top: 100px;
          width:296px;
     }
