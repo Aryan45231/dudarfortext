@@ -377,7 +377,7 @@ border-radius: 30px;
     }
     .motoCard{
         margin-top: 100px;
-         width:256px;
+         width:296px;
     }
     .motoOfDudar2 .motoCard{
             margin-top:140px ;
@@ -390,10 +390,11 @@ top: 4076.166015625px;
 border-radius: 500px;
     }
     .motoCard h3{
-        font-size:20px;
+        font-size:33px;
+        text-align: center;
     }
     .motoCard p{
-        font-size: 18px;
+        font-size: 28px;
     }
     .aboutbar3{
         
@@ -409,7 +410,6 @@ border-radius: 500px;
         font-size: 28px;
     }
     .valuecardContainer{
-
 
 
         margin: 0;
