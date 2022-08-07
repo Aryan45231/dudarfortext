@@ -336,6 +336,9 @@ border-radius: 0px;
         top: -100px;
         align-self: flex-end;
     }
+    .NotePoints{
+        flex-direction: column;
+    }
 }
 
 @media(max-width:780px) {
@@ -415,6 +418,7 @@ border-radius: 0px;
 
     .screenshorts {
         margin-top: -200px;
+        border-bottom: 90px solid #1481D0;
     }
 
     .screenshorts h1 {
@@ -433,8 +437,8 @@ border-radius: 0px;
 
     .PhoneScreenshorts img {
         margin: 0;
-        height: 203.66415405273438px;
-        width: 90.42529296875px;
+        height: 123.66415405273438px;
+        width: 85.42529296875px;
         left: 203.padding;
         top: 4436px;
         border-radius: 0px;
@@ -471,7 +475,7 @@ border-radius: 0px;
 
     .dudarForPoints {
         margin-top: 0;
-        font-size: 32px;
+        font-size: 25px;
         font-weight: 500;
         line-height: 34px;
         text-align: left;

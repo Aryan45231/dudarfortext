@@ -291,8 +291,7 @@ border-radius: 30px;
 @media(max-width:760px) {
     .aboutus {
         height: 247px;
-        width: 414px;
-
+        width: 100%;
         top: 72px;
     }
 

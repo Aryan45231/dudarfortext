@@ -1,0 +1,96 @@
+.becometeacherHeading{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -40px;
+    background-color: #1481D0;;
+    padding: 10px 0;
+}
+.becometeacherHeading img{
+    height: 256px;
+    width: 256px;
+    
+}
+.headingOfBecomeTeacher{
+    color: white;
+}
+.headingOfBecomeTeacher h1{
+    font-family: Rubik;
+font-size: 69px;
+font-weight: 600;
+line-height: 65px;
+}
+.headingOfBecomeTeacher h2{
+    font-family: Rubik;
+font-size: 28px;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.messageForTutor{
+    padding:10px 60px;
+    font-family: Rubik;
+font-size: 27px;
+font-weight: 400;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.CownloadTutor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px ;
+    width: 100%;
+
+}
+.CownloadTutor button{
+    font-family: Rubik;
+    align-self: center;
+    border: none;
+    color: white;
+    background-color: #1481D0;
+    height: 70px;
+width: 224px;
+text-align: center;
+font-size: 20px;
+border-radius: 10px;
+box-shadow: -5px 4px 10px rgba(0,0,0,.4);
+}
+@media(max-width:780px){
+    .becometeacherHeading{
+        margin-top: 0;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .becometeacherHeading img{
+        height: 130px;
+width: 130px;
+    }
+    .headingOfBecomeTeacher h1{
+        margin-top: 20px;
+      text-align: center    ;
+font-size: 25px;
+line-height: 10px;
+    }
+    .headingOfBecomeTeacher h2{
+        font-size: 15px;
+    }
+    .messageForTutor{
+        padding: 10px 10px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .CownloadTutor button{
+        height: 47px;
+width: 169px;
+left: 0px;
+top: 0px;
+border-radius: 10px;
+font-size: 13px;
+    }
+}
