@@ -169,7 +169,7 @@
                     </div>
            </div>
            <div class="stepsVideo">
-            <video width="320" height="440" loop autoplay>
+            <video  width="320" height="440" loop autoplay muted playsinline>
                 <source src="./res/video/step.mp4" type="video/mp4">
             </video>
            </div>
@@ -406,6 +406,7 @@
 </body>
 </html>
 <script>
+    document.querySelector("video").play()
     download=()=>{
         location.href="https://play.google.com/store/apps/details?id=com.dudar_student"
         
