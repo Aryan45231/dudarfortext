@@ -314,6 +314,9 @@ border-radius: 0px;
     border-radius: 0px;
 
 }
+.stepsVideo video{
+    display: none;
+}
 
 @media(max-width:1190px) {
 
@@ -338,6 +341,12 @@ border-radius: 0px;
     }
     .NotePoints{
         flex-direction: column;
+    }
+    .stepsVideo video{
+        margin-top: 20px;
+        display: block;
+        height: 400px;
+        width: 100vw;
     }
 }
 
@@ -490,5 +499,6 @@ border-radius: 0px;
         border-radius: 0px;
 
     }
+    
 
 }

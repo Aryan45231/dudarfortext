@@ -47,10 +47,10 @@
 
 }
 
-@media(max-width:770px) {
+@media(max-width:1000px) {
     .bopattern6 {
         transform: rotate(45deg);
-        top: 2020.44px;
+        top: 2440.44px;
         left: -46px
     }
  
