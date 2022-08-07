@@ -73,16 +73,6 @@
 
 }
 
-@media(max-width:900px) {
-    .aboudHeading {
-        font-size: 40px;
-    }
-
-    .abobsubpointsContainer p {
-        font-size: 24px;
-    }
-
-}
 
 /* teamMembers */
 .teamMembers h1 {
@@ -140,6 +130,7 @@ line-height: 23px;
 }
 /* motoOfDudar */
 .motoOfDudar{
+    margin-top: 500px;
     margin:30px;
     display: flex;
     align-items:center;
@@ -154,16 +145,149 @@ line-height: 23px;
     justify-content: center;
 }
 .motoCard{
-    height: 286.9342956542969px;
+    margin: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 width:445px;
-left: 58px;
-margin: 20px;
 border: 3px solid #1481D0;
-top: 2804.05712890625px;
 border-radius: 0px;
 
 }
+.motoOfDudar2 .motoCard{
+    margin-top: 30px;
+}
+.motoCard lottie-player{
+   margin-top: -110px;
+    height: 235.667236328125px;
+    width: 246px;
+    border-radius: 500px;
+    
 
+}
+.motoCard h3{
+    font-family: Rubik;
+font-size: 36px;
+font-weight: 700;
+line-height: 43px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.motoCard p{
+    font-family: Yantramanav;
+font-size: 26px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+/* bar 3*/
+.aboutbar3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    background-color: #1481D0;
+    width: 100vw;
+}
+.aboutbar3 p{
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+    font-family: Rubik;
+font-size: 37px;
+font-style: italic;
+font-weight: 600;
+line-height: 44px;
+
+}
+/* value card */
+.values h1{
+    margin: 20px 0;
+    font-family: Rubik;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;   
+}
+.valuecardContainer{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.valueCard{
+   background-color:  rgba(00, 128, 512, 0.2);
+    margin: 20px;
+width: 375px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+.valueTitle{
+    font-family: Rubik;
+font-size: 35px;
+font-weight: 700;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+
+    margin-top: -10px;
+    padding: 40px 0;
+    text-align: center;
+    width: 375px;
+    background-color: white;
+}
+.valueDiscripition {
+    font-family: Rubik;
+font-size: 29px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+
+            padding: 40px 20px;
+            text-align: center;
+}
+
+.aboutbox3{
+    margin: 30px;
+    transform: rotate(-35deg);
+    position: relative;
+    right: -93%;
+    background-color: #1481D0;
+    height: 289.0000046902144px;
+width: 249.30417274715805px;
+border-radius: 30px;
+
+}
+
+@media(max-width:1000px) {
+    .aboudHeading {
+        font-size: 40px;
+    }
+
+    .abobsubpointsContainer p {
+        font-size: 24px;
+    }
+    .motoOfDudar{
+        flex-direction: column;
+    }
+    .motoOfDudar2 .motoCard{
+        margin-top: 100px
+    }
+    .aboutbox3{
+        display: none;
+    }
+}
 @media(max-width:760px) {
     .aboutus {
         height: 247px;
@@ -253,12 +377,55 @@ border-radius: 0px;
         flex-direction: column;
     }
     .motoCard{
-       
-        margin:10px;
+        margin-top: 100px;
          width:256px;
-         height:180px
     }
     .motoOfDudar2 .motoCard{
-            margin-top:40px ;
+            margin-top:140px ;
+    }
+    .motoCard lottie-player{
+        height: 207px;
+width: 213px;
+left: 96.88641357421875px;
+top: 4076.166015625px;
+border-radius: 500px;
+    }
+    .motoCard h3{
+        font-size:20px;
+    }
+    .motoCard p{
+        font-size: 18px;
+    }
+    .aboutbar3{
+        
+        flex-direction: column;
+    }
+    .aboutbar3 p{
+        padding: 20px 0;
+        text-align: center;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .values h1{
+        font-size: 28px;
+    }
+    .valuecardContainer{
+
+
+
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .valueCard{
+        width: 295px;
+    }
+    .valueTitle{
+        font-size:24px;
+    }
+    .valueDiscripition{
+        padding: 50px 10px;
+        font-size: 20px;
     }
 }

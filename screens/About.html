@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/Nav.css">
     <link rel="stylesheet" href="..//css/about.css">
     <link rel="stylesheet" href="../css/dudar.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
@@ -18,10 +20,10 @@
         <div class="navContainer">
             <div class="dudar_navBar">
                 <div class="logo">
-                    <a href="#"> <img src="../res/images/banner/logo.png" alt="some thing went wrong"></a>
+                    <a href="../index.html"> <img src="../res/images/banner/logo.png" alt="some thing went wrong"></a>
                 </div>
                 <div class="menus">
-                    <a href="./screens/About.html">
+                    <a href="#">
                         <button class="NavMenuButton">
                             About us
                         </button>
@@ -31,7 +33,7 @@
                             Become a Tutor
                         </button>
                     </a>
-                    <a href="#">
+                    <a href="./contact.html">
                         <button class="NavMenuButton">
                             Contact Us
                         </button>
@@ -42,14 +44,14 @@
                         <img src="../res/images/icons/ham.png" alt="">
                     </div>
                 </div>
-                <div class="listOfmenus" id="listOfMenus">
-                    <a href="./screens/About.html">
+                <div class="listOfmenusAbout" id="listOfmenusAbout">
+                    <a href="#">
                         <div class="listitems"> <span> About Us</span> <br></div>
                     </a>
                     <a href="#">
                         <div class="listitems"> <span>Become A Tutior</span> <br></div>
                     </a>
-                    <a href="#">
+                    <a href="./contact.html">
                         <div class="listitems"> <span>Contact Us</span> <br></div>
                     </a>
                     <a href="https://play.google.com/store/apps/details?id=com.dudar_student">
@@ -122,13 +124,77 @@
             </div>
         </div>
         <div class="motoOfDudar">
-                <div class="motoCard"></div>
-                <div class="motoCard"></div>
+                <div class="motoCard">
+                <lottie-player class="WhyneddGif1"  src="https://assets5.lottiefiles.com/packages/lf20_32u0rjyo.json"  background="transparent"  speed="1"     loop autoplay></lottie-player>
+                   <h3>Mission</h3> 
+                   <p>To Outreach every nook and corner of the country for providing Quality education at affordable cost.</p>
+                </div>
+                <div class="motoCard">
+                <lottie-player class="WhyneddGif1"  src="https://assets6.lottiefiles.com/packages/lf20_yottltwd.json"  background="transparent"  speed="1"     loop autoplay></lottie-player>
+                    <h3>Vission</h3>
+                    <p>  To be the most successful and respectable Education company in India.</p>
+                </div>
         </div>
        <div class="motoOfDudar2">
-                <div class="motoCard"></div>
-        </div>
+                <div class="motoCard">
+                <lottie-player class="WhyneddGif1"  src="https://assets2.lottiefiles.com/packages/lf20_wzgyyian.json"  background="transparent"  speed="1"     loop autoplay></lottie-player>
+                    <h3>Problems we are Solving</h3>
+                    <p>Demotivated students who are stuck up with their doubts <br>
 
+                        Expensive Learning options <br>
+                        
+                        Lack of Quality Education</p>
+                </div>
+        </div>
+        <div class="aboutbar3">
+            <p>We value your right to access quality education regardless of your age or background.</p>
+        </div>
+        <div class="values">
+            <h1>OUR CORE VALUES</h1>
+            <div class="valuecardContainer">
+                <div class="valueCard">
+                    <div class="valueTitle">
+                        Commitment
+                    </div>
+                    <div class="valueDiscripition">
+                        We are commited that doubts are never piled up at student's end.
+                    </div>
+                </div>
+                <div class="valueCard">
+                    <div class="valueTitle">
+                        Thoughtfullness
+                    </div>
+                    <div class="valueDiscripition">
+                        Making learning a cake walk for students
+                    </div>
+                </div>
+                <div class="valueCard">
+                    <div class="valueTitle">
+                        Passion
+                    </div>
+                    <div class="valueDiscripition">
+                        We are passionate to change the way learning happens
+                    </div>
+                </div>
+                <div class="valueCard">
+                    <div class="valueTitle">
+                        Futuristic
+                    </div>
+                    <div class="valueDiscripition">
+                        Enabling learning with technology
+                    </div>
+                </div>
+                <div class="valueCard">
+                    <div class="valueTitle">
+                        Futuristic
+                    </div>
+                    <div class="valueDiscripition">
+                        Our transperency is our key strength
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="aboutbox3"></div>
         <footer>
             <div class="subscribe">
                 <div class="message">
@@ -192,11 +258,11 @@
 </html>
 <script>
     dis = () => {
-        document.getElementById("listOfMenus").classList.toggle("viewofham")
+        document.getElementById("listOfmenusAbout").classList.toggle("viewofham")
         document.getElementById("hamback").classList.toggle("closehamback")
     }
     closeham = () => {
-        document.getElementById("listOfMenus").classList.toggle("viewofham")
+        document.getElementById("listOfmenusAbout").classList.toggle("viewofham")
         document.getElementById("hamback").classList.toggle("closehamback")
     }
 </script>
