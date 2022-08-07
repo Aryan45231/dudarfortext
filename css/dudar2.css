@@ -432,8 +432,9 @@ border-radius: 0px;
     }
 
     .PhoneScreenshorts img {
+        margin: 0;
         height: 203.66415405273438px;
-        width: 97.42529296875px;
+        width: 90.42529296875px;
         left: 203.padding;
         top: 4436px;
         border-radius: 0px;
