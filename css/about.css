@@ -343,9 +343,7 @@ border-radius: 30px;
         left: 1377px;
         top: 645px;
         border-radius: 0px;
-
     }
-
     .teamMembers h1 {
         font-size: 35px;
     }
@@ -381,6 +379,7 @@ border-radius: 30px;
          width:296px;
     }
     .motoOfDudar2 .motoCard{
+        margin-left: 0;
             margin-top:140px ;
     }
     .motoCard lottie-player{

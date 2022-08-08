@@ -63,10 +63,12 @@ box-shadow: -5px 4px 10px rgba(0,0,0,.4);
 }
 .stepsheadigCOntainer{
     display: flex;
+    margin-top: -40px;
     align-items: center;
     justify-content: center;
 }
 .stepsheadigCOntainer h1{
+   
     font-family: Yantramanav;
 font-size: 235px;
 font-weight: 700;
@@ -95,7 +97,7 @@ text-align: left;
     position: absolute;
     z-index: 1; 
     top: -5%;;
-    background-color: rgba(00, 512, 28, 0.2);
+    background-color: rgba(14, 81, 130, 0.1);
     height: 1787px;
 width: 632px;
 border-radius: 50%;
@@ -172,7 +174,26 @@ font-weight: 700;
 line-height: 47px;
 text-align: center;
 }
+/* tutar bars for design */
+.tutordesignbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tutordesignbar > div{
+    height: 27px;
+width: 611px;
+background-color: #1481D0;
+}
+.tutarbar3{
+    position: relative;
+    margin: 10px 0;
+    background: #00C85C;
+    height: 20px;
+width: 90vw;
+left: 5%;
 
+}
 @media(max-width:780px){
     .becometeacherHeading{
         margin-top: 0;
@@ -250,5 +271,13 @@ width: 280px;
         padding: 20px ;
     font-size: 12px;
     line-height: 20px;
+    }
+    .tutordesignbar > div{
+        height: 13px;
+       width: 170px;
+       
+    }
+    .tutarbar3{
+        height: 12px;
     }
 }
