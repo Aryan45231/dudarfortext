@@ -75,36 +75,37 @@
             </div>
             <div class="stepsfortutorContainer">
                 <div class="backgroundpattern"></div>
-                    <div class="tutarStepCard step1">
+                    <div onclick="showstep1()" id="tutarStepCard1" class="tutarStepCard step1">
+                        <p id="tstep1">
+                            DWNLOAD APP AND SETUP PROFILE
+                        </p>
                         <h1>1</h1>
-                            <p>
-                                DWNLOAD APP AND SETUP PROFILE
-                            </p>
+                           
                     </div>
-                    <div class="tutarStepCard step2">
-                        <h1>2</h1>
-                        <p>
+                    <div onclick="showstep2()" id="tutarStepCard2"class="tutarStepCard step2">
+                        <p id="tstep2">
                             SUBMIT THE DEMO VIDEO
                         </p>
+                        <h1>2</h1>
+                       
                     </div>
-                    <div class="tutarStepCard step3">
-                        <h1>3</h1>
-                        <p>
+                    <div onclick="showstep3()" id="tutarStepCard3" class="tutarStepCard step3">
+                        <p id="tstep3"> 
                             SUBMIT THE KYC
                         </p>
+                        <h1>3</h1>
                     </div>
-                    <div class="tutarStepCard step4">
-                        <h1>4</h1>
-                        <p>
+                    <div onclick="showstep4()" id="tutarStepCard4" class="tutarStepCard step4">
+                        <p id="tstep4">
                             WATCH THE TUTORIAL VIDEO
                         </p>
-
+                        <h1>4</h1>
                     </div>
-                    <div class="tutarStepCard step5">
-                        <h1>5</h1>
-                            <p>
+                    <div onclick="showstep5()" id="tutarStepCard5" class="tutarStepCard step5">
+                            <p id="tstep5">
                                 GET PAID
                             </p>
+                        <h1>5</h1>
                     </div> 
                     <div class="stepdirectionbox tbox1"></div>  
                     <div class="stepdirectionbox tbox2"></div>  
@@ -117,6 +118,78 @@
     </div>
 </body>
 <script>
+   let  showstep1=()=>{
+   let   step=document.getElementById("tutarStepCard1")
+   let p=step.firstElementChild
+    if(p.id=="tstep1"){
+         document.getElementById(p.id).innerHTML=`Download the Dudar Tutor app from the play store for free. Set your Language preferences, Subjects and chapters to get started.`
+        p.id="cstep1"
+    }
+   else if(p.id=="cstep1"){
+       
+        document.getElementById(p.id).innerHTML=" DWNLOAD APP AND SETUP PROFILE"
+        p.id="tstep1"
+    }
+    document.getElementById("tutarStepCard1").classList.toggle("informationofstep")
+}
+ let showstep2=()=>{
+        let   step=document.getElementById("tutarStepCard2")
+        let p=step.firstElementChild
+         if(p.id=="tstep2"){
+              document.getElementById(p.id).innerHTML=`After completing your profile, Submit the demo video to demonstrate your teaching Skill`
+             p.id="cstep2"
+         }
+        else if(p.id=="cstep2"){
+            
+             document.getElementById(p.id).innerHTML=" SUBMIT THE DEMO VIDEO"
+             p.id="tstep2"
+         }
+         document.getElementById("tutarStepCard2").classList.toggle("informationofstep")
+     }
+     let showstep3=()=>{
+        let   step=document.getElementById("tutarStepCard3")
+        let p=step.firstElementChild
+         if(p.id=="tstep3"){
+              document.getElementById(p.id).innerHTML=`Submit the KYC documents- your Id, Adhar Card and Pan card`
+             p.id="cstep3"
+         }
+        else if(p.id=="cstep3"){
+            
+             document.getElementById(p.id).innerHTML=" SUBMIT THE KYC"
+             p.id="tstep3"
+         }
+         document.getElementById("tutarStepCard3").classList.toggle("informationofstep")
+     }
+     let showstep4=()=>{
+        let   step=document.getElementById("tutarStepCard4")
+        let p=step.firstElementChild
+         if(p.id=="tstep4"){
+              document.getElementById(p.id).innerHTML=`Watch the tutorial video to see how, the tutor App works `
+             p.id="cstep4"
+         }
+        else if(p.id=="cstep4"){
+            
+             document.getElementById(p.id).innerHTML="WATCH THE TUTORIAL VIDEO"
+             p.id="tstep4"
+         }
+         document.getElementById("tutarStepCard4").classList.toggle("informationofstep")
+     }
+     let showstep5=()=>{
+        let   step=document.getElementById("tutarStepCard5")
+        let p=step.firstElementChild
+         if(p.id=="tstep5"){
+              document.getElementById(p.id).innerHTML=`Our payment cycle is monthly. The payment withdrawal can be requested from 1st to 7th of every month`
+             p.id="cstep5"
+         }
+        else if(p.id=="cstep5"){
+            
+             document.getElementById(p.id).innerHTML="GET PAID"
+             p.id="tstep5"
+         }
+         document.getElementById("tutarStepCard5").classList.toggle("informationofstep")
+     }
+     
+    
     downloadTutorapp=()=>{
         location.href='https://play.google.com/store/apps/details?id=com.dudar_tutor'
     }
