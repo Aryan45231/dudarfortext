@@ -65,7 +65,6 @@
     .statsGif {
         height: 133.00978088378906px;
         width: 114px;
-        margin-left: -40px;
 
     }
 
@@ -97,11 +96,11 @@
     }
 
     .stats1 .left {
-        left: -40px;
+        left: -60px;
     }
 
     .stats2 .left {
-        left: -130px;
+        left: -160px;
     }
 
     .stats1 .right {
