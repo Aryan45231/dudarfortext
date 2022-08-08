@@ -104,13 +104,13 @@ border-radius: 10px;
     }
     .contactContainer form input{
         height: 47px;
-        width: 364px;
+        width: 90vw;
 
 
     }
     .contactContainer form textarea{
         height: 147px;
-        width:364px;
+        width:90vw;
     }
     .contactCard h3{
         font-size: 34px;
@@ -121,6 +121,7 @@ border-radius: 10px;
     .contactCard a{
         font-size: 28px;
     }
+   
 }
 @media(max-width:300px){
     .contactContainer form input{

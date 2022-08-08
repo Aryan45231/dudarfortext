@@ -61,6 +61,104 @@ font-size: 20px;
 border-radius: 10px;
 box-shadow: -5px 4px 10px rgba(0,0,0,.4);
 }
+.stepsheadigCOntainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stepsheadigCOntainer h1{
+    font-family: Yantramanav;
+font-size: 235px;
+font-weight: 700;
+line-height: 305px;
+text-align: left;
+color: #1481D0;
+}
+.stepsheadigCOntainer h2{
+    border-bottom: 5px solid #1481D0;;;
+    font-family: Rufina;
+font-size: 57px;
+font-weight: 700;
+line-height: 90px;
+text-align: left;
+}
+.stepsfortutorContainer{
+    position: relative;
+    height: 1787px;
+    display: flex;
+    align-items: center;
+    margin:30px;
+    flex-direction: column;
+
+}
+.backgroundpattern{
+    position: absolute;
+    z-index: 1; 
+    top: -5%;;
+    background-color: rgba(00, 512, 28, 0.2);
+    height: 1787px;
+width: 632px;
+border-radius: 50%;
+}
+.tutarStepCard{
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    height: 142px;
+    cursor: pointer;
+width: 1007px;
+background-color: white;
+display: flex;
+align-items: center;
+box-shadow: 0 10px 10px rgba(0,0,0,.1);
+justify-content: center;
+}
+.tutarStepCard p{
+    font-family: Rufina;
+font-size: 40px;
+font-weight: 700;
+line-height: 62px;
+}
+.tutarStepCard h1{
+    position: absolute;
+    color: #00C85C;
+    left: 0;
+    top: -150px;
+    font-family: Yantramanav;
+font-size: 160px;
+font-weight: 700;
+line-height: 337px;
+}
+
+.step1{
+    left:40%
+}
+.step2{
+    top:20%;
+  
+}
+.step2 h1{
+    left: 90%;
+}
+.step3{
+    top:40%;
+    left: 40%;
+}
+.step4{
+    top: 60%;
+   
+}
+.step4 h1{
+    left: 90%;
+}
+.step5{
+    top:80%;
+    left: 40%;
+}
+
+
+
+
 @media(max-width:780px){
     .becometeacherHeading{
         margin-top: 0;
@@ -92,5 +190,40 @@ left: 0px;
 top: 0px;
 border-radius: 10px;
 font-size: 13px;
+    }
+    .stepsheadigCOntainer h1{
+        font-size: 57px;
+    }
+    .stepsheadigCOntainer h2{
+        font-size: 23px;
+        line-height: 30px;
+        border-bottom: 3px solid #1481D0   ;
+    }
+    .stepsfortutorContainer{
+        margin-top: -40px;
+        height: 729px;
+    }
+    .backgroundpattern{
+        height: 729px;
+width: 272px;
+
+    }
+    .tutarStepCard{
+        height: 52px;
+width: 280px;
+    }
+    .tutarStepCard p{
+        font-size: 10px;
+    }
+    .step1{
+        left: 20%;
+    }
+    .step3{left: 20%;}
+    .step5{
+        left: 20%;
+    }
+    .tutarStepCard h1{
+        top:-160px; 
+        font-size: 70px;
     }
 }
