@@ -158,13 +158,73 @@ line-height: 337px;
 }
 
 
-.informationofstep{
+.informationofstep1{
     padding: 10px 60px;
     background-color: #1481D0;
     border-top-right-radius: 500px;
     border-bottom-left-radius: 500px;
 }
-.informationofstep p{
+.informationofstep2{
+    padding: 10px 60px;
+    background-color: #1481D0;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+}
+.informationofstep3{
+    padding: 10px 60px;
+    background-color: #1481D0;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+}
+.informationofstep4{
+    padding: 10px 60px;
+    background-color: #1481D0;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+}
+.informationofstep5{
+    padding: 10px 60px;
+    background-color: #1481D0;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+}
+.informationofstep1 p{
+    padding: 20px;
+    color: white;
+    font-family: Rufina;
+font-size: 28px;
+font-weight: 700;
+line-height: 47px;
+text-align: center;
+}
+.informationofstep2 p{
+    padding: 20px;
+    color: white;
+    font-family: Rufina;
+font-size: 28px;
+font-weight: 700;
+line-height: 47px;
+text-align: center;
+}
+.informationofstep3 p{
+    padding: 20px;
+    color: white;
+    font-family: Rufina;
+font-size: 28px;
+font-weight: 700;
+line-height: 47px;
+text-align: center;
+}
+.informationofstep4 p{
+    padding: 20px;
+    color: white;
+    font-family: Rufina;
+font-size: 28px;
+font-weight: 700;
+line-height: 47px;
+text-align: center;
+}
+.informationofstep5 p{
     padding: 20px;
     color: white;
     font-family: Rufina;
@@ -241,12 +301,46 @@ width: 280px;
         top:-160px; 
         font-size: 70px;
     }
-    .informationofstep{
+    .informationofstep1{
         padding: 10px 0;
         height: auto;
         width:300px
     }
-    .informationofstep p{
+    .informationofstep2{
+        padding: 10px 0;
+        height: auto;
+        width:300px
+    }.informationofstep3{
+        padding: 10px 0;
+        height: auto;
+        width:300px
+    }.informationofstep4{
+        padding: 10px 0;
+        height: auto;
+        width:300px
+    }.informationofstep5{
+        padding: 10px 0;
+        height: auto;
+        width:300px
+    }
+    .informationofstep1 p{
+        padding: 20px ;
+    font-size: 12px;
+    line-height: 20px;
+    }
+    .informationofstep2 p{
+        padding: 20px ;
+    font-size: 12px;
+    line-height: 20px;
+    } .informationofstep3 p{
+        padding: 20px ;
+    font-size: 12px;
+    line-height: 20px;
+    } .informationofstep4 p{
+        padding: 20px ;
+    font-size: 12px;
+    line-height: 20px;
+    } .informationofstep5 p{
         padding: 20px ;
     font-size: 12px;
     line-height: 20px;
