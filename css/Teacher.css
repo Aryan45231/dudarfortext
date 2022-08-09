@@ -1,3 +1,4 @@
+
 .becometeacherHeading{
     display: flex;
     flex-wrap: wrap;
@@ -61,6 +62,7 @@ font-size: 20px;
 border-radius: 10px;
 box-shadow: -5px 4px 10px rgba(0,0,0,.4);
 }
+
 .stepsheadigCOntainer{
     display: flex;
     margin-top: -40px;
@@ -97,7 +99,7 @@ text-align: left;
     position: absolute;
     z-index: 1; 
     top: -5%;;
-    background-color: rgba(14, 81, 130, 0.1);
+    background-color: rgba(00,512,128,.2);
     height: 1787px;
 width: 632px;
 border-radius: 50%;
@@ -108,11 +110,10 @@ border-radius: 50%;
     z-index: 2;
     height: 142px;
     cursor: pointer;
-width: 1007px;
+width: 897px;
 background-color: white;
 display: flex;
 align-items: center;
-box-shadow: 0 10px 10px rgba(0,0,0,.1);
 justify-content: center;
 transition: all .3s linear;
 }
@@ -123,6 +124,9 @@ font-weight: 700;
 line-height: 62px;
 }
 .tutarStepCard h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
     color: #00C85C;
     left: 0;
@@ -130,6 +134,27 @@ line-height: 62px;
     font-family: Yantramanav;
 font-size: 160px;
 font-weight: 700;
+}
+.tutarStepCard h1 img{
+    z-index: 1;
+    margin-top: 190%;
+    position: absolute;
+    height: 170px;
+width: 5.1817169189453px;
+
+}
+.tutarStepCard h1 .horizontal{
+    background-color: red;
+}
+.tutarStepCard h1 .horizontal img{
+    top: 170px;
+    margin-left: 10px;
+    position: absolute;
+    width: 350px;
+    height: 5px;
+}
+.tutarStepCard h1 .reversebar img{
+    left:-330px
 }
 
 .step1{
@@ -162,11 +187,12 @@ font-weight: 700;
 .informationofstep{
     padding: 10px 60px;
     background-color: #1481D0;
-    border-top-right-radius: 500px;
-    border-bottom-left-radius: 500px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
 }
 .informationofstep p{
     padding: 20px;
+    transition:  all .3s linear;
     color: white;
     font-family: Rufina;
 font-size: 28px;
@@ -192,7 +218,87 @@ background-color: #1481D0;
     height: 20px;
 width: 90vw;
 left: 5%;
+}
+.bannerforTutor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    height: 646px;
+width: 100%;
+left: -10px;
+top: 3541px;
+border-radius: 0px;
+background-color: rgba(00,512,128,.2);
+}
+.bannerforTutor h1{
+    z-index: 2;
+    font-family: Rubik;
+font-size: 64px;
+font-weight: 400;
+line-height: 125px;
+letter-spacing: 0em;
+text-align: center;
 
+}
+.bannerforTutor h2{
+    font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+
+}
+.bannerforTutor img{
+    height: 208px;
+width: 234px;
+
+}
+.bannerforTutor button{
+    text-align: center;
+    font-family: Rubik;
+    box-shadow: 0 10px 10px rgba(0,0,0,.4);
+font-size: 25px;
+font-weight: 400;
+line-height: 30px;
+     margin-bottom: 30px;
+    height: 90px;
+width: 324px;
+background-color: #1481D0;
+border: none;
+color: white;
+border-radius: 10px;
+}
+.quiestionandanswer h1{
+    font-family: Rufina;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: center;
+    
+}
+.quiestionsContaier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quiestionandanswer select{
+    text-align: center;
+    border: none;
+    height: 247px;
+width:80vw;
+transition: all .2s linear;
+font-family: Rufina;
+font-size: 43px;
+font-weight: 400;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: center;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: none;
 }
 @media(max-width:780px){
     .becometeacherHeading{
@@ -251,11 +357,11 @@ width: 280px;
         font-size: 10px;
     }
     .step1{
-        left: 20%;
+        left: 15%;
     }
-    .step3{left: 20%;}
+    .step3{left: 15%;}
     .step5{
-        left: 20%;
+        left: 15%;
     }
     .tutarStepCard h1{
         top:-10px; 
@@ -263,7 +369,7 @@ width: 280px;
         font-size: 70px;
     }
     .informationofstep{
-        padding: 10px 0;
+        padding: 10px 10px;
         height: auto;
         width:300px
     }
@@ -279,5 +385,43 @@ width: 280px;
     }
     .tutarbar3{
         height: 12px;
+    }
+    .tutarStepCard h1 img{
+        height: 78px;
+        width: 2px;
+    }
+    .tutarStepCard h1 .horizontal img{
+        top: 73px;
+        width:160px;
+        height: 2px;
+    }
+    .tutarStepCard h1 .reversebar img{
+        left: -160px;
+    }
+    .bannerforTutor h1{
+        margin-top: 40px;
+        font-size: 1.1rem;
+        line-height: 40px;
+    }
+    .bannerforTutor h2{
+        font-size: 17px
+    }
+    .bannerforTutor button{
+        width: 200px;
+        height:10%;
+        font-size: 14px;
+    }
+    .bannerforTutor img{
+        height: 200px;
+        width: 200px;
+    }
+    .bannerforTutor{
+        height: 500px;
+    }
+    .quiestionandanswer h1{
+        font-size: 25px;
+    }
+    .quiestionandanswer select{
+        display: none;
     }
 }

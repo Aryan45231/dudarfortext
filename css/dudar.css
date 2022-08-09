@@ -21,126 +21,103 @@
 .listOfmenus {
     display: none;
 }
-
-.homeBannerContainer {
-
-    height: fit-content;
+.bannerContainer{
+    margin-top: -90px;
+    position: relative;
+    width: 100%;
+  height: 700px;
+    border-bottom: 30px solid #1481D0;
+ 
 }
-
-.boxpattern1 {
+.boxPattern1{
     position: absolute;
     background: #1481D0;
     height: 204px;
-    width: 301px;
-    left: -256px;
-    top: 162px;
+    width:201px;
+    top: 380px;
     border-radius: 40px;
-    transform: rotate(40deg);
+    left: -42px;
+    transform: rotate(45deg);
+   
 }
-
-.boxpattern2 {
+.boxPattern2{
     position: absolute;
-    height: 208.9303876013307px;
-    width: 286.14340076062484px;
-    left: -239.27197265625px;
-    top: 401.8349609375px;
-    border-radius: 40px;
     background: #1481D0;
-    transform: rotate(-50deg);
+    height: 204px;
+    top: 120px;
+    left: -7%;
+    width:201px; 
+    border-radius: 40px;
+    transform: rotate(45deg);
 }
-
-.boxpattern3 {
-    position: absolute;
-    transform: rotate(-35deg);
+.baxPattern3{
+    position:absolute;
     height: 176.54446880138445px;
-    width: 198.91451704325593px;
-    left: 94vw;
-    top: 80.48486328125px;
-    border-radius: 23px;
-    background: #1481D0;
-
-
+width: 198.91451704325593px;
+border-radius: 23px;
+transform: rotate(-30deg);
+background-color: #1481D0;
+right: -120px;
+top: 0%;
 }
-
-.boxpattern4 {
-    background: #1481D0;
+.baxPattern4{
     position: absolute;
+    background-color: #1481D0;
     height: 110.50563786687567px;
-    width: 124.95088189902796px;
-    left: 96vw;
-    ;
-    top: 305.3837890625px;
-    border-radius: 23px;
-    transform: rotate(-45deg);
+width: 124.95088189902796px;
+border-radius: 23px;
+top: 30%;
+right: -100px;
+transform: rotate(-30deg);
 
 }
-
-.posterContainer {
+.bannerContents{
+    position: absolute;
+    width: 100%;
+    top: 10%;
     display: flex;
-    margin-left: 100px;
+    align-items: flex-start;
     justify-content: center;
 }
-
-.MessageAmdDownload {
-    margin-left: 90px;
-    width: fit-content;
-    border-radius: nullpx;
-    display: flex;
-    flex-direction: column;
+.bannerContents img{
+    height: 576px;
+width:786px;
 }
-
-.MessageAmdDownload p {
-    width: 615.03px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 69px;
-    line-height: 87px;
-    color: #000000;
+.bannertitle{
+    margin-left:  12%;
+    font-family: Rubik;
+font-size: 2.7rem;
+font-weight: 400;
+line-height: 87px;
+letter-spacing: 0em;
+text-align: left;
 }
-
-.MessageAmdDownload span {
-    /* dudar green */
+.bannertitle span{
     color: #00C85C;
     font-style: normal;
     font-weight: 600;
-    font-size: 89px;
-    line-height: 114px;
+    font-size: 79px;
+    line-height: 84px;
 }
-
-.MessageAmdDownload button {
+.bannertitle button {
     cursor: pointer;
-    margin-left: -200px;
     align-self: center;
     font-family: 'Inter';
-    margin-top: 20px;
     border: none;
-    padding: 20px 30px;
     font-family: Inter;
     font-size: 29px;
     font-weight: 400;
     line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
-    gap: 10px;
-    text-align: center;
     width: 294px;
     height: 75px;
     background: rgba(237, 108, 48, 0.51);
     border-radius: 96px;
     color: #000000;
+    text-align: center;
+    margin-left: 10%;
 }
-
-
-.posterImage img {
-    position: relative;
-    top: -20px;
-    margin-right: 100px;
-    min-width: none;
-    width: 50vw;
-    max-height: 660.2894897460938px;
-    max-width: 865.9999389648438px;
-}
-
 /*-------------------------bar1-------------------*/
 .bar1 {
     margin-top: 30px;
@@ -449,10 +426,54 @@
 
 /*---------------mid screen----------------*/
 @media(max-width:1090px) {
+    .bannerContainer{
+        margin-top: -190px;
+    }
+    .bannertitle{
+        font-size: 60px;
+    }
+    .bannertitle span{
+        font-size: 70px;
+    }
+    .bannertitle button {
+        padding: 0;
+      
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: flex-start;
+        height: 40px;
+        width: 156.7855224609375px;
+        border-radius: 96px;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
 
-    .boxpattern3,
-    .boxpattern4 {
+    .baxPattern4 ,.baxPattern3{
         display: none;
+    }
+    .boxPattern1{
+        height: 116.39628751413696px;
+width: 114.91352992662603px;
+top: 30%;
+left: -112px;
+border-radius: 11px;
+    }
+    .boxPattern2{
+        top:140px;
+        left: -130px;
+        height: 143.46707492119296px;
+width: 141.63946867686198px;
+border-radius: 34px;
+
+    }
+    .bannerContents{
+        flex-direction: column-reverse;
     }
 
     .MessageAmdDownload p {
@@ -520,49 +541,23 @@
 
 /*---------------------small screen ------------------*/
 @media(max-width:780px) {
-    .bar1 {
-        display: none;
+    .bannerContainer{
+        border-bottom: none;
+        margin-top: -130px;
     }
-
-    .homeBannerContainer {
-        margin: 0;
-        margin-top: -80px;
-    }
-
-    .hambcontainer {
-        display: flex;
-    }
-
-    .boxpattern1 {
-        height: 143.46707492119296px;
-        width: 141.63946867686198px;
-        left: -115.0888671875px;
-        top: 149.75439453125px;
-        border-radius: 34px;
-    }
-
-    .boxpattern2 {
-        z-index: 1;
-        height: 92.13901498456684px;
-        width: 114.91826685472545px;
-        left: -98px;
-        top: 305.9658203125px;
-        border-radius: 15px;
-    }
-
-    .posterContainer {
+    .bannerContents {
         margin-left: 0;
         align-items: center;
         justify-content: center;
         flex-direction: column-reverse;
     }
 
-    .MessageAmdDownload {
-        margin-top: 50px;
+    .bannertitle {
+        margin-top: 30px;
         margin-left: 0;
     }
 
-    .MessageAmdDownload p {
+    .bannertitle  {
         font-family: Rubik;
         font-style: normal;
         letter-spacing: 0em;
@@ -576,7 +571,7 @@
         border-radius: nullpx;
     }
 
-    .MessageAmdDownload span {
+    .bannertitle span {
         width: 327px;
         font-family: Rubik;
         border-radius: nullpx;
@@ -588,36 +583,13 @@
         text-align: left;
     }
 
-    .MessageAmdDownload button {
-        padding: 0;
-        margin-top: -5px;
-        margin-left: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        align-self: flex-start;
-        height: 40px;
-        width: 156.7855224609375px;
-        border-radius: 96px;
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 17px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
+  
 
-    .posterImage {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 99vw;
-    }
 
-    .posterImage img {
+    .bannerContents img {
         margin-top: 50px;
         position: static;
-        width: 98vw;
+        width: 99vw;
         margin-right: 20px;
         right: 0;
         height: 40vh;
@@ -629,10 +601,11 @@
     }
 
     .whyNeddDudar {
+        margin-top: -80px;
         overflow-x: hidden;
-        margin: 0;
+  
         padding: 0 2px;
-        margin-top: 30px;
+     
         width: 98vw;
         justify-content: center;
         flex-wrap: wrap;
@@ -792,11 +765,14 @@
 }
 
 @media(max-width:290px) {
-    .boxpattern1 {
+    .boxPattern1 {
         display: none;
     }
 
-    .boxpattern2 {
+    .boxPattern2 {
         display: none;
+    }
+    .whyNeddDudar{
+        margin-top: 0;
     }
 }

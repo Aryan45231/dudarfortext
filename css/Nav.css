@@ -11,7 +11,7 @@
 }
 
 .navContainer {
-    margin: 10px 0;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,9 +38,9 @@
 }
 
 .NavMenuButton {
-    gap: 10px;
+    
     border-radius: 50px;
-    padding: 10px 15px 10px 15px;
+    padding: 5px 10px;
     margin-left: 10px;
     background-color: white;
     color: #1481D0;

@@ -1,4 +1,6 @@
 .aboutus {
+    z-index: 1;
+    position:relative;
     background-color: #1481D0;
     height: 640px;
     width: 100vw;
@@ -9,11 +11,11 @@
 }
 
 .aboutbo1 {
-    top: 310.95px;
+    position: absolute;
+    top:20%;
     transform: rotate(55deg);
     left: -150px;
     background-color: #00C85C;
-    position: absolute;
     height: 205.2762633460206px;
     width: 231.2869377837965px;
     border-radius: 23px;
@@ -24,7 +26,7 @@
     height: 205.2762633460206px;
     width: 231.2869377837965px;
     position: absolute;
-    top: 470.95px;
+    top: 45%;
     transform: rotate(-45deg);
     right: -200px;
     border-radius: 23px;
@@ -32,12 +34,14 @@
 }
 
 .aboudHeading {
+    z-index: 2;
+    position: absolute;
     margin-bottom: -70px;
     color: white;
     font-family: Rubik;
     font-size: 72px;
     font-weight: 400;
-
+    top:10%;
     letter-spacing: 0em;
     text-align: center;
 }
@@ -54,21 +58,20 @@
 }
 
 .helpimage1 {
-    display: none;
     position: absolute;
-    height: 488px;
+    height: 388px;
     width: 346px;
-    top: 504px;
+    top: 55%;
     border-radius: 0px;
     right: 38px
 }
 
 .helpimage2 {
-    display: none;
     position: absolute;
     width: 346px;
-    left: 38px;
-    top: 504px;
+    height: 400PX;
+    left: -30PX;
+    top: 50%;
     border-radius: 0px;
 
 }
@@ -82,12 +85,41 @@
     line-height: 110px;
     text-align: center;
 }
-
-.teamContainer {
+   
+.teamContainer{
+   
+    height: 350px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    place-content: flex;
+    display: grid;
+    overflow: hidden;
+    
+}
+.slideContainer{  
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: calc(250px *32);
+    animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px *10));
+    }
+}
+.teamCard{
+    display: flex;
     align-items: center;
+    padding: 15px;
+    perspective: 100px;
+    transition: transform  1s;
+}
+.teamCard:hover{
+    transform: translatez(200px);
 }
 
 .teamCard {
@@ -182,7 +214,6 @@ font-weight: 400;
 line-height: 32px;
 letter-spacing: 0em;
 text-align: center;
-
     padding: 20px;
     padding-bottom: 40px;
     text-align: center;
@@ -198,7 +229,7 @@ text-align: center;
 }
 .aboutbar3 p{
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0;
     color: white;
     font-family: Rubik;
 font-size: 37px;
@@ -287,6 +318,22 @@ border-radius: 30px;
     .aboutbox3{
         display: none;
     }
+
+    .aboutus{
+        margin-top: -50px;
+    }
+    .helpimage1{
+        width: 100px;
+        height: 100px;
+        top: 70%;
+    }
+    .helpimage2{
+        width: 100px;
+        height: 100px;
+        top: 70%;
+        left: 30px;
+       
+    }
 }
 @media(max-width:760px) {
     .aboutus {
@@ -298,18 +345,15 @@ border-radius: 30px;
     .aboutbo1 {
         height: 80.57720464894841px;
         width: 90.7871841991054px;
-        left: -75px;
-        top: 200.7958984375px;
-        border-radius: 12px;
+       left:-60px
 
     }
 
     .aboutbox2 {
         height: 98.07394585005125px;
         width: 110.5009518853116px;
-        left: 377px;
-        top: 230.04296875px;
-        border-radius: 12px;
+        right: -86px;
+       
 
     }
 
@@ -327,22 +371,8 @@ border-radius: 30px;
         letter-spacing: 0em;
 
     }
-
-    .helpimage2 {
-        height: 488px;
-        width: 346px;
-        left: 38px;
-        top: 504px;
-        border-radius: 0px;
-
-    }
-
-    .helpimage1 {
-        height: 368px;
-        width: 285px;
-        left: 1377px;
-        top: 645px;
-        border-radius: 0px;
+    .teamMembers{
+        margin-top: 60px;
     }
     .teamMembers h1 {
         font-size: 35px;
@@ -381,11 +411,11 @@ border-radius: 30px;
     .motoOfDudar2 .motoCard{
         margin-left: 0;
             margin-top:140px ;
-    }
+    }   
     .motoCard lottie-player{
-        height: 207px;
-width: 213px;
-left: 96.88641357421875px;
+        height: 207px;  
+width: 213px;   
+left: 96.88641357421875px;  
 top: 4076.166015625px;
 border-radius: 500px;
     }
@@ -394,7 +424,7 @@ border-radius: 500px;
         text-align: center;
     }
     .motoCard p{
-        font-size: 28px;
+        font-size: 19px;
     }
     .aboutbar3{
         
@@ -410,8 +440,6 @@ border-radius: 500px;
         font-size: 28px;
     }
     .valuecardContainer{
-
-
         margin: 0;
         flex-direction: column;
         align-items: center;
