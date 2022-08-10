@@ -85,6 +85,7 @@
     }
 
     .ham h1{
+        font-weight: bold;
         position: relative;
          font-size: 20px;
          line-height: 10px;

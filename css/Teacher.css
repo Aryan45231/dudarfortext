@@ -358,7 +358,13 @@ button:hover{
     cursor: pointer;
     box-shadow: none;
 }
-.subjects h1{
+.subjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subjects span{
+    border-bottom: 7px solid #1481D0;
     font-family: Yantramanav;
 font-size: 70px;
 font-weight: 400;
@@ -563,7 +569,9 @@ width: 280px;
         bottom: 10px;
         
     }
-    .subjects h1{
+    .subjects span{
+        line-height: 40px;
+        border-bottom: 4px solid #1481D0;
         font-size: 30px;
     }
 }
