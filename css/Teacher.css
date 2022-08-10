@@ -186,7 +186,17 @@ width: 5.1817169189453px;
     top:80%;
     left: 400px;
 }
+.stepTutorbox{
+    position: absolute;
+    background-color: #1481D0;
+    height: 323.7665128100037px;
+width: 335.15527633623884px;
+transform: rotate(-50deg);
+top:2000px;
+right: -280px;
+border-radius: 29px;
 
+}
 
 .informationofstep{
     height: 142px;
@@ -241,6 +251,7 @@ top: 3541px;
 border-radius: 0px;
 background-color: rgba(00,512,128,.2);
 }
+
 .bannerforTutor h1{
     z-index: 2;
     font-family: Rubik;
@@ -340,7 +351,6 @@ border-radius: 10px;
 font-size: 23px;
 font-weight: 400;
 line-height: 31px;
-
 }
 .answer p{
     padding: 50px;
@@ -574,5 +584,8 @@ width: 280px;
         line-height: 40px;
         border-bottom: 4px solid #1481D0;
         font-size: 30px;
+    }
+    .stepTutorbox{
+        display: none;
     }
 }
