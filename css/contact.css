@@ -40,6 +40,9 @@ border:3px solid #00C85C;
 border-radius: 10px;
 
 }
+input:focus {
+    border:3px solid #00C85C;
+  }
 .contactContainer form textarea{
     padding-left: 10px;
     padding-top: 30px;

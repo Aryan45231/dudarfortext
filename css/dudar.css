@@ -80,6 +80,8 @@ transform: rotate(-30deg);
     justify-content: center;
 }
 .bannerContents img{
+  
+    margin-right: 40px;
     height: 576px;
 width:786px;
 }
@@ -116,7 +118,7 @@ text-align: left;
     border-radius: 96px;
     color: #000000;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 20px;
 }
 /*-------------------------bar1-------------------*/
 .bar1 {
@@ -402,6 +404,7 @@ text-align: left;
 }
 
 .dudarwworkingcontainer h1 {
+    margin-top: 20px;
     font-family: Yantramanav;
     font-size: 64px;
     font-weight: 700;
@@ -438,7 +441,7 @@ text-align: left;
     }
     .bannertitle button {
         padding: 0;
-      
+        margin-top: 10px;
         margin-left: 0;
         display: flex;
         align-items: center;
@@ -461,12 +464,12 @@ text-align: left;
     .boxPattern1{
         height: 116.39628751413696px;
 width: 114.91352992662603px;
-top: 30%;
+top: 260px;
 left: -112px;
 border-radius: 11px;
     }
     .boxPattern2{
-        top:140px;
+        top:170px;
         left: -130px;
         height: 143.46707492119296px;
 width: 141.63946867686198px;
@@ -583,10 +586,6 @@ border-radius: 34px;
         letter-spacing: 0em;
         text-align: left;
     }
-
-  
-
-
     .bannerContents img {
         margin-top: 50px;
         position: static;
@@ -595,20 +594,18 @@ border-radius: 34px;
         right: 0;
         height: 40vh;
     }
-
     .boxpattern3,
     .boxpattern4 {
         display: none;
     }
-
     .whyNeddDudar {
-    margin-top: 0;
+    margin-top: 10px;
         overflow-x: hidden;
-  
         padding: 0 2px;
-     
+        padding: 10px;
         width: 98vw;
         justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
     }
 

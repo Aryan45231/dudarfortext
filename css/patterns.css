@@ -46,6 +46,10 @@
 
 
 }
+.firstcrisscross{
+    position: absolute;
+    right: -100px;
+}
 
 @media(max-width:1000px) {
     .bopattern6 {

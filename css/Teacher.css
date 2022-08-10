@@ -62,7 +62,10 @@ font-size: 20px;
 border-radius: 10px;
 box-shadow: -5px 4px 10px rgba(0,0,0,.4);
 }
-
+.tutarStepCard i{
+    position: absolute;
+    right: 0;
+}
 .stepsheadigCOntainer{
     display: flex;
     margin-top: -40px;
@@ -143,9 +146,6 @@ font-weight: 700;
 width: 5.1817169189453px;
 
 }
-.tutarStepCard h1 .horizontal{
-    background-color: red;
-}
 .tutarStepCard h1 .horizontal img{
     top: 170px;
     margin-left: 10px;
@@ -157,6 +157,10 @@ width: 5.1817169189453px;
     left:-330px
 }
 
+.step4 i{
+   
+    left: 10px
+}
 .step1{
     left:400px
 }
@@ -185,14 +189,19 @@ width: 5.1817169189453px;
 
 
 .informationofstep{
-    padding: 10px 60px;
+    height: 142px;
+    cursor: pointer;
+width: 897px;
+   padding: 20px;
     background-color: #1481D0;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
 }
+.informationofstep i{
+    display: none;
+}
 .informationofstep p{
     padding: 20px;
-    transition:  all .3s linear;
     color: white;
     font-family: Rufina;
 font-size: 28px;
@@ -255,6 +264,9 @@ text-align: center;
 width: 234px;
 
 }
+.buttonforDOwnloadTutarApp img{
+    display: none;
+}
 .bannerforTutor button{
     text-align: center;
     font-family: Rubik;
@@ -263,14 +275,16 @@ font-size: 25px;
 font-weight: 400;
 line-height: 30px;
      margin-bottom: 30px;
-    height: 90px;
-width: 324px;
+    height: 70px;
+width: 384px;
 background-color: #1481D0;
 border: none;
 color: white;
 border-radius: 10px;
 }
+
 .quiestionandanswer h1{
+    padding: 20px 0;
     font-family: Rufina;
     font-size: 55px;
     font-weight: 400;
@@ -280,27 +294,113 @@ border-radius: 10px;
 }
 .quiestionsContaier{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quiestion1{
+    position: relative;
+    cursor: pointer;
+    margin: 20px;
+    width: 90vw;
+    background: #1481D01A;
+    height: 247px;
+}
+.quiestionCard{
+   display: flex;
+   align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.quiestion1{
+    display: flex;
     align-items: center;
     justify-content: center;
 }
-.quiestionandanswer select{
+.quiestion1 p{
+    font-size: 30px;
+    justify-self: center;
     text-align: center;
-    border: none;
-    height: 247px;
-width:80vw;
-transition: all .2s linear;
-font-family: Rufina;
-font-size: 43px;
+}
+.quiestion1 i{
+  position: absolute;
+  right: 10px;
+    margin-right: 20px;
+    color: #1481D0;
+    font-size: 40px;
+
+}
+.answer{
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center ;
+    width: 90vw;
+    background: #1481D01A;
+    font-family: Rufina;
+font-size: 23px;
 font-weight: 400;
-line-height: 53px;
-letter-spacing: 0em;
-text-align: center;
+line-height: 31px;
+
+}
+.answer p{
+    padding: 50px;
+    justify-content: center;
+}
+.answer  i{ 
+    cursor: pointer;
+    position: absolute;
+    color: #1481D0;
+    font-size: 40px;
+    bottom:0;
+    right: 30px;
 }
 button:hover{
     cursor: pointer;
     box-shadow: none;
 }
-@media(max-width:780px){
+.subjects h1{
+    font-family: Yantramanav;
+font-size: 70px;
+font-weight: 400;
+line-height: 104px;
+letter-spacing: 0em;
+text-align: center;
+}
+.subjectbookContainer{
+    height: 350px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    place-content: flex;
+    display: grid;
+    overflow: hidden;
+    
+}
+.bookSlider{  
+    display: flex;
+    width: calc(250px *32);
+    animation: scroll 25s linear infinite;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px *10));
+    }
+}
+.bookImage{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+    transition: transform  1s;
+}
+.bookImage:hover{
+    transform: translatey(-20px);
+}
+@media(max-width:780px){    
     .becometeacherHeading{
         margin-top: 0;
         flex-direction: column-reverse;
@@ -312,7 +412,7 @@ width: 130px;
     }
     .headingOfBecomeTeacher h1{
         margin-top: 20px;
-      text-align: center    ;
+      text-align: center;
 font-size: 25px;
 line-height: 10px;
     }
@@ -368,8 +468,15 @@ width: 280px;
         line-height: 0;
         font-size: 70px;
     }
+    .tutarStepCard i{
+        display: block;
+    }
     .informationofstep{
-        padding: 10px 10px;
+        height:52px;
+        width: 20px;
+        padding: 0;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
         height: auto;
         width:300px
     }
@@ -377,6 +484,7 @@ width: 280px;
         padding: 20px ;
     font-size: 12px;
     line-height: 20px;
+    
     }
     .tutordesignbar > div{
         height: 13px;
@@ -398,6 +506,11 @@ width: 280px;
     .tutarStepCard h1 .reversebar img{
         left: -180px;
     }
+    .bannerforTutor {
+        justify-content: flex-start;
+        background-color: white;
+        align-items: center;
+    }
     .bannerforTutor h1{
         margin-top: 40px;
         font-size: 1.1rem;
@@ -408,20 +521,49 @@ width: 280px;
     }
     .bannerforTutor button{
         width: 200px;
-        height:10%;
+        height:30px;
         font-size: 14px;
     }
     .bannerforTutor img{
+        display: none;
         height: 200px;
         width: 200px;
     }
     .bannerforTutor{
-        height: 500px;
+        height: fit-content;
+        justify-content: flex-start;
     }
     .quiestionandanswer h1{
         font-size: 25px;
     }
-    .quiestionandanswer select{
-        display: none;
+    .buttonforDOwnloadTutarApp{
+        margin-left: 30px;
+        display:  flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .buttonforDOwnloadTutarApp img{
+        display: block;
+    }
+    .quiestion1 p{
+        padding: 30px 20px;
+        font-size: 20px;
+    }
+    .quiestion1 i{
+        bottom:10px
+    }
+    .answer{
+        flex-direction: column;
+    }
+    .answer p{
+        padding: 20px;
+        font-size: 20px;
+    }
+    .answer i{
+        bottom: 10px;
+        
+    }
+    .subjects h1{
+        font-size: 30px;
     }
 }

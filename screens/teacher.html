@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="../css/dudar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/Teacher.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <title>Document</title>
 </head>
 
@@ -39,7 +42,9 @@
                 </div>
                 <div onclick="dis()" class="hambcontainer">
                     <div class="ham">
-                        <img src="../res/images/icons/ham.png" alt="">
+                        <h1>___</h1>
+                        <h1>___</h1>
+                        <h1>___</h1>
                     </div>
                 </div>
                 <div class="listOfmenusAbout" id="listOfmenusAbout">
@@ -145,14 +150,121 @@
                 <h2>Set up your profile and start getting doubts today.</h2>
             </div>
             <img src="../res/images/icons/dudartutar.png" alt="not valid">
-            <button onclick="downloadTutorapp()">DOWNLOAD TUTOR APP</button>
+            <div class="buttonforDOwnloadTutarApp">
+                <button onclick="downloadTutorapp()">DOWNLOAD TUTOR APP</button>
+                 <img src="https://solvedudar.com/wp-content/uploads/2022/04/teacher.gif" alt="">
+            </div>
         </div>
         <div class="quiestionandanswer">
             <h1>Frequently Asked Questions (FAQs)</h1>
             <div class="quiestionsContaier">
-                <select name="How does Dudar Tutor App Work?" id="">
-                    <option value="heop"> first trail</option>
-                </select>
+                <div class="quiestionCard">
+                     <div onclick="showAnswer()" class="quiestion1">
+                    <p>How does Dudar Tutor App Work?</p><br>
+                    <i class="fa-solid fa-angle-down"></i>
+               </div>
+                <div id="answer1" class="answer">
+                    <p>
+                        Doubt Solving-After getting onboarded, you need to Login as per your convinient time and go online to recieve doubts in a form of a video call, where you will recieve the Questions as per your selected preference. After going through the Question you can decide to accept or decline the Call. After the Student gets connected,you have to solve the doubts by showing all required steps. After finishing the call you can give feedback to the students.
+                        <br> <br>   
+                          Training-From time to time You will get training videos out of which there would be few videos which will be mandatory for you to watch. Without watching the mandatory videos, your account will remain inactive. Payment- You will get the payment by 7th of every month through Bank transfer to your account Number provided by you. The due TDS will be deducted with every payment.
+                     
+                    </p>
+                       <br> <i onclick="hideAnswer()" class="fa-solid fa-angle-up"></i>
+                </div>
+                </div>
+                <div class="quiestionCard">
+                    <div onclick="showAnswer2()" class="quiestion1">
+                        <p>How is the payment calculated for a tutor?</p> <br>
+                   <i class="fa-solid fa-angle-down"></i>
+              </div>
+               <div id="answer2" class="answer">
+                <p>
+                    The payment is calculated on the basis of Video call duration for each Problem solved or Live Class taken. The per minute rate depends on the class,Exam, Feedbacks or Working hours of the day. It also depends on whether you are Verified tutor or not. In addition to the above, A tutor can earn Bonuses after completing a minimum number of Sessions with Positive Feedbacks,
+
+                </p>
+                   <br>  <i onclick="hideAnswer2()" class="fa-solid fa-angle-up"></i>
+            </div>
+               </div><div class="quiestionCard">
+                <div onclick="showAnswer3()" class="quiestion1">
+                    <p>How much a Dudar tutor can earn?</p> <br>
+               <i class="fa-solid fa-angle-down"></i>
+          </div>
+           <div id="answer3"class="answer">
+            <p>
+            A serious tutor can earn in a range of Rs 5000 to Rs 70000, working part time or Full time with us.
+
+            </p>
+               <br> <i onclick="hideAnswer3()" class="fa-solid fa-angle-up"></i>
+        </div>
+           </div><div class="quiestionCard">
+            <div onclick="showAnswer4()" class="quiestion1">
+                <p>Does a tutor need to commit some minimum Working hours or Minimum Number of doubts?</p>
+           <i class="fa-solid fa-angle-down"></i>
+      </div>
+       <div id="answer4" class="answer">
+        <p>
+        No A tutor can choose when to be online to recieve Doubts. There is no minimum Commitment of Number of hours or Number of Doubts. But it is highly recommneded to be active on the App to be a high rated tutor which ensures a high earning potential.
+        </p>
+        <i onclick="hideAnswer4()" class="fa-solid fa-angle-up"></i>
+    </div>
+       </div>
+     </div>
+ </div>
+        <div class="subjects">
+            <h1>Subjects you can apply for</h1>
+            <div class="subjectbookContainer">
+                <div class="bookSlider">
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/Accounts 1.png" alt="">
+                    </div>
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/biology 1.png" alt="">
+                    </div>
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/Business-studies 1.png" alt="">
+                    </div>
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/Chemistry 1.png" alt="">
+                    </div>
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/Economics 2.png" alt="">
+                    </div>
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/Mathematics 1.png" alt="">
+                    </div>
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/Physics 1.png" alt="">
+                    </div>
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/Science 1.png" alt="">
+                    </div>
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/Accounts 1.png" alt="">
+                    </div>
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/biology 1.png" alt="">
+                    </div>
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/Business-studies 1.png" alt="">
+                    </div>
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/Chemistry 1.png" alt="">
+                    </div>
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/Economics 2.png" alt="">
+                    </div>
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/Mathematics 1.png" alt="">
+                    </div>
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/Physics 1.png" alt="">
+                    </div>
+                    <div class="bookImage">
+                        <img src="../res/images/subjects/Science 1.png" alt="">
+                    </div>
+                </div>
+                </div>
             </div>
         </div>
         <footer>
@@ -254,7 +366,6 @@
         let step = document.getElementById("tutarStepCard3")
         let p = step.firstElementChild
         document.getElementById(p.id).innerHTML = " SUBMIT THE KYC"
-        p.id = "tstep3"
 
         document.getElementById("tutarStepCard3").classList.toggle("informationofstep")
     })
@@ -262,7 +373,6 @@
     let step = document.getElementById("tutarStepCard4")
     let p = step.firstElementChild
         document.getElementById(p.id).innerHTML = `Watch the tutorial video to see how, the tutor App works `
-        p.id = "cstep4"
     
     document.getElementById("tutarStepCard4").classList.toggle("informationofstep")
 })
@@ -270,13 +380,13 @@ document.getElementById("tutarStepCard4").addEventListener("mouseleave",() => {
     let step = document.getElementById("tutarStepCard4")
     let p = step.firstElementChild
         document.getElementById(p.id).innerHTML = "WATCH THE TUTORIAL VIDEO"
-        p.id = "tstep4"
     
     document.getElementById("tutarStepCard4").classList.toggle("informationofstep")
 })
     document.getElementById("tutarStepCard5").addEventListener("mouseenter",() => {
         let step = document.getElementById("tutarStepCard5")
         let p = step.firstElementChild
+
             document.getElementById(p.id).innerHTML = `Our payment cycle is monthly. The payment withdrawal can be requested from 1st to 7th of every month`
         document.getElementById("tutarStepCard5").classList.toggle("informationofstep")
     })
@@ -300,6 +410,31 @@ document.getElementById("tutarStepCard4").addEventListener("mouseleave",() => {
         document.getElementById("listOfmenusAbout").classList.toggle("viewofham")
         document.getElementById("hamback").classList.toggle("closehamback")
     }
+    let showAnswer=()=>{
+        document.getElementById("answer1").style.display="block"
+    }
+    let hideAnswer=()=>{
+        document.getElementById("answer1").style.display="none"   
+    }
+    let showAnswer2=()=>{
+        document.getElementById("answer2").style.display="block"
+    }
+    let hideAnswer2=()=>{
+        document.getElementById("answer2").style.display="none"   
+    }
+    let showAnswer3=()=>{
+        document.getElementById("answer3").style.display="block"
+    }
+    let hideAnswer3=()=>{
+        document.getElementById("answer3").style.display="none"   
+    }
+    let showAnswer4=()=>{
+        document.getElementById("answer4").style.display="block"
+    }
+    let hideAnswer4=()=>{
+        document.getElementById("answer4").style.display="none"   
+    }
+
 </script>
 
-</html>
+</html>x`
