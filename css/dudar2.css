@@ -1,4 +1,5 @@
 .stepContainer {
+    padding: 20px 0;
     display: flex;
     width: 80vw;
     flex-direction: column;
@@ -14,13 +15,13 @@
 .steps img {
     z-index: 2;
     height: 305px;
-    width: 195px;
+    width: 145px;
 }
 
 .steps p {
     padding: 10px 0;
     padding-right: 10px;
-    padding-left: 80px;
+    padding-left: 100px;
     margin-left: -90px;
     z-index: 1;
     font-family: Inter;

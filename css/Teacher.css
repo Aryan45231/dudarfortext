@@ -526,8 +526,9 @@ width: 280px;
         font-size: 17px
     }
     .bannerforTutor button{
+        text-align: center;
         width: 200px;
-        height:30px;
+        height:40px;
         font-size: 14px;
     }
     .bannerforTutor img{

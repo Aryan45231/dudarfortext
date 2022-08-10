@@ -424,10 +424,6 @@ text-align: left;
 }
 
 
-.temp {
-    height: 100vh;
-}
-
 /*---------------mid screen----------------*/
 @media(max-width:1090px) {
     .bannerContainer{
