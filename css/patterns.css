@@ -1,7 +1,7 @@
 .bopattern6 {
     position: absolute;
     display: flex;
-    top: 3181px;
+    top: 3231px;
     left: -120px;
     transform: rotate(30deg);
     flex-direction: column;
@@ -51,6 +51,25 @@
     right: -100px;
 }
 
+.pattern1 img{
+    display: none;
+}
+.pattern3 img{
+    position: absolute;
+    margin-top: 20px;
+    right: 0;
+    height: 150px;
+    width: 174.4328914329822px;
+}
+.pattern4 img{
+    display: none;
+}
+.pattern5 img{
+    height:240px;
+    margin-top: -30px;
+    position: absolute;
+    left: 0;
+}
 @media(max-width:1000px) {
     .bopattern6 {
         transform: rotate(45deg);
@@ -79,4 +98,21 @@
     .boxpattern8{
         display: none;
     }
+    .pattern3 img{
+        display: none;
+    }
+.pattern1 img{
+    display: block;
+    margin-top: -30px;
+    position: absolute;
+    right: 0;
+}
+   .pattern4 img{
+    display: block;
+    position: absolute;
+    top:2460px
+}
+.pattern5 img{
+    display: none;
+}
 }

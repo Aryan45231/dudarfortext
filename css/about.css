@@ -248,6 +248,7 @@ line-height: 44px;
     text-align: center;   
 }
 .valuecardContainer{
+
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
