@@ -480,14 +480,14 @@
         z-index: 2;
         height: 116.39628751413696px;
         width: 114.91352992662603px;
-        top: 260px;
+        top: 220px;
         left: -112px;
         border-radius: 11px;
     }
 
     .boxPattern2 {
         z-index: 2;
-        top: 170px;
+        top: 130px;
         left: -130px;
         height: 143.46707492119296px;
         width: 141.63946867686198px;
@@ -624,7 +624,7 @@
     }
 
     .whyNeddDudar{
-        margin-top: 50px;
+        margin-top: 20px;
         overflow-x: hidden;
         padding: 0 2px;
         width: 98vw;
