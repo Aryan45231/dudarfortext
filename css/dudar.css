@@ -33,6 +33,7 @@
 }
 
 .boxPattern1 {
+    z-index: 2;
     position: absolute;
     background: #1481D0;
     height: 204px;
@@ -45,6 +46,7 @@
 }
 
 .boxPattern2 {
+    z-index: 2;
     position: absolute;
     background: #1481D0;
     height: 204px;
@@ -89,7 +91,7 @@
 }
 
 .bannerContents img {
-
+    z-index: 1;
     height: 576px;
     width: 786px;
 }
