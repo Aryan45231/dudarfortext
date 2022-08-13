@@ -437,7 +437,7 @@
 @media(max-width:1090px) {
     .bannerContainer {
         height: fit-content;
-       
+       margin-top: -80px;
     }
 
     .bannertitle {
@@ -616,8 +616,8 @@
         display: none;
     }
 
-    .whyNeddDudar {
-        margin-top: 20px;
+    .whyNeddDudar{
+        margin-top: 50px;
         overflow-x: hidden;
         padding: 0 2px;
         width: 98vw;
