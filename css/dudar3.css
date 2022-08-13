@@ -77,14 +77,11 @@
     .topStats img {
         height: 77.82594299316406px;
         width: 229.34884643554688px;
-        left: 0px;
-        top: 2572px;
-        border-radius: 0px;
     }
 
     .topStats p {
         font-family: Inter;
-        font-size: 20px;
+        font-size: 17px;
         font-weight: 700;
         line-height: 24px;
         letter-spacing: 0em;
@@ -102,11 +99,11 @@
     }
 
     .stats1 .left {
-        left: -60px;
+        left: -70px;
     }
 
     .stats2 .left {
-        left: -130px;
+        left: -150px;
     }
 
     .stats1 .right {
@@ -114,11 +111,11 @@
     }
 
     .stats2 .right {
-        right: -10px;
+        right: 0px;
     }
 
     .left p {
-        left: -30px;
+        left: -40px;
         text-align: right;
     }
 
@@ -128,9 +125,11 @@
 
     .stats2 .right p {
         top: 0px;
+
         margin-left: 30px;
-        align-items: center;
+        align-items: left;
         width: 130px;
         right: -10px;
     }
+    
 }
