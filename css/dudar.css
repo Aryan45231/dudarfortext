@@ -561,7 +561,7 @@
     .bannerContainer {
        
         border-bottom: none;
-
+        margin-top: -60px;
     }
 
     .bannerContents {
@@ -617,7 +617,7 @@
     }
 
     .whyNeddDudar {
-        margin-top: 30px;
+        margin-top: 20px;
         overflow-x: hidden;
         padding: 0 2px;
         width: 98vw;
