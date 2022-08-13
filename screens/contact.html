@@ -1,150 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/Nav.css">
-  <link rel="stylesheet" href="../css/footer.css">
-  <link rel="stylesheet" href="../css/dudar.css">
-  <link rel="stylesheet" href="../css/contact.css">
-  
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/dudar.css">
+    <link rel="stylesheet" href="../css/contact.css">
+
+    <title>Document</title>
 </head>
+
 <body>
-  <div class="wrapper">
-  <div class="hambackground" onclick="closeham()" id="hamback"></div>
-  <div class="navContainer">
-      <div class="dudar_navBar">
-          <div class="logo">
-              <a href="../index.html"> <img src="../res/images/banner/logo.png" alt="some thing went wrong"></a>
-          </div>
-          <div class="menus">
-              <a href="./About.html">
-                  <button class="NavMenuButton">
-                      About us
-                  </button>
-              </a>
-              <a href="./teacher.html">
-                  <button class="NavMenuButton">
-                      Become a Tutor
-                  </button>
-              </a>
-              <a href="#">
-                  <button class="NavMenuButton">
-                      Contact Us
-                  </button>
-              </a>
-          </div>
-          <div onclick="dis()" class="hambcontainer">
-            <div class="ham">
-                <span>___</span>
-                <span>___</span>
-                <span>___</span>
+    <div class="wrapper">
+        <div class="hambackground" onclick="closeham()" id="hamback"></div>
+        <div class="navContainer">
+            <div class="dudar_navBar">
+                <div class="logo">
+                    <a href="../index.html"> <img src="../res/images/banner/logo.png" alt="some thing went wrong"></a>
+                </div>
+                <div class="menus">
+                    <a href="./About.html">
+                        <button class="NavMenuButton">
+                            About us
+                        </button>
+                    </a>
+                    <a href="./teacher.html">
+                        <button class="NavMenuButton">
+                            Become a Tutor
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button class="NavMenuButton">
+                            Contact Us
+                        </button>
+                    </a>
+                </div>
+                <div onclick="dis()" class="hambcontainer">
+                    <div class="ham">
+                        <span>___</span>
+                        <span>___</span>
+                        <span>___</span>
+                    </div>
+                </div>
+                <div class="listOfmenusContact" id="listOfmenusContact">
+                    <a href="./About.html">
+                        <div class="listitems"> <span> About Us</span> <br></div>
+                    </a>
+                    <a href="./teacher.html">
+                        <div class="listitems"> <span>Become A Tutior</span> <br></div>
+                    </a>
+                    <a href="#">
+                        <div class="listitems"> <span>Contact Us</span> <br></div>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.dudar_student">
+                        <div class="listitems"> <span>Download App</span> <br></div>
+                    </a>
+                </div>
             </div>
-          </div>
-          <div class="listOfmenusContact" id="listOfmenusContact">
-              <a href="./About.html">
-                  <div class="listitems"> <span> About Us</span> <br></div>
-              </a>
-              <a href="./teacher.html">
-                  <div class="listitems"> <span>Become A Tutior</span> <br></div>
-              </a>
-              <a href="#">
-                  <div class="listitems"> <span>Contact Us</span> <br></div>
-              </a>
-              <a href="https://play.google.com/store/apps/details?id=com.dudar_student">
-                  <div class="listitems"> <span>Download App</span> <br></div>
-              </a>
-          </div>
-      </div>  
-  </div>
-  <div class="contatusHeading">
-    <h1> Contact Us</h1>
-  </div>
-  <div class="contactContainer">
-    <form action="">
-      <input type="text" placeholder="Name">
-      <input type="number" placeholder="Phone">
-      <textarea name="" id="" cols="30" rows="10" placeholder="Mesage"></textarea>
-      <button>SEND</button>
-    </form>
-    <div class="contactForm"></div>
-    <div class="contactCard">
-        <h3>Contact Details </h3>
-       <div class="contlink">
-        <a href="#">support@solvedudar.com</a>
-        <a href="#">www.solvedudar.com</a>
-        <a href="#">+91-7800151777</a>
-       </div>
+        </div>
+        <div class="contatusHeading">
+            <h1> Contact Us</h1>
+        </div>
+        <div class="contactContainer">
+            <form action="">
+                <input type="text" placeholder="Name">
+                <input type="number" placeholder="Phone">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mesage"></textarea>
+                <button>SEND</button>
+            </form>
+            <div class="contactForm"></div>
+            <div class="contactCard">
+                <h3>Contact Details </h3>
+                <div class="contlink">
+                    <a href="#">support@solvedudar.com</a>
+                    <a href="#">www.solvedudar.com</a>
+                    <a href="#">+91-7800151777</a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="subscribe">
+                <div class="message">
+                    <h3>Subscribe For Newsletter</h3>
+                    <h4>we will get in touch with you with only useful information, no spam, we promise!</h4>
+                </div>
+                <div class="imputEmail">
+                    <input type="email" placeholder="Enter Your Email Address">
+                    <button onclick="alert('hello')" id="email_send_button">
+                        <img src="../res/images/icons/email.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="appInfo">
+                <h1>App is available for free on <br> Google Play & App Store</h1>
+                <h3>Learn unlimited with India's best tutors </h3>
+                <br>
+                <div class="downloadButtons">
+                    <button onclick="download()" class="forPlayStore download">
+                        <img src="./res/images/icons/play.png" alt="">
+                        <span>Google Play</span>
+                    </button>
+                    <button class="forAppStore download">
+                        <img src="./res/images/icons/App.png" alt="">
+                        <span>Comming Soon</span>
+                    </button>
+                </div>
+                <div class="socialMedia">
+                    <a href="#">
+                        <img src="../res/images/icons/facebook.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="../res/images/icons/youtube.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="../res/images/icons/titter.png" alt="">
+                    </a>
+                    <a href="#" class="insta">
+                        <img src="../res/images/icons/instagram.png" alt="">
+                    </a>
+                </div>
+                <div class="contactInfo">
+                    <a href="#">
+                        © 2022 Dudar Edtech Pvt. Ltd. All rights reserved.
+                    </a>
+                    <p class="firstpipe">|</p>
+                    <a href="../index.html">
+                        info@solvedudar.com
+                    </a>
+                    <p>|</p>
+                    <a href="#">
+                        +91-7800151777
+                    </a>
+                </div>
+            </div>
+        </footer>
     </div>
-  </div>
-  <footer>
-    <div class="subscribe">
-        <div class="message">
-            <h3>Subscribe For Newsletter</h3>
-            <h4>we will get in touch with you with only useful information, no spam, we promise!</h4>
-        </div>
-        <div class="imputEmail">
-            <input type="email" placeholder="Enter Your Email Address">
-            <button onclick="alert('hello')" id="email_send_button">
-                <img src="../res/images/icons/email.png" alt="">
-            </button>
-        </div>
-    </div>
-    <div class="appInfo">
-        <h1>App is available for free on <br> Google Play & App Store</h1>
-        <h3>Learn unlimited with India's best tutors </h3>
-        <br>
-        <div class="downloadButtons">
-            <button onclick="download()" class="forPlayStore download">
-                <img src="../res/images/icons/play.png" alt="">
-                <p>Google Play</p>
-            </button>
-            <button class="forAppStore download">
-                <img src="../res/images/icons/App.png" alt="">
-                <p>Comming Soon</p>
-            </button>
-        </div>
-        <div class="socialMedia">
-            <a href="#">
-                <img src="../res/images/icons/facebook.png" alt="">
-            </a>
-            <a href="#">
-                <img src="../res/images/icons/youtube.png" alt="">
-            </a>
-            <a href="#">
-                <img src="../res/images/icons/titter.png" alt="">
-            </a>
-            <a href="#" class="insta">
-                <img src="../res/images/icons/instagram.png" alt="">
-            </a>
-        </div>
-        <div class="contactInfo">
-            <a href="#">
-                © 2022 Dudar Edtech Pvt. Ltd. All rights reserved.
-            </a>
-            <p class="firstpipe">|</p>
-            <a href="../index.html">
-                info@solvedudar.com
-            </a>
-            <p>|</p>
-            <a href="#">
-                +91-7800151777
-            </a>
-        </div>
-    </div>
-</footer>
-</div>
 </body>
 <script>
-  dis=()=>{
-    document.getElementById("listOfmenusContact").classList.toggle("viewofham")
-    document.getElementById("hamback").classList.toggle("closehamback")
-}
-closeham=()=>{
-    document.getElementById("listOfmenusContact").classList.toggle("viewofham")
-    document.getElementById("hamback").classList.toggle("closehamback")
-}
+    dis = () => {
+        document.getElementById("listOfmenusContact").classList.toggle("viewofham")
+        document.getElementById("hamback").classList.toggle("closehamback")
+    }
+    closeham = () => {
+        document.getElementById("listOfmenusContact").classList.toggle("viewofham")
+        document.getElementById("hamback").classList.toggle("closehamback")
+    }
 </script>
+
 </html>

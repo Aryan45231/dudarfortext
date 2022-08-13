@@ -1,152 +1,176 @@
-.contatusHeading{
+.contatusHeading {
     margin-top: -40px;
     width: 100%;
     background-color: #1481D0;
 
 }
-.contatusHeading h1{
+
+.contatusHeading h1 {
     font-family: Inter;
-font-size: 59px;
-font-weight: 700;
-line-height: 71px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: left;
 
     padding: 15px;
-    color:  white;
+    color: white;
     text-align: center;
 }
-.contactContainer{
+
+.contactContainer {
     margin: 40px 0;
     width: 100%;
     display: flex;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.contactContainer form{
+
+.contactContainer form {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.contactContainer form > *{
+
+.contactContainer form>* {
     margin: 20px 0;
 }
-.contactContainer form input{
+
+.contactContainer form input {
     padding-left: 10px;
     height: 77px;
-width: 559px;
-border:3px solid #00C85C;
-border-radius: 10px;
+    width: 559px;
+    border: 3px solid #00C85C;
+    border-radius: 10px;
 
 }
+
 input:focus {
-    border:3px solid #00C85C;
-  }
-.contactContainer form textarea{
+    border: 3px solid #00C85C;
+}
+
+.contactContainer form textarea {
     padding-left: 10px;
     padding-top: 30px;
     height: 143px;
-width: 559px;
-border:3px solid #00C85C;
-border-radius: 10px;
+    width: 559px;
+    border: 3px solid #00C85C;
+    border-radius: 10px;
 }
-.contactContainer button{
+
+.contactContainer button {
     align-self: center;
     color: white;
     background-color: #1481D0;
     border: none;
     text-align: center;
     height: 50px;
-width: 250px;
-left: 0px;
-top: 0px;
-border-radius: 10px;
-transition: all .2s linear  ;
+    width: 250px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    transition: all .2s linear;
 }
-.contactContainer button:hover{
+
+.contactContainer button:hover {
     background-color: #00C85C;
 }
-.contactCard{
+
+.contactCard {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:  rgba(00, 128, 512, 0.2);
-    
+    background-color: rgba(00, 128, 512, 0.2);
+
     padding: 20px 50px;
 
 }
-.contlink{
+
+.contlink {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.contlink > *{
+
+.contlink>* {
     margin: 25px 0;
 }
-.contactCard h3{
+
+.contactCard h3 {
     color: #1481D0;
     font-family: Inter;
     font-size: 34px;
     font-weight: 700;
     line-height: 53px;
-    
+
 
 }
-.contactCard a{
+
+.contactCard a {
     text-decoration: none;
     color: black;
 
 }
-@media(max-width:800px){
-    .contatusHeading{
+
+@media(max-width:800px) {
+    .contatusHeading {
         margin-top: 0;
     }
-    .contatusHeading h1{
+
+    .contatusHeading h1 {
         font-size: 25px;
         padding: 10px 0;
     }
-    .contactContainer{
+
+    .contactContainer {
         align-items: center;
         justify-content: center;
     }
-    .contactContainer form input{
+
+    .contactContainer form input {
         height: 47px;
         width: 90vw;
 
 
     }
-    .contactContainer form textarea{
+
+    .contactContainer form textarea {
         height: 147px;
-        width:90vw;
+        width: 90vw;
     }
-    .contactCard h3{
+
+    .contactCard h3 {
         font-size: 34px;
     }
-    .contactCard > *{
+
+    .contactCard>* {
         margin: 10px 0;
     }
-    .contactCard a{
+
+    .contactCard a {
         font-size: 28px;
     }
-   
+
 }
-@media(max-width:300px){
-    .contactContainer form input{
+
+@media(max-width:300px) {
+    .contactContainer form input {
         width: 250px;
     }
-    .contactContainer form textarea{
+
+    .contactContainer form textarea {
         width: 250px;
     }
-    .contactContainer button{
+
+    .contactContainer button {
         height: 33px;
         width: 103px;
         font-family: Rubik;
-font-size: 14px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0em;
-text-align: center
-
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center
     }
 }

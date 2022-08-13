@@ -92,7 +92,7 @@ footer {
 }
 
 .appInfo h1 {
-    padding: 20px 0;                                                    
+    padding: 20px 0;
     color: white;
     font-family: Inter;
     font-size: 52px;
@@ -103,7 +103,7 @@ footer {
 
 }
 
-.appInfo a{
+.appInfo a {
     text-decoration: none;
 }
 
@@ -119,10 +119,11 @@ footer {
     margin-left: 20px;
     text-align: center;
     background: #FFFFFF;
+    display: flex;
     border-radius: 35px;
     align-items: center;
     justify-content: center;
-    display: flex;
+
     border: none;
 }
 
@@ -136,9 +137,10 @@ footer {
     cursor: pointer;
 }
 
-.downloadButtons button p {
+.downloadButtons button span {
     color: black;
     font-family: Inter;
+    place-items: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
@@ -188,14 +190,16 @@ footer {
     align-items: center;
     justify-content: space-around;
 }
-.socialMedia a img{
+
+.socialMedia a img {
     height: 62.74974822998047px;
-width: 88.99850463867188px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
+    width: 88.99850463867188px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
 
 }
+
 @media(max-width:780px) {
     .message h3 {
         line-height: 40px;
@@ -263,7 +267,7 @@ border-radius: 0px;
         width: 18.848918914794922px;
     }
 
-    .downloadButtons button p {
+    .downloadButtons button span {
         font-size: 8px
     }
 

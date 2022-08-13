@@ -48,7 +48,8 @@
     border-radius: 0px;
 
 }
-.stats{
+
+.stats {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,7 +126,7 @@
         left: 20px;
     }
 
-    .stats2 .right p{
+    .stats2 .right p {
         top: 0px;
         margin-left: 30px;
         align-items: center;

@@ -1,6 +1,6 @@
 .aboutus {
     z-index: 1;
-    position:relative;
+    position: relative;
     background-color: #1481D0;
     height: 640px;
     width: 100vw;
@@ -12,7 +12,7 @@
 
 .aboutbo1 {
     position: absolute;
-    top:20%;
+    top: 20%;
     transform: rotate(55deg);
     left: -150px;
     background-color: #00C85C;
@@ -41,7 +41,7 @@
     font-family: Rubik;
     font-size: 72px;
     font-weight: 400;
-    top:10%;
+    top: 10%;
     letter-spacing: 0em;
     text-align: center;
 }
@@ -85,8 +85,8 @@
     line-height: 110px;
     text-align: center;
 }
-   
-.teamContainer{
+
+.teamContainer {
     height: 350px;
     margin: auto;
     position: relative;
@@ -94,30 +94,34 @@
     place-content: flex;
     display: grid;
     overflow: hidden;
-    
+
 }
-.slideContainer{  
+
+.slideContainer {
     display: flex;
     width: calc(250px *32);
     animation: scroll 30s linear infinite;
 }
 
-@keyframes scroll{
-    0%{
+@keyframes scroll {
+    0% {
         transform: translateX(0);
     }
-    100%{
+
+    100% {
         transform: translateX(calc(-250px *10));
     }
 }
-.teamCard{
+
+.teamCard {
     display: flex;
     align-items: center;
     padding: 15px;
     perspective: 100px;
-    transition: transform  1s;
+    transition: transform 1s;
 }
-.teamCard:hover{
+
+.teamCard:hover {
     transform: translatez(200px);
 }
 
@@ -150,75 +154,84 @@
     letter-spacing: 0em;
     text-align: left;
 }
-.teamCard p{
+
+.teamCard p {
     color: #FFFFFF;
     font-family: Rubik;
-font-size: 19px;
-font-weight: 400;
-line-height: 23px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
 
 
 }
+
 /* motoOfDudar */
-.motoOfDudar{
+.motoOfDudar {
     margin-top: 500px;
-    margin:30px;
+    margin: 30px;
     display: flex;
-    align-items:center;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.motoOfDudar2{
+
+.motoOfDudar2 {
     margin-top: -60px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
 }
-.motoCard{
+
+.motoCard {
     margin: 20px;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-width:445px;
-border: 3px solid #1481D0;
-border-radius: 0px;
+    width: 445px;
+    border: 3px solid #1481D0;
+    border-radius: 0px;
 
 }
-.motoOfDudar2 .motoCard{
+
+.motoOfDudar2 .motoCard {
     margin-top: 30px;
 }
-.motoCard lottie-player{
-   margin-top: -110px;
+
+.motoCard lottie-player {
+    margin-top: -110px;
     height: 235.667236328125px;
     width: 246px;
     border-radius: 500px;
-    
+
 
 }
-.motoCard h3{
+
+.motoCard h3 {
     font-family: Rubik;
-font-size: 36px;
-font-weight: 700;
-line-height: 43px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
-.motoCard p{
+
+.motoCard p {
     font-family: Yantramanav;
-font-size: 26px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
     padding: 20px;
     padding-bottom: 40px;
     text-align: center;
 }
+
 /* bar 3*/
-.aboutbar3{
+.aboutbar3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -226,50 +239,55 @@ text-align: center;
     background-color: #1481D0;
     width: 100vw;
 }
-.aboutbar3 p{
+
+.aboutbar3 p {
     text-align: center;
     padding: 20px 0;
     color: white;
     font-family: Rubik;
-font-size: 37px;
-font-style: italic;
-font-weight: 600;
-line-height: 44px;
+    font-size: 37px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 44px;
 
 }
+
 /* value card */
-.values h1{
+.values h1 {
     margin: 20px 0;
     font-family: Rubik;
     font-size: 61px;
     font-weight: 700;
     line-height: 72px;
     letter-spacing: 0em;
-    text-align: center;   
+    text-align: center;
 }
-.valuecardContainer{
+
+.valuecardContainer {
 
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.valueCard{
-   background-color: rgba(00, 512, 128, 0.2);
+
+.valueCard {
+    background-color: rgba(00, 512, 128, 0.2);
     margin: 20px;
-width: 375px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-around;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
-.valueTitle{
+
+.valueTitle {
     font-family: Rubik;
-font-size: 35px;
-font-weight: 700;
-line-height: 53px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
 
     margin-top: -10px;
     padding: 40px 0;
@@ -277,27 +295,28 @@ text-align: left;
     width: 375px;
     background-color: white;
 }
+
 .valueDiscripition {
     font-family: Rubik;
-font-size: 29px;
-font-weight: 400;
-line-height: 40px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
 
-            padding: 40px 20px;
-            text-align: center;
+    padding: 40px 20px;
+    text-align: center;
 }
 
-.aboutbox3{
+.aboutbox3 {
     margin: 30px;
     transform: rotate(-35deg);
     position: relative;
     right: -93%;
     background-color: #1481D0;
     height: 289.0000046902144px;
-width: 249.30417274715805px;
-border-radius: 30px;
+    width: 249.30417274715805px;
+    border-radius: 30px;
 
 }
 
@@ -309,32 +328,38 @@ border-radius: 30px;
     .abobsubpointsContainer p {
         font-size: 24px;
     }
-    .motoOfDudar{
+
+    .motoOfDudar {
         flex-direction: column;
     }
-    .motoOfDudar2 .motoCard{
+
+    .motoOfDudar2 .motoCard {
         margin-top: 100px
     }
-    .aboutbox3{
+
+    .aboutbox3 {
         display: none;
     }
 
-    .aboutus{
+    .aboutus {
         margin-top: -50px;
     }
-    .helpimage1{
+
+    .helpimage1 {
         width: 100px;
         height: 100px;
         top: 70%;
     }
-    .helpimage2{
+
+    .helpimage2 {
         width: 100px;
         height: 100px;
         top: 70%;
         left: 30px;
-       
+
     }
 }
+
 @media(max-width:760px) {
     .aboutus {
         height: 247px;
@@ -345,15 +370,14 @@ border-radius: 30px;
     .aboutbo1 {
         height: 80.57720464894841px;
         width: 90.7871841991054px;
-       left:-60px
-
+        left: -60px
     }
 
     .aboutbox2 {
         height: 98.07394585005125px;
         width: 110.5009518853116px;
         right: -86px;
-       
+
 
     }
 
@@ -371,9 +395,11 @@ border-radius: 30px;
         letter-spacing: 0em;
 
     }
-    .teamMembers{
+
+    .teamMembers {
         margin-top: 60px;
     }
+
     .teamMembers h1 {
         font-size: 35px;
     }
@@ -397,61 +423,75 @@ border-radius: 30px;
         font-size: 30px;
         line-height: 36px;
     }
-    .teamCard p{
+
+    .teamCard p {
         font-size: 19px;
     }
-    .motoOfDudar{
+
+    .motoOfDudar {
         flex-direction: column;
     }
-    .motoCard{
+
+    .motoCard {
         margin-left: 0;
         margin-top: 100px;
-         width:296px;
+        width: 296px;
     }
-    .motoOfDudar2 .motoCard{
+
+    .motoOfDudar2 .motoCard {
         margin-left: 0;
-            margin-top:140px ;
-    }   
-    .motoCard lottie-player{
-        height: 207px;  
-width: 213px;   
-left: 96.88641357421875px;  
-top: 4076.166015625px;
-border-radius: 500px;
+        margin-top: 140px;
     }
-    .motoCard h3{
-        font-size:33px;
+
+    .motoCard lottie-player {
+        height: 207px;
+        width: 213px;
+        left: 96.88641357421875px;
+        top: 4076.166015625px;
+        border-radius: 500px;
+    }
+
+    .motoCard h3 {
+        font-size: 33px;
         text-align: center;
     }
-    .motoCard p{
+
+    .motoCard p {
         font-size: 19px;
     }
-    .aboutbar3{
-        
+
+    .aboutbar3 {
+
         flex-direction: column;
     }
-    .aboutbar3 p{
+
+    .aboutbar3 p {
         padding: 20px 0;
         text-align: center;
         font-size: 24px;
         line-height: 30px;
     }
-    .values h1{
+
+    .values h1 {
         font-size: 28px;
     }
-    .valuecardContainer{
+
+    .valuecardContainer {
         margin: 0;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .valueCard{
+
+    .valueCard {
         width: 295px;
     }
-    .valueTitle{
-        font-size:24px;
+
+    .valueTitle {
+        font-size: 24px;
     }
-    .valueDiscripition{
+
+    .valueDiscripition {
         padding: 50px 10px;
         font-size: 20px;
     }

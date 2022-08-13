@@ -90,7 +90,8 @@
 #stepsForPhone {
     display: none;
 }
-.testimonial{
+
+.testimonial {
     margin-top: -100px;
     margin-bottom: 100px;
 }
@@ -104,19 +105,21 @@
     text-align: center;
 
 }
-.studentVideoContainer{ 
+
+.studentVideoContainer {
     margin: 30px 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
+
 
 }
-.StudentVideoContainerforPhone{
+
+.StudentVideoContainerforPhone {
     display: none;
 }
 
-.StudentCard{
+.StudentCard {
     padding: auto;
     margin: 0 20px;
     display: flex;
@@ -127,38 +130,43 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-.studentimage{
-   
+
+.studentimage {
+
     cursor: pointer;
     width: 350px;
     height: 200px;
 }
-.StudentCard span{
+
+.StudentCard span {
     font-family: Inter;
     margin-top: 10px;
     font-weight: 200;
-    font-size:24px;
+    font-size: 24px;
 }
-.studentvideo{
+
+.studentvideo {
     z-index: 5;
     left: 0;
     top: 0;
     display: none;
     position: fixed;
-    background: rgba(0,0 ,0 ,.6 );
+    background: rgba(0, 0, 0, .6);
     width: 100%;
     height: 100%;
 }
-.studentvideo iframe{
+
+.studentvideo iframe {
     width: 800px;
     height: 500px;
     position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50% ,-50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-@media(max-width:900px){
-    .StudentCard{
+
+@media(max-width:900px) {
+    .StudentCard {
         width: 100%;
         padding: 0
     }
@@ -197,11 +205,12 @@
     z-index: 2;
     margin-top: -200px;
 }
-.screenshortGIF{
+
+.screenshortGIF {
     height: 423px;
-width: 557px;
-top: 4739.000061035156px;
-border-radius: 0px;
+    width: 557px;
+    top: 4739.000061035156px;
+    border-radius: 0px;
 
 }
 
@@ -217,11 +226,12 @@ border-radius: 0px;
     justify-content: center;
     align-items: center;
 }
-.PhoneScreenshorts img{
-    height: 306px;
-width: 182px;
 
-border-radius: 0px;
+.PhoneScreenshorts img {
+    height: 306px;
+    width: 182px;
+
+    border-radius: 0px;
 
 }
 
@@ -283,7 +293,8 @@ border-radius: 0px;
     border-radius: 0px;
 
 }
-.stepsVideo video{
+
+.stepsVideo video {
     display: none;
 }
 
@@ -301,22 +312,51 @@ border-radius: 0px;
         display: none;
     }
 
-    .screenshortGIF{
+    .screenshortGIF {
         position: relative;
         height: 218px;
         width: 255px;
         top: -100px;
         align-self: flex-end;
     }
-    .NotePoints{
+
+    .NotePoints {
         flex-direction: column;
     }
-    .stepsVideo video{
+
+    .stepsVideo video {
         margin-top: 20px;
         display: block;
         height: 400px;
         width: 100vw;
     }
+
+    .studentVideoContainer {
+        display: none;
+    }
+
+    .StudentVideoContainerforPhone {
+        height: fit-content;
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+
+    }
+
+    .StudentVideoContainerforPhone a {
+        color: black
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        filter: invert(100%);
+    }
+
+    .studentvideo iframe {
+        width: 90vw;
+        height: 250px;
+    }
+
 }
 
 @media(max-width:780px) {
@@ -396,7 +436,7 @@ border-radius: 0px;
     }
 
     .screenshorts {
-       margin-top: 30px;
+        margin-top: 30px;
         border-bottom: 90px solid #1481D0;
     }
 
@@ -460,7 +500,7 @@ border-radius: 0px;
         text-align: left;
     }
 
-    .useDudarfoGIF{
+    .useDudarfoGIF {
         margin-top: 0;
         height: 235px;
         width: 269px;
@@ -469,25 +509,4 @@ border-radius: 0px;
         border-radius: 0px;
 
     }
-    .studentVideoContainer{
-        display: none;
-    }
-    .StudentVideoContainerforPhone{
-        height: fit-content;
-        margin-top: 30px;
-        width: 100%;
-        display: flex;
-
-    }
-    .StudentVideoContainerforPhone a{
-        color:black
-    }
-    .carousel-control-prev, .carousel-control-next{
-        filter: invert(100%);
-    }
-    .studentvideo iframe{
-        width: 90vw;
-        height: 250px;
-    }
-
 }

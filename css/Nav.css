@@ -11,7 +11,7 @@
 }
 
 .navContainer {
-   
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@
 }
 
 .NavMenuButton {
-    
+
     border-radius: 50px;
     padding: 5px 10px;
     margin-left: 10px;
@@ -58,15 +58,17 @@
     transition: all .2s linear;
     display: flex;
 }
-.listOfmenusAbout{
+
+.listOfmenusAbout {
     display: none;
 }
-.listOfmenusContact{
+
+.listOfmenusContact {
     display: none;
 }
 
 @media(max-width:770px) {
-    .navContainer{
+    .navContainer {
         margin: 0;
     }
 
@@ -80,20 +82,22 @@
     .backgroundofham {
         height: 100vh;
         width: 100vw;
-   
+
 
     }
-    .ham{
+
+    .ham {
         display: flex;
-      
+
         flex-direction: column;
     }
-    .ham span{
+
+    .ham span {
         font-weight: bold;
         position: relative;
-         font-size: 20px;
-         line-height: 10px;
-         top:-10px;
+        font-size: 20px;
+        line-height: 10px;
+        top: -10px;
 
     }
 
@@ -133,6 +137,7 @@
         width: fit-content;
         font-family: Rubik;
     }
+
     .listOfmenusContact {
         line-height: 0px;
         position: absolute;
@@ -151,7 +156,8 @@
         width: fit-content;
         font-family: Rubik;
     }
-    .listOfmenusAbout{
+
+    .listOfmenusAbout {
         line-height: 0px;
         position: absolute;
         transition: all .2s linear;
@@ -182,15 +188,17 @@
         align-items: center;
         color: white;
     }
-    
+
     .listOfmenusAbout a {
         padding: 10px;
         text-decoration: none;
     }
+
     .listOfmenus a {
         padding: 10px;
         text-decoration: none;
     }
+
     .listOfmenusContact a {
         padding: 10px;
         text-decoration: none;

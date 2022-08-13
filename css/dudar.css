@@ -21,57 +21,63 @@
 .listOfmenus {
     display: none;
 }
-.bannerContainer{
+
+.bannerContainer {
     margin-top: -90px;
     position: relative;
     width: 100%;
     height: 700px;
     border-bottom: 30px solid #1481D0;
- 
+
 }
-.boxPattern1{
+
+.boxPattern1 {
     position: absolute;
     background: #1481D0;
     height: 204px;
-    width:201px;
+    width: 201px;
     top: 380px;
     border-radius: 40px;
     left: -42px;
     transform: rotate(45deg);
-   
+
 }
-.boxPattern2{
+
+.boxPattern2 {
     position: absolute;
     background: #1481D0;
     height: 204px;
     top: 120px;
     left: -7%;
-    width:201px; 
+    width: 201px;
     border-radius: 40px;
     transform: rotate(45deg);
 }
-.baxPattern3{
-    position:absolute;
+
+.baxPattern3 {
+    position: absolute;
     height: 176.54446880138445px;
-width: 198.91451704325593px;
-border-radius: 23px;
-transform: rotate(-30deg);
-background-color: #1481D0;
-right: -120px;
-top: 0%;
+    width: 198.91451704325593px;
+    border-radius: 23px;
+    transform: rotate(-30deg);
+    background-color: #1481D0;
+    right: -120px;
+    top: 0%;
 }
-.baxPattern4{
+
+.baxPattern4 {
     position: absolute;
     background-color: #1481D0;
     height: 110.50563786687567px;
-width: 124.95088189902796px;
-border-radius: 23px;
-top: 30%;
-right: -100px;
-transform: rotate(-30deg);
+    width: 124.95088189902796px;
+    border-radius: 23px;
+    top: 30%;
+    right: -100px;
+    transform: rotate(-30deg);
 
 }
-.bannerContents{
+
+.bannerContents {
     position: relative;
     width: 100%;
     top: 10%;
@@ -79,27 +85,31 @@ transform: rotate(-30deg);
     align-items: flex-start;
     justify-content: center;
 }
-.bannerContents img{
-    margin-right: 40px;
+
+.bannerContents img {
+
     height: 576px;
-width:786px;
+    width: 786px;
 }
-.bannertitle{
-    margin-left:  12%;
+
+.bannertitle {
+    margin-left: 12%;
     font-family: Rubik;
-font-size: 65px;
-font-weight: 400;
-line-height: 87px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: left;
 }
-.bannertitle span{
+
+.bannertitle span {
     color: #00C85C;
     font-style: normal;
     font-weight: 600;
     font-size: 79px;
     line-height: 84px;
 }
+
 .bannertitle button {
     cursor: pointer;
     align-self: center;
@@ -119,6 +129,7 @@ text-align: left;
     text-align: center;
     margin-left: 20px;
 }
+
 /*-------------------------bar1-------------------*/
 .bar1 {
     margin-top: 30px;
@@ -129,7 +140,7 @@ text-align: left;
 
 /*-----------------Why need dudar------------------*/
 .whyNeddDudar {
-    margin-top:auto;
+    margin-top: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -421,17 +432,22 @@ text-align: left;
     letter-spacing: 0em;
     text-align: center;
 }
+
 /*---------------mid screen----------------*/
 @media(max-width:1090px) {
-    .bannerContainer{
-        margin-top: -190px;
+    .bannerContainer {
+        height: fit-content;
+        margin-top: auto;
     }
-    .bannertitle{
+
+    .bannertitle {
         font-size: 60px;
     }
-    .bannertitle span{
+
+    .bannertitle span {
         font-size: 70px;
     }
+
     .bannertitle button {
         padding: 0;
         margin-top: 10px;
@@ -451,25 +467,29 @@ text-align: left;
         text-align: left;
     }
 
-    .baxPattern4 ,.baxPattern3{
+    .baxPattern4,
+    .baxPattern3 {
         display: none;
     }
-    .boxPattern1{
+
+    .boxPattern1 {
         height: 116.39628751413696px;
-width: 114.91352992662603px;
-top: 260px;
-left: -112px;
-border-radius: 11px;
+        width: 114.91352992662603px;
+        top: 260px;
+        left: -112px;
+        border-radius: 11px;
     }
-    .boxPattern2{
-        top:170px;
+
+    .boxPattern2 {
+        top: 170px;
         left: -130px;
         height: 143.46707492119296px;
-width: 141.63946867686198px;
-border-radius: 34px;
+        width: 141.63946867686198px;
+        border-radius: 34px;
 
     }
-    .bannerContents{
+
+    .bannerContents {
         flex-direction: column-reverse;
     }
 
@@ -533,15 +553,17 @@ border-radius: 34px;
     .points p {
         font-size: 20px;
     }
-  
+
 }
 
 /*---------------------small screen ------------------*/
 @media(max-width:780px) {
-    .bannerContainer{
+    .bannerContainer {
+        margin-top: -60px;
         border-bottom: none;
-        margin-top: -130px;
+
     }
+
     .bannerContents {
         margin-left: 0;
         align-items: center;
@@ -554,7 +576,7 @@ border-radius: 34px;
         margin-left: 0;
     }
 
-    .bannertitle  {
+    .bannertitle {
         font-family: Rubik;
         font-style: normal;
         letter-spacing: 0em;
@@ -579,6 +601,7 @@ border-radius: 34px;
         letter-spacing: 0em;
         text-align: left;
     }
+
     .bannerContents img {
         margin-top: 50px;
         position: static;
@@ -587,12 +610,14 @@ border-radius: 34px;
         right: 0;
         height: 40vh;
     }
+
     .boxpattern3,
     .boxpattern4 {
         display: none;
     }
+
     .whyNeddDudar {
-    margin-top: 10px;
+        margin-top: 10px;
         overflow-x: hidden;
         padding: 0 2px;
         width: 98vw;
@@ -752,8 +777,9 @@ border-radius: 34px;
         border-bottom: 2px solid #1481D0;
 
     }
-    .StudentVideoContainer{
-       display: none;
+
+    .StudentVideoContainer {
+        display: none;
     }
 }
 
@@ -765,7 +791,8 @@ border-radius: 34px;
     .boxPattern2 {
         display: none;
     }
-    .whyNeddDudar{
+
+    .whyNeddDudar {
         margin-top: 0;
     }
 }
