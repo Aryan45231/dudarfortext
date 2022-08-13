@@ -5,8 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="../css/Nav.css">
     <link rel="stylesheet" href="../css/dudar.css">
+    <link rel="stylesheet" href="../css/dudar2.css  ">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/Teacher.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
@@ -145,7 +152,65 @@
             <div class="tutarbar1"></div>
             <div class="tutarbar2"></div>
         </div>
+
         <div class="tutarbar3"></div>
+        <div class=" teacherTestimonial testimonial">
+            <h1>
+                Teachers Like Us Too !
+            </h1>
+             <div class="studentVideoContainer">
+              
+                    <div class="StudentCard ">
+                      <img onclick="video1()" class ="studentimage" src="../res/images/Teachers/rs.jpeg" alt="">
+                      <span>Diksha Singh</span>
+                    </div>
+                    <div class="StudentCard ">
+                      <img onclick="video2()" class ="studentimage"src="../res/images/Teachers/ps.jpeg" alt="">
+                      <span>Praveen Singh</span>
+                    </div>
+                   
+                        <div class="StudentCard " >
+                            <img onclick=video3() class ="studentimage" src="../res/images/Teachers/rrb.jpeg" alt="">
+                            <span>Riya Rose Benny</span>
+                    </div>
+              
+             </div>
+               <!-- Student video carouseol for phone view-->
+                       
+               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+               
+                <div class="carousel-inner StudentVideoContainerforPhone">
+                    <div class="carousel-item active">
+                       <div class="text-center">
+                      <img onclick="video1()" class ="studentimage" src="../res/images/Teachers/rs.jpeg" alt="">
+                       </div>
+                      </div>
+                    <div class="carousel-item text-center   ">
+                        <img onclick="video2()"class="studentimage" src="../res/images/Teachers/ps.jpeg" alt="Second slide">
+                      </div>
+                    <div class="carousel-item text-center">
+                        <img onclick="video3()"class="studentimage" src="../res/images/Teachers/rrb.jpeg" alt="Third slide">
+                      </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+             </div>
+              <div class="studentvideo" onclick="hidevideo(this)" id="studentvideo1">
+                <iframe width="560" height="315"  src="https://www.youtube-nocookie.com/embed/BFYKI3WppaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture?rel=0" allowfullscreen></iframe>
+              </div>
+              <div class="studentvideo" onclick="hidevideo(this)" id="studentvideos2">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7nyGdCG-Hgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture?rel=0" allowfullscreen></iframe>
+              </div>
+              <div class="studentvideo" onclick="hidevideo(this)"id="studentvideo3">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HErXKEzLyAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture?rel=0" allowfullscreen></iframe>
+              </div>
         <div class="bannerforTutor">
             <div>
                 <h1>START TEACHING TODAY</h1>
