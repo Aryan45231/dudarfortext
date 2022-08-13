@@ -133,11 +133,11 @@ footer {
 
 }
 
-.downloadButtons button {
+.downloadButtons button{
     cursor: pointer;
 }
 
-.downloadButtons button span {
+.downloadButtons button span{
     color: black;
     font-family: Inter;
     place-items: center;
@@ -267,7 +267,7 @@ footer {
         width: 18.848918914794922px;
     }
 
-    .downloadButtons button span {
+    .downloadButtons button span{
         font-size: 8px
     }
 
