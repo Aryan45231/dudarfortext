@@ -72,7 +72,7 @@ transform: rotate(-30deg);
 
 }
 .bannerContents{
-    position: absolute;
+    position: relative;
     width: 100%;
     top: 10%;
     display: flex;
@@ -80,7 +80,6 @@ transform: rotate(-30deg);
     justify-content: center;
 }
 .bannerContents img{
-  
     margin-right: 40px;
     height: 576px;
 width:786px;
@@ -88,7 +87,7 @@ width:786px;
 .bannertitle{
     margin-left:  12%;
     font-family: Rubik;
-font-size: 2.5rem;
+font-size: 65px;
 font-weight: 400;
 line-height: 87px;
 letter-spacing: 0em;
@@ -130,7 +129,7 @@ text-align: left;
 
 /*-----------------Why need dudar------------------*/
 .whyNeddDudar {
-    margin-top: 40px;
+    margin-top:auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -422,8 +421,6 @@ text-align: left;
     letter-spacing: 0em;
     text-align: center;
 }
-
-
 /*---------------mid screen----------------*/
 @media(max-width:1090px) {
     .bannerContainer{
@@ -754,6 +751,9 @@ border-radius: 34px;
         padding-bottom: 10px;
         border-bottom: 2px solid #1481D0;
 
+    }
+    .StudentVideoContainer{
+       display: none;
     }
 }
 

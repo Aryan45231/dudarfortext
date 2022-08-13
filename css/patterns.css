@@ -73,7 +73,7 @@
 @media(max-width:1000px) {
     .bopattern6 {
         transform: rotate(45deg);
-        top: 2370.44px;
+        top: 2470.44px;
         left: -46px
     }
  
@@ -115,4 +115,9 @@
 .pattern5 img{
     display: none;
 }
+}
+@media(max-width:280px){
+    .bopattern6{
+        display: none;
+    }
 }

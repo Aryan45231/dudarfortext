@@ -90,116 +90,84 @@
 #stepsForPhone {
     display: none;
 }
-
-.statContainer {
-    width: 99vw;
-
-}
-
-.statsGif {
-    display: block;
-    max-width: 100%;
-    min-width: 100px;
-}
-
-.stats {
-    margin-bottom: 20px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 99vw;
+.testimonial{
+    margin-top: -100px;
+    margin-bottom: 100px;
 }
 
 .testimonial h1 {
     font-family: Inter;
-    margin-bottom: 100px;
     font-size: 56px;
     font-weight: 700;
     line-height: 68px;
     letter-spacing: 0em;
     text-align: center;
-    margin-bottom: 140px;
 
 }
-
-.cardContainer {
+.studentVideoContainer{ 
+    margin: 30px 10px;
     display: flex;
-    align-items: content;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+   
+
+}
+.StudentVideoContainerforPhone{
+    display: none;
 }
 
-.card {
-    padding: 20px;
-    margin-bottom: 100px;
-    box-shadow: 0px 5px 10px rgba(0,0,0,.1);
-    width: 370px;
-    background: #F8F8F8;
-    border-radius: 16px;
-}
-
-.cardDetails {
+.StudentCard{
+    padding: auto;
+    margin: 0 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
 }
-
-.asp {
+.studentimage{
+   
+    cursor: pointer;
+    width: 350px;
+    height: 200px;
+}
+.StudentCard span{
     font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-
-    color: #28A917;
-
-}
-
-.feedbackStar {
-
-    color: gold;
-    height: 29.79999949932062px;
-    width: 39.10235129566718px;
-    left: 340.646484375px;
-    top: 4324px;
-    border-radius: 0px;
-
-}
-
-.card img {
-    margin-top: -100px;
-    height: 223px;
-    width: 207px;
-    border-radius: 50%;
-}
-
-.card span {
-    padding-bottom: auto;
-    margin-top: 30px;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: center;
-
-}
-
-.card h2 {
     margin-top: 10px;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 34px;
-    letter-spacing: 0em;
+    font-weight: 200;
+    font-size:24px;
+}
+.studentvideo{
+    z-index: 5;
+    left: 0;
+    top: 0;
+    display: none;
+    position: fixed;
+    background: rgba(0,0 ,0 ,.6 );
+    width: 100%;
+    height: 100%;
+}
+.studentvideo iframe{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+}
+@media(max-width:900px){
+    .StudentCard{
+        width: 100%;
+        padding: 0
+    }
 }
 
 
 /* screenShorts */
 .screenshorts {
+    margin-top: 30px;
     border-bottom: 100px solid #1481D0;
 }
 
@@ -428,7 +396,7 @@ border-radius: 0px;
     }
 
     .screenshorts {
-        margin-top: -200px;
+       margin-top: 30px;
         border-bottom: 90px solid #1481D0;
     }
 
@@ -501,6 +469,25 @@ border-radius: 0px;
         border-radius: 0px;
 
     }
-    
+    .studentVideoContainer{
+        display: none;
+    }
+    .StudentVideoContainerforPhone{
+        height: fit-content;
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+
+    }
+    .StudentVideoContainerforPhone a{
+        color:black
+    }
+    .carousel-control-prev, .carousel-control-next{
+        filter: invert(100%);
+    }
+    .studentvideo iframe{
+        width: 90vw;
+        height: 250px;
+    }
 
 }
