@@ -70,6 +70,7 @@
 @media(max-width:770px) {
     .navContainer {
         margin: 0;
+        margin-bottom: 20px;
     }
 
     .hambcontainer {
