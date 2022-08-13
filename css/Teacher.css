@@ -121,13 +121,15 @@ justify-content: center;
 transition: all .3s linear;
 }
 .tutarStepCard p{
+    margin-top: 35px;
     font-family: Rufina;
 font-size: 40px;
 font-weight: 700;
 line-height: 62px;
 }
-.tutarStepCard h1{
+.tutarStepCard span{
     display: flex;
+    height: fit-content;
     flex-direction: column;
     align-items: center;
     position: absolute;
@@ -138,7 +140,7 @@ line-height: 62px;
 font-size: 160px;
 font-weight: 700;
 }
-.tutarStepCard h1 img{
+.tutarStepCard span img{
     z-index: 1;
     margin-top: 190%;
     position: absolute;
@@ -146,14 +148,14 @@ font-weight: 700;
 width: 5.1817169189453px;
 
 }
-.tutarStepCard h1 .horizontal img{
+.tutarStepCard span .horizontal img{
     top: 170px;
     margin-left: 10px;
     position: absolute;
     width: 350px;
     height: 5px;
 }
-.tutarStepCard h1 .reversebar img{
+.tutarStepCard span .reversebar img{
     left:-330px
 }
 
@@ -168,7 +170,7 @@ width: 5.1817169189453px;
     top:20%;
   
 }
-.step2 h1{
+.step2 span{
     left: 90%;
 }
 .step3{
@@ -179,7 +181,7 @@ width: 5.1817169189453px;
     top: 60%;
    
 }
-.step4 h1{
+.step4 span{
     left: 90%;
 }
 .step5{
@@ -316,6 +318,10 @@ border-radius: 10px;
     background: #1481D01A;
     height: 247px;
 }
+.teacherTestimonial{
+
+    margin-top: 60px;
+}
 .quiestionCard{
    display: flex;
    align-items: center;
@@ -417,6 +423,8 @@ text-align: center;
     transform: translatey(-20px);
 }
 @media(max-width:780px){    
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css");
+    
     .becometeacherHeading{
         margin-top: 0;
         flex-direction: column-reverse;
@@ -470,6 +478,7 @@ width: 272px;
 width: 280px;
     }
     .tutarStepCard p{
+        margin-top: 25px;
         font-size: 10px;
     }
     .step1{
@@ -479,7 +488,7 @@ width: 280px;
     .step5{
         left: 15%;
     }
-    .tutarStepCard h1{
+    .tutarStepCard span{
         top:-10px; 
         line-height: 0;
         font-size: 70px;
@@ -510,16 +519,16 @@ width: 280px;
     .tutarbar3{
         height: 12px;
     }
-    .tutarStepCard h1 img{
+    .tutarStepCard span img{
         height: 69.5px;
         width: 2px;
     }
-    .tutarStepCard h1 .horizontal img{
+    .tutarStepCard span .horizontal img{
         top: 73px;
         width:180px;
         height: 2px;
     }
-    .tutarStepCard h1 .reversebar img{
+    .tutarStepCard span .reversebar img{
         left: -180px;
     }
     .bannerforTutor {
@@ -588,4 +597,5 @@ width: 280px;
     .stepTutorbox{
         display: none;
     }
+   
 }
