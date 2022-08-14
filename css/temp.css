@@ -21,7 +21,7 @@
     justify-content: center;
 }
 .stepgifContainer img{
-        width: 100px;
+        width: 150px;
         height: 60%;
         place-self: center;
 }
@@ -41,4 +41,7 @@
    margin-top: 90px;
     height: 200px;
     filter: invert(100%);
+}
+.carouselControler{
+    color:#1481D0
 }
