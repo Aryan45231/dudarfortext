@@ -485,8 +485,19 @@ button:hover {
 .bookImage:hover {
     transform: translatey(-20px);
 }
+@media(max-width:950px){
+     .stepToBecomeATutor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+}
 
-@media(max-width:780px) {
+@media(max-width:950px) {
+    .stepToBecomeATutor{
+        display: block;
+    }
     .becometeacherHeading {
         margin-top: 0;
         flex-direction: column-reverse;

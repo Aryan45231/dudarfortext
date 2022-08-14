@@ -345,9 +345,13 @@
 
     .carousel-control-prev,
     .carousel-control-next {
+        right: -10px;
         filter: invert(100%);
     }
 
+    .carousel-control-prev{
+        left: -10px;
+    }
     .studentvideo iframe {
         width: 90vw;
         height: 250px;
