@@ -202,7 +202,8 @@ footer {
 
 @media(max-width:780px) {
     .message h3 {
-        line-height: 40px;
+        margin-top: 10px;
+        line-height: 20px;
         font-family: Inter;
         font-size: 20px;
 

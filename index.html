@@ -180,16 +180,69 @@
                 </div>
                 <div class="steps">
                     <img src="./res/video/3.2.gif" alt="">
-                    <p>3. Get your doubt solved on live video call</p>
+                    <p>3. Get your doubt solved on live video call </p>
                 </div>
             </div>
         </div>
-        <div class="stepsVideo">
-            <video width="320" height="440" loop autoplay muted playsinline>
-                <source src="./res/video/step.mp4" type="video/mp4">
-            </video>
-        </div>
+       <!--phone step container -->
 
+
+       <div id="carouselExampleIndicators" class="carousel slide stepCOntainerPhone" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="stepimage">
+              <img src="../res/images/icons/step1.jpeg" alt="">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="slideimage">
+              <div class="stepgifContainer">
+                  <img src="./res/video/1.2.gif" alt="">
+                  <span>1. You snap a photo of your question</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="stepimage">
+              <img src="./res/images/icons/step2.jpeg" alt="">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="slideimage">
+              <div class="stepgifContainer">
+                  <img src="./res/video/2.2.gif" alt="">
+                  <span> 2. A tutor connects with you in 59 seconds</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="stepimage">
+              <img src="./res/images/icons/step3.jpeg" alt="">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="slideimage">
+              <div class="stepgifContainer">
+                  <img src="./res/video/3.2.gif" alt="">
+                  <span>3. Get your doubt solved on live video call</span>
+              </div>
+            </div>
+        </div>
+          </div>
+        <a class="carousel-control-prev prv" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next nex" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
         <div class="statContainer">
             <div class="stats">
                 <lottie-player class="statsGif" src="https://assets9.lottiefiles.com/packages/lf20_zprfc7im.json"
@@ -243,7 +296,7 @@
             </div>
             <!-- Student video carouseol for phone view-->
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
 
                 <div class="carousel-inner StudentVideoContainerforPhone">
                     <div class="carousel-item active">
@@ -260,11 +313,11 @@
                             alt="Third slide">
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
@@ -412,14 +465,12 @@
     </div>
 </body>
 
-</html>
 <script>
-    document.querySelector("video").play()
-    download = () => {
+   let download = () => {
         location.href = "https://play.google.com/store/apps/details?id=com.dudar_student"
 
     }
-    dis = () => {
+   let dis = () => {
         document.getElementById("listOfMenus").classList.toggle("viewofham")
         document.getElementById("hamback").classList.toggle("closehamback")
     }
@@ -440,8 +491,8 @@
         let val = e.firstElementChild
         let element = val.outerHTML;
         val.remove()
-        console.log(val)
         e.innerHTML = element
         e.style.display = "none"
     }
 </script>
+</html>
