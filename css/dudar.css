@@ -58,6 +58,7 @@
 }
 
 .baxPattern3 {
+    z-index: 2;
     position: absolute;
     height: 176.54446880138445px;
     width: 198.91451704325593px;
@@ -69,6 +70,7 @@
 }
 
 .baxPattern4 {
+    z-index: 2;
     position: absolute;
     background-color: #1481D0;
     height: 110.50563786687567px;
@@ -91,6 +93,7 @@
 }
 
 .bannerContents img {
+    
     z-index: 1;
     height: 576px;
     width: 786px;
